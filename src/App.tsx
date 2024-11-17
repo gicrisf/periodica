@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
 import { create } from 'zustand';
-import { produce } from 'immer';
+import { immer } from 'zustand/middleware/immer'
+// import { produce } from 'immer';
 
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
-// import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 
 import data from './assets/common_isotopes.min.json';
@@ -169,31 +169,33 @@ interface Isotope {
   notes?: string;
 }
 
-interface AppStore {
+type State = {
   selected: string | null;
   isotopes: Isotope[];
-  selectElement: (sym: string) => void;
 }
 
-const useAppStore = create<AppStore>()((set) => ({
-  selected: null,
-  isotopes: data,
-  selectElement: (payload) =>
-    set(produce((draft) => {
-      draft.selected = payload
-    }))
-}))
+type Actions = {
+  selectElement: (sym: string) => void
+}
+
+const useAppStore = create<State & Actions>()(
+  immer((set) => ({
+    selected: null,
+    isotopes: data,
+    selectElement: (payload) =>
+      set((draft) => {
+        draft.selected = payload
+      })
+})))
 
 function App() {
   const { selected, isotopes } = useAppStore();
 
   let selected_isotopes;
-  let first;
 
   useEffect(() => {
     console.log("Selected element changed with: " + selected);
     selected_isotopes = isotopes.filter(el => el.symbol == selected);
-    first = selected_isotopes[0];
     console.log(selected_isotopes);
   }, [selected]);
 

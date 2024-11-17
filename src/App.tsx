@@ -26,11 +26,20 @@ const group_16_symbols: string[] = ["O", "S", "Se", "Te", "Po", "Lv"];
 const group_17_symbols: string[] = ["F", "Cl", "Br", "I", "At", "Ts"];
 const group_18_symbols: string[] = ["He", "Ne", "Ar", "Kr", "Xe", "Rn", "Og"];
 
+const lanthanides_symbols: string[] = ["La", "Ce", "Pr", "Nd", "Pm", "Sm",
+                                       "Eu", "Gd", "Tb", "Dy", "Ho", "Er",
+                                       "Tm", "Yb", "Lu"];
+
+const actinides_symbols: string[] = ["Ac", "Th", "Pa", "U", "Np", "Pu",
+                                     "Am", "Cm", "Bk", "Cf", "Es", "Fm",
+                                     "Md", "No", "Lr"];
+
 interface ElementButtonProps {
   symbol: string
+  invisible?: boolean
 }
 
-function ElementButton({ symbol } : ElementButtonProps) {
+function ElementButton({ symbol, invisible } : ElementButtonProps) {
   const { selected, selectElement } = useAppStore();
 
   const StyledButton = styled(Button)({
@@ -53,14 +62,16 @@ function ElementButton({ symbol } : ElementButtonProps) {
   })
 
   return(
-    <StyledButton
-    size="small"
-    color={(symbol==selected) ? 'primary': 'inherit'}
-    onClick={() => {
-      selectElement(symbol);
-    }}>
-    { symbol }
-    </StyledButton>
+    <Grid size={1} sx={{visibility: (invisible) ? "hidden" : "inherit" }}>
+      <StyledButton
+        size="small"
+        color={(symbol==selected) ? 'primary': 'inherit'}
+        onClick={() => {
+          selectElement(symbol);
+        }}>
+        { symbol }
+      </StyledButton>
+    </Grid>
   )
 }
 
@@ -70,54 +81,74 @@ interface GroupProps {
 }
 
 function Group({ symbols, offset }: GroupProps) {
-  let invisible_buttons;
-  if (offset != undefined) {
-    if (offset > 0 && offset < 10) {
-      const range = Array.from(Array(offset).keys());
-      invisible_buttons = range.map(_ =>
-        <Box sx={{ visibility: "hidden" }}>
-          <ElementButton symbol={"."}></ElementButton>
-        </Box>
+  const invisible_buttons = (() => {
+    if (offset != undefined && offset > 0 && offset < 10) {
+      return(
+        Array
+          .from(Array(offset).keys()) // Define a range of numbers to map
+          .map(_ => <ElementButton invisible symbol={"."}></ElementButton>)
       )
     }
-  }
+  })();
 
-  const buttons = symbols.map(
-    el => <Grid size={1}>
-      <ElementButton symbol={el}></ElementButton>
-    </Grid>
-  );
+  const buttons = symbols
+    .map(el => <ElementButton symbol={el}></ElementButton>);
 
   return(
     <Grid container direction="column" spacing={1} columns={1}>
-    {invisible_buttons}
-    {buttons}
+      {invisible_buttons}
+      {buttons}
     </Grid>
   )
 }
 
 function PeriodicTableGrid() {
+  // Special treatment for lanthanides and actinides
+  const invisible_buttons = Array
+    .from(Array(3).keys())
+    .map(_ => <ElementButton invisible symbol={"."}></ElementButton>);
+
+  const lanthanides_buttons = lanthanides_symbols
+    .map(el => <ElementButton symbol={el}></ElementButton>);
+
+  const actinides_buttons = actinides_symbols
+    .map(el => <ElementButton symbol={el}></ElementButton>);
+
   return (
-    <Grid container spacing={1} columns={18}>
-      <Group symbols={group_01_symbols}></Group>
-      <Group symbols={group_02_symbols} offset={1}></Group>
-      <Group symbols={group_03_symbols} offset={3}></Group>
-      <Group symbols={group_04_symbols} offset={3}></Group>
-      <Group symbols={group_05_symbols} offset={3}></Group>
-      <Group symbols={group_06_symbols} offset={3}></Group>
-      <Group symbols={group_07_symbols} offset={3}></Group>
-      <Group symbols={group_08_symbols} offset={3}></Group>
-      <Group symbols={group_09_symbols} offset={3}></Group>
-      <Group symbols={group_10_symbols} offset={3}></Group>
-      <Group symbols={group_11_symbols} offset={3}></Group>
-      <Group symbols={group_12_symbols} offset={3}></Group>
-      <Group symbols={group_13_symbols} offset={1}></Group>
-      <Group symbols={group_14_symbols} offset={1}></Group>
-      <Group symbols={group_15_symbols} offset={1}></Group>
-      <Group symbols={group_16_symbols} offset={1}></Group>
-      <Group symbols={group_17_symbols} offset={1}></Group>
-      <Group symbols={group_18_symbols}></Group>
-    </Grid>
+    <Box>
+      <Grid container spacing={1} columns={18}>
+        <Group symbols={group_01_symbols}></Group>
+        <Group symbols={group_02_symbols} offset={1}></Group>
+        <Group symbols={group_03_symbols} offset={3}></Group>
+        <Group symbols={group_04_symbols} offset={3}></Group>
+        <Group symbols={group_05_symbols} offset={3}></Group>
+        <Group symbols={group_06_symbols} offset={3}></Group>
+        <Group symbols={group_07_symbols} offset={3}></Group>
+        <Group symbols={group_08_symbols} offset={3}></Group>
+        <Group symbols={group_09_symbols} offset={3}></Group>
+        <Group symbols={group_10_symbols} offset={3}></Group>
+        <Group symbols={group_11_symbols} offset={3}></Group>
+        <Group symbols={group_12_symbols} offset={3}></Group>
+        <Group symbols={group_13_symbols} offset={1}></Group>
+        <Group symbols={group_14_symbols} offset={1}></Group>
+        <Group symbols={group_15_symbols} offset={1}></Group>
+        <Group symbols={group_16_symbols} offset={1}></Group>
+        <Group symbols={group_17_symbols} offset={1}></Group>
+        <Group symbols={group_18_symbols}></Group>
+      </Grid>
+
+      <Box sx={{ height: ".5rem" }}></Box>
+      <Grid container spacing={1} columns={10}>
+        <Grid container direction='row' spacing={1} columns={18}>
+          {invisible_buttons}
+          {lanthanides_buttons}
+        </Grid>
+        <Grid container direction='row' spacing={1} columns={18}>
+          {invisible_buttons}
+          {actinides_buttons}
+        </Grid>
+      </Grid>
+    </Box>
   )
 }
 

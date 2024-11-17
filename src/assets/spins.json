@@ -1,0 +1,7508 @@
+[
+ {
+   "nucleus": "1H",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "2H",
+   "elevel": "0",
+   "spin": "1+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "3H",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "12.32 y 0.02"
+ },
+ {
+   "nucleus": "3HE",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "4HE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "6LI",
+   "elevel": "0.0",
+   "spin": "1+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "7LI",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "9BE",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "10BE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "1.51×10+6 y 0.04E+6"
+ },
+ {
+   "nucleus": "10B",
+   "elevel": "0.0",
+   "spin": "3+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "11B",
+   "elevel": "0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "13B",
+   "elevel": "3534.6 3.1",
+   "spin": "",
+   "thalf": "> 0.2 ps"
+ },
+ {
+   "nucleus": "12C",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "13C",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "13C",
+   "elevel": "19510",
+   "spin": "(5/2-)",
+   "thalf": "≥ 500 keV"
+ },
+ {
+   "nucleus": "14C",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "5700 y 30"
+ },
+ {
+   "nucleus": "12N",
+   "elevel": "9035 12",
+   "spin": "(1-)",
+   "thalf": "16 keV +20-16"
+ },
+ {
+   "nucleus": "13N",
+   "elevel": "12558 23",
+   "spin": "",
+   "thalf": "> 400 keV"
+ },
+ {
+   "nucleus": "13N",
+   "elevel": "12937 24",
+   "spin": "",
+   "thalf": "> 400 keV"
+ },
+ {
+   "nucleus": "14N",
+   "elevel": "0.0",
+   "spin": "1+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "15N",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "16N",
+   "elevel": "6840",
+   "spin": "GE 2",
+   "thalf": "> 140 keV"
+ },
+ {
+   "nucleus": "16O",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "17O",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "17O",
+   "elevel": "12930 20",
+   "spin": "",
+   "thalf": "≥ 150 keV"
+ },
+ {
+   "nucleus": "18O",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "19O",
+   "elevel": "2371.5 1",
+   "spin": "9/2+",
+   "thalf": "> 2.4 ps"
+ },
+ {
+   "nucleus": "19O",
+   "elevel": "3067.4 1.6",
+   "spin": "(3/2)+",
+   "thalf": "≥ 0.7 ps"
+ },
+ {
+   "nucleus": "19O",
+   "elevel": "3153.5 1.7",
+   "spin": "5/2+",
+   "thalf": "≥ 0.7 ps"
+ },
+ {
+   "nucleus": "24O",
+   "elevel": "4.79E3 0.11E3",
+   "spin": "2+",
+   "thalf": "0.05 MeV +0.21-0.05"
+ },
+ {
+   "nucleus": "24O",
+   "elevel": "5.37E3 0.12E3",
+   "spin": "(1+)",
+   "thalf": "0.03 MeV +0.12-0.03"
+ },
+ {
+   "nucleus": "19F",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "19F",
+   "elevel": "6500.0 0.9",
+   "spin": "11/2+",
+   "thalf": "> 2.4 eV"
+ },
+ {
+   "nucleus": "31F",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 260 ns"
+ },
+ {
+   "nucleus": "19NE",
+   "elevel": "4635 4",
+   "spin": "13/2+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "20NE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "20NE",
+   "elevel": "≈8700",
+   "spin": "0+",
+   "thalf": "> 800 keV"
+ },
+ {
+   "nucleus": "21NE",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "22NE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "34NE",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 60 ns"
+ },
+ {
+   "nucleus": "22NA",
+   "elevel": "0.0",
+   "spin": "3+",
+   "thalf": "2.6018 y 0.0022"
+ },
+ {
+   "nucleus": "23NA",
+   "elevel": "0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "37NA",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 60 ns"
+ },
+ {
+   "nucleus": "24MG",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "24MG",
+   "elevel": "11015.8 0.7",
+   "spin": "2+",
+   "thalf": "> 3 eV"
+ },
+ {
+   "nucleus": "25MG",
+   "elevel": "0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "26MG",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "27MG",
+   "elevel": "3884.6 0.4",
+   "spin": "(5/2+,9/2+)",
+   "thalf": "> 0.5 ps"
+ },
+ {
+   "nucleus": "32MG",
+   "elevel": "1058 2",
+   "spin": "0+",
+   "thalf": "> 7 ns"
+ },
+ {
+   "nucleus": "40MG",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 170 ns"
+ },
+ {
+   "nucleus": "25AL",
+   "elevel": "4192 4",
+   "spin": "3/2+",
+   "thalf": "> 0.5 keV"
+ },
+ {
+   "nucleus": "25AL",
+   "elevel": "4516 5",
+   "spin": "(9/2)+",
+   "thalf": "> 6.5 eV"
+ },
+ {
+   "nucleus": "25AL",
+   "elevel": "6322 5",
+   "spin": "7/2",
+   "thalf": "> 0.4 keV"
+ },
+ {
+   "nucleus": "26AL",
+   "elevel": "0.0",
+   "spin": "5+",
+   "thalf": "7.17×10+5 y 0.24E+5"
+ },
+ {
+   "nucleus": "26AL",
+   "elevel": "3977.91 0.09",
+   "spin": "0-",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "27AL",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "40AL",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "> 260 ns"
+ },
+ {
+   "nucleus": "42AL",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 170 ns"
+ },
+ {
+   "nucleus": "43AL",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 170 ns"
+ },
+ {
+   "nucleus": "28SI",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "29SI",
+   "elevel": "0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "30SI",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "32SI",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "153 y 19"
+ },
+ {
+   "nucleus": "32SI",
+   "elevel": "5785.7 1.6",
+   "spin": "(0,1,2)+",
+   "thalf": "≥ 0.8 ps"
+ },
+ {
+   "nucleus": "43SI",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 60 ns"
+ },
+ {
+   "nucleus": "44SI",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 360 ns"
+ },
+ {
+   "nucleus": "31P",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "34P",
+   "elevel": "2228.6 0.4",
+   "spin": "2(-)",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "34P",
+   "elevel": "2320.6 0.4",
+   "spin": "3(-)",
+   "thalf": "> 7 ps"
+ },
+ {
+   "nucleus": "34P",
+   "elevel": "6237.2 0.5",
+   "spin": "7(+)",
+   "thalf": "> 6.9 ps"
+ },
+ {
+   "nucleus": "34P",
+   "elevel": "7920.1 1",
+   "spin": "",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "45P",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "> 200 ns"
+ },
+ {
+   "nucleus": "30S",
+   "elevel": "3667.5 1",
+   "spin": "",
+   "thalf": "> 1 ps"
+ },
+ {
+   "nucleus": "32S",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "33S",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "34S",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "36S",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "36S",
+   "elevel": "5391.4 0.9",
+   "spin": "2+",
+   "thalf": "> 0.2 ps"
+ },
+ {
+   "nucleus": "38S",
+   "elevel": "2825.3 1.1",
+   "spin": "4+",
+   "thalf": "> 0.14 ps"
+ },
+ {
+   "nucleus": "48S",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "> 200 ns"
+ },
+ {
+   "nucleus": "34CL",
+   "elevel": "2721.1 0.2",
+   "spin": "2-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "34CL",
+   "elevel": "5540.8 1.1",
+   "spin": "3-",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "35CL",
+   "elevel": "0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "36CL",
+   "elevel": "0.0",
+   "spin": "2+",
+   "thalf": "3.013×10+5 y 0.015E+5"
+ },
+ {
+   "nucleus": "37CL",
+   "elevel": "0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "37CL",
+   "elevel": "4810.9 0.3",
+   "spin": "7/2",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "37CL",
+   "elevel": "6046.17 0.08",
+   "spin": "11/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "39CL",
+   "elevel": "396.42 0.07",
+   "spin": "1/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "39CL",
+   "elevel": "1301.21 0.15",
+   "spin": "(5/2+)",
+   "thalf": "> 2.1 ps"
+ },
+ {
+   "nucleus": "39CL",
+   "elevel": "1785.86 0.18",
+   "spin": "(7/2-)",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "39CL",
+   "elevel": "2423.7 0.3",
+   "spin": "(9/2+)",
+   "thalf": "> 1.2 ps"
+ },
+ {
+   "nucleus": "39CL",
+   "elevel": "2834.3 0.3",
+   "spin": "(11/2+)",
+   "thalf": "> 1.2 ps"
+ },
+ {
+   "nucleus": "48CL",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "≥ 200 ns"
+ },
+ {
+   "nucleus": "49CL",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "≥ 170 ns"
+ },
+ {
+   "nucleus": "50CL",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "34AR",
+   "elevel": "3873 3",
+   "spin": "0+",
+   "thalf": "> 187 fs"
+ },
+ {
+   "nucleus": "36AR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "36AR",
+   "elevel": "4329.1 0.7",
+   "spin": "(0,1,2)+",
+   "thalf": "> 485 fs"
+ },
+ {
+   "nucleus": "38AR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "38AR",
+   "elevel": "5974.8 0.2",
+   "spin": "(0+:3-)",
+   "thalf": "> 1.7 ps"
+ },
+ {
+   "nucleus": "38AR",
+   "elevel": "6249.9 0.3",
+   "spin": "2+",
+   "thalf": "> 111 fs"
+ },
+ {
+   "nucleus": "38AR",
+   "elevel": "6476.6 1.9",
+   "spin": "(0+:3-)",
+   "thalf": "> 0.17 ps"
+ },
+ {
+   "nucleus": "38AR",
+   "elevel": "7289.6 0.8",
+   "spin": "(3-,4+)",
+   "thalf": "> 55 fs"
+ },
+ {
+   "nucleus": "38AR",
+   "elevel": "7508.12 0.22",
+   "spin": "7-",
+   "thalf": "≥ 42 fs"
+ },
+ {
+   "nucleus": "39AR",
+   "elevel": "0",
+   "spin": "7/2-",
+   "thalf": "268 y 8"
+ },
+ {
+   "nucleus": "39AR",
+   "elevel": "2358.284 0.011",
+   "spin": "1/2+",
+   "thalf": "> 0.42 ps"
+ },
+ {
+   "nucleus": "39AR",
+   "elevel": "2829.934 0.017",
+   "spin": "1/2+",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "40AR",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "40AR",
+   "elevel": "4230 2",
+   "spin": "4(-)",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "42AR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "32.9 y 1.1"
+ },
+ {
+   "nucleus": "42AR",
+   "elevel": "3096.1 0.5",
+   "spin": "4+",
+   "thalf": "> 3.5 ps"
+ },
+ {
+   "nucleus": "44AR",
+   "elevel": "3439",
+   "spin": "(6+)",
+   "thalf": "> 27.7 ps"
+ },
+ {
+   "nucleus": "52AR",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "53AR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "37K",
+   "elevel": "2285.24 0.12",
+   "spin": "(5/2+,7/2+)",
+   "thalf": "> 243 fs"
+ },
+ {
+   "nucleus": "38K",
+   "elevel": "3703.7 0.4",
+   "spin": "(1+,2,3+)",
+   "thalf": "> 0.76 ps"
+ },
+ {
+   "nucleus": "39K",
+   "elevel": "0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "40K",
+   "elevel": "0",
+   "spin": "4-",
+   "thalf": "1.248×10+9 y 0.003E+9"
+ },
+ {
+   "nucleus": "41K",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "41K",
+   "elevel": "2494.91 0.03",
+   "spin": "9/2+",
+   "thalf": "> 3.1 ps"
+ },
+ {
+   "nucleus": "43K",
+   "elevel": "1206.91 0.06",
+   "spin": "(5/2,7/2)+",
+   "thalf": "> 4.8 ps"
+ },
+ {
+   "nucleus": "43K",
+   "elevel": "2508.34 0.1",
+   "spin": "(11/2+)",
+   "thalf": "> 5 ps"
+ },
+ {
+   "nucleus": "49K",
+   "elevel": "1438.3 0.4",
+   "spin": "(7/2+)",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "49K",
+   "elevel": "2104.2 0.5",
+   "spin": "(7/2-)",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "55K",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 360 ns"
+ },
+ {
+   "nucleus": "56K",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "39CA",
+   "elevel": "3882 2",
+   "spin": "(3/2-,5/2,7/2+)",
+   "thalf": "> 1.7 ps"
+ },
+ {
+   "nucleus": "40CA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "41CA",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "9.94×10+4 y 0.15E+4"
+ },
+ {
+   "nucleus": "42CA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "42CA",
+   "elevel": "3300.0 0.4",
+   "spin": "0+",
+   "thalf": "> 0.9 ps"
+ },
+ {
+   "nucleus": "43CA",
+   "elevel": "0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "44CA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "44CA",
+   "elevel": "3913.72 0.09",
+   "spin": "5-",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "45CA",
+   "elevel": "1554.37 0.08",
+   "spin": "(11/2-)",
+   "thalf": "> 2.1 ps"
+ },
+ {
+   "nucleus": "45CA",
+   "elevel": "2877.99 0.12",
+   "spin": "(15/2-)",
+   "thalf": "> 2.1 ps"
+ },
+ {
+   "nucleus": "46CA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "46CA",
+   "elevel": "2423.1 0.8",
+   "spin": "0+",
+   "thalf": "> 4.5 ps"
+ },
+ {
+   "nucleus": "47CA",
+   "elevel": "2013.53 0.1",
+   "spin": "3/2-",
+   "thalf": "> 6 ps"
+ },
+ {
+   "nucleus": "47CA",
+   "elevel": "2578.33 0.1",
+   "spin": "3/2+",
+   "thalf": "> 12 ps"
+ },
+ {
+   "nucleus": "47CA",
+   "elevel": "2599.53 0.11",
+   "spin": "1/2+",
+   "thalf": "> 1 ps"
+ },
+ {
+   "nucleus": "48CA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "1.9×1019 y +4.5E19-0.8E19"
+ },
+ {
+   "nucleus": "49CA",
+   "elevel": "5443.9",
+   "spin": "1/2-",
+   "thalf": "2.5 keV +3.6-2.5"
+ },
+ {
+   "nucleus": "57CA",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "58CA",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "42SC",
+   "elevel": "2269.14 0.04",
+   "spin": "2+",
+   "thalf": "> 70 fs"
+ },
+ {
+   "nucleus": "42SC",
+   "elevel": "2433.62 0.18",
+   "spin": "4+",
+   "thalf": "> 0.14 ps"
+ },
+ {
+   "nucleus": "42SC",
+   "elevel": "2910.3 0.7",
+   "spin": "4+",
+   "thalf": "> 0.8 ps"
+ },
+ {
+   "nucleus": "42SC",
+   "elevel": "2995.53 0.07",
+   "spin": "4+",
+   "thalf": "> 0.14 ps"
+ },
+ {
+   "nucleus": "42SC",
+   "elevel": "3224.01 0.2",
+   "spin": "(5+)",
+   "thalf": "> 0.21 ps"
+ },
+ {
+   "nucleus": "42SC",
+   "elevel": "3321.36 0.1",
+   "spin": "(1+,2,3+)",
+   "thalf": "> 0.14 ps"
+ },
+ {
+   "nucleus": "42SC",
+   "elevel": "3718.6 0.5",
+   "spin": "(5+)",
+   "thalf": "> 70 fs"
+ },
+ {
+   "nucleus": "43SC",
+   "elevel": "2383.1 0.4",
+   "spin": "3/2(+)",
+   "thalf": "> 0.31 ps"
+ },
+ {
+   "nucleus": "43SC",
+   "elevel": "3142.05 0.12",
+   "spin": "13/2+",
+   "thalf": "> 0.55 ps"
+ },
+ {
+   "nucleus": "44SC",
+   "elevel": "531.28 0.12",
+   "spin": "3",
+   "thalf": "> 4 ps"
+ },
+ {
+   "nucleus": "44SC",
+   "elevel": "1006.4 0.5",
+   "spin": "4-",
+   "thalf": "> 6 ps"
+ },
+ {
+   "nucleus": "44SC",
+   "elevel": "1197.48 0.09",
+   "spin": "5-",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "45SC",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "45SC",
+   "elevel": "2106.3 0.3",
+   "spin": "15/2-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "47SC",
+   "elevel": "2148.2 0.5",
+   "spin": "",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "49SC",
+   "elevel": "3991.0 0.9",
+   "spin": "1/2+",
+   "thalf": "≥ 0.7 ns"
+ },
+ {
+   "nucleus": "61SC",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "42TI",
+   "elevel": "1854.2 1.2",
+   "spin": "0+",
+   "thalf": "> 0.14 ps"
+ },
+ {
+   "nucleus": "42TI",
+   "elevel": "2676.6 0.8",
+   "spin": "4+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "44TI",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "59.1 y 0.3"
+ },
+ {
+   "nucleus": "44TI",
+   "elevel": "1904.3 0.3",
+   "spin": "0+",
+   "thalf": "> 480 fs"
+ },
+ {
+   "nucleus": "45TI",
+   "elevel": "1565.4 0.7",
+   "spin": "1/2+",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "46TI",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "47TI",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "47TI",
+   "elevel": "2364.9 0.2",
+   "spin": "1/2+",
+   "thalf": "> 1.53 ps"
+ },
+ {
+   "nucleus": "47TI",
+   "elevel": "2682.30 0.05",
+   "spin": "11/2(-)",
+   "thalf": "> 2.10 ps"
+ },
+ {
+   "nucleus": "48TI",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "48TI",
+   "elevel": "4956 1",
+   "spin": "5,6",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "48TI",
+   "elevel": "7427 3",
+   "spin": "9,7",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "49TI",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "50TI",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "50TI",
+   "elevel": "4171.968 0.017",
+   "spin": "3+",
+   "thalf": "> 0.83 ps"
+ },
+ {
+   "nucleus": "62TI",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "63TI",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 360 ns"
+ },
+ {
+   "nucleus": "64TI",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "50V",
+   "elevel": "0.0",
+   "spin": "6+",
+   "thalf": "1.4×10+17 y +0.4E+17-0.3E+17"
+ },
+ {
+   "nucleus": "50V",
+   "elevel": "1402.0 0.4",
+   "spin": "2+,3+",
+   "thalf": "> 0.8 ps"
+ },
+ {
+   "nucleus": "50V",
+   "elevel": "1677.3 0.4",
+   "spin": "(3)+",
+   "thalf": "> 0.32 ps"
+ },
+ {
+   "nucleus": "50V",
+   "elevel": "1752.3 0.6",
+   "spin": "3+,4,5+",
+   "thalf": "> 1.3 ps"
+ },
+ {
+   "nucleus": "50V",
+   "elevel": "1811.0 0.7",
+   "spin": "1+,2+,3+",
+   "thalf": "> 2.9 ps"
+ },
+ {
+   "nucleus": "51V",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "51V",
+   "elevel": "2546.4 0.6",
+   "spin": "1/2+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "51V",
+   "elevel": "3385.587 0.023",
+   "spin": "13/2-",
+   "thalf": "> 0.87 ps"
+ },
+ {
+   "nucleus": "53V",
+   "elevel": "1266.0 0.9",
+   "spin": "(7/2,9/2)-",
+   "thalf": "> 1.1 ps"
+ },
+ {
+   "nucleus": "53V",
+   "elevel": "1653 4",
+   "spin": "(9/2,11/2)-",
+   "thalf": "> 0.45 ps"
+ },
+ {
+   "nucleus": "53V",
+   "elevel": "4085.2 0.6",
+   "spin": "(17/2,19/2-)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "54V",
+   "elevel": "2297.9 0.3",
+   "spin": "(7)",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "65V",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 360 ns"
+ },
+ {
+   "nucleus": "66V",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 360 ns"
+ },
+ {
+   "nucleus": "67V",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "48CR",
+   "elevel": "4876.0 0.4",
+   "spin": "(6-)",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "49CR",
+   "elevel": "1703.2 0.4",
+   "spin": "1/2-",
+   "thalf": "> 3.8 ps"
+ },
+ {
+   "nucleus": "49CR",
+   "elevel": "1981.8 0.3",
+   "spin": "3/2+",
+   "thalf": "> 1.39 ps"
+ },
+ {
+   "nucleus": "49CR",
+   "elevel": "2978.7 0.5",
+   "spin": "(3/2+)",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "49CR",
+   "elevel": "3892.2 0.4",
+   "spin": "13/2+",
+   "thalf": "> 6.9 ps"
+ },
+ {
+   "nucleus": "50CR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "> 1.3×10+18 y"
+ },
+ {
+   "nucleus": "52CR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "53CR",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "54CR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "54CR",
+   "elevel": "3785.71 0.12",
+   "spin": "(4)+",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "54CR",
+   "elevel": "3870.4 0.5",
+   "spin": "",
+   "thalf": "> 28 fs"
+ },
+ {
+   "nucleus": "54CR",
+   "elevel": "3987.42 0.21",
+   "spin": "",
+   "thalf": "> 42 fs"
+ },
+ {
+   "nucleus": "56CR",
+   "elevel": "1006.61 0.2",
+   "spin": "2+",
+   "thalf": "≥ 1.4 ps"
+ },
+ {
+   "nucleus": "56CR",
+   "elevel": "2681.7 1.1",
+   "spin": "4+",
+   "thalf": "≥ 0.7 ps"
+ },
+ {
+   "nucleus": "56CR",
+   "elevel": "3252.0 0.6",
+   "spin": "",
+   "thalf": "≥ 0.7 ps"
+ },
+ {
+   "nucleus": "56CR",
+   "elevel": "4448.9 0.6",
+   "spin": "",
+   "thalf": "≥ 0.7 ps"
+ },
+ {
+   "nucleus": "68CR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "> 360 ns"
+ },
+ {
+   "nucleus": "69CR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "70CR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "50MN",
+   "elevel": "800.16 0.06",
+   "spin": "2+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "50MN",
+   "elevel": "1917.10 0.08",
+   "spin": "5+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "50MN",
+   "elevel": "8277.4 1.8",
+   "spin": "(15+)",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "51MN",
+   "elevel": "1817.1 0.2",
+   "spin": "3/2(-)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "51MN",
+   "elevel": "2275.9 0.2",
+   "spin": "1/2+",
+   "thalf": "> 1.2 fs"
+ },
+ {
+   "nucleus": "51MN",
+   "elevel": "2701.6 0.5",
+   "spin": "3/2-",
+   "thalf": "> 0.5 ps"
+ },
+ {
+   "nucleus": "51MN",
+   "elevel": "9471.3 0.9",
+   "spin": "25/2-,27/2",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "52MN",
+   "elevel": "4679.5 0.5",
+   "spin": "9-",
+   "thalf": "> 0.78 ps"
+ },
+ {
+   "nucleus": "53MN",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "3.74×10+6 y 0.04E+6"
+ },
+ {
+   "nucleus": "53MN",
+   "elevel": "3007.13 0.18",
+   "spin": "(5/2)+",
+   "thalf": "> 0.84 ps"
+ },
+ {
+   "nucleus": "54MN",
+   "elevel": "1460.6 0.6",
+   "spin": "(4+,5+)",
+   "thalf": "> 0.28 ps"
+ },
+ {
+   "nucleus": "54MN",
+   "elevel": "2109.8 0.4",
+   "spin": "1+",
+   "thalf": "> 416 fs"
+ },
+ {
+   "nucleus": "55MN",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "56MN",
+   "elevel": "2579.90 0.16",
+   "spin": "",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "57MN",
+   "elevel": "1227.5 1.1",
+   "spin": "-",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "71MN",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 637 ns"
+ },
+ {
+   "nucleus": "72MN",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "54FE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "54FE",
+   "elevel": "2561.3 0.4",
+   "spin": "0+",
+   "thalf": "≥ 1.4 ps"
+ },
+ {
+   "nucleus": "54FE",
+   "elevel": "3294.8 0.4",
+   "spin": "4+",
+   "thalf": "≥ 2.1 ps"
+ },
+ {
+   "nucleus": "54FE",
+   "elevel": "4030.9 0.5",
+   "spin": "5+",
+   "thalf": "≥ 0.7 ps"
+ },
+ {
+   "nucleus": "55FE",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "2.744 y 0.009"
+ },
+ {
+   "nucleus": "55FE",
+   "elevel": "3072.0 0.4",
+   "spin": "11/2-",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "55FE",
+   "elevel": "3456.9 0.5",
+   "spin": "13/2-",
+   "thalf": "> 0.6 ps"
+ },
+ {
+   "nucleus": "55FE",
+   "elevel": "5476.8 2.3",
+   "spin": "",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "56FE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "57FE",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "57FE",
+   "elevel": "2220.2",
+   "spin": "(7/2-)",
+   "thalf": "> 0.3 ps"
+ },
+ {
+   "nucleus": "57FE",
+   "elevel": "2455.55 0.15",
+   "spin": "9/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "58FE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "58FE",
+   "elevel": "2257.95 0.21",
+   "spin": "0+",
+   "thalf": "> 2.5 ps"
+ },
+ {
+   "nucleus": "59FE",
+   "elevel": "3558.88 0.23",
+   "spin": "(15/2+)",
+   "thalf": "> 0.4 ps"
+ },
+ {
+   "nucleus": "60FE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "2.62×10+6 y 0.04E+6"
+ },
+ {
+   "nucleus": "60FE",
+   "elevel": "3958.20 0.18",
+   "spin": "6(-)",
+   "thalf": "> 0.4 ps"
+ },
+ {
+   "nucleus": "60FE",
+   "elevel": "4296.49 0.18",
+   "spin": "7(-)",
+   "thalf": "> 0.4 ps"
+ },
+ {
+   "nucleus": "72FE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "≥ 150 ns"
+ },
+ {
+   "nucleus": "75FE",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "> 620 ns"
+ },
+ {
+   "nucleus": "55CO",
+   "elevel": "3942.09 0.11",
+   "spin": "1/2-,3/2-",
+   "thalf": "> 120 fs"
+ },
+ {
+   "nucleus": "56CO",
+   "elevel": "829.61 0.05",
+   "spin": "4+",
+   "thalf": "> 1.7 ps"
+ },
+ {
+   "nucleus": "56CO",
+   "elevel": "2282.63 0.12",
+   "spin": "7+",
+   "thalf": "> 1.25 ps"
+ },
+ {
+   "nucleus": "58CO",
+   "elevel": "1044.26 0.1",
+   "spin": "(3+)",
+   "thalf": "> 1.2 ps"
+ },
+ {
+   "nucleus": "59CO",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "59CO",
+   "elevel": "2153.62 0.2",
+   "spin": "",
+   "thalf": "≥ 14 fs"
+ },
+ {
+   "nucleus": "59CO",
+   "elevel": "2204.78 0.19",
+   "spin": "5/2(-)",
+   "thalf": "≥ 0.69 ps"
+ },
+ {
+   "nucleus": "60CO",
+   "elevel": "0.0",
+   "spin": "5+",
+   "thalf": "1925.28 d 0.14"
+ },
+ {
+   "nucleus": "63CO",
+   "elevel": "995.05 0.13",
+   "spin": "3/2-",
+   "thalf": "> 10 ps"
+ },
+ {
+   "nucleus": "66CO",
+   "elevel": "642",
+   "spin": "(8-)",
+   "thalf": "> 100 µS"
+ },
+ {
+   "nucleus": "56NI",
+   "elevel": "3923.6 1.3",
+   "spin": "4+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "58NI",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "58NI",
+   "elevel": "3269.1 0.8",
+   "spin": "(2)",
+   "thalf": "> 57 fs"
+ },
+ {
+   "nucleus": "58NI",
+   "elevel": "3273.7 0.7",
+   "spin": "(2)",
+   "thalf": "> 50 fs"
+ },
+ {
+   "nucleus": "58NI",
+   "elevel": "3450.9 0.5",
+   "spin": "",
+   "thalf": "> 11 fs"
+ },
+ {
+   "nucleus": "58NI",
+   "elevel": "3943.6 1.2",
+   "spin": "",
+   "thalf": "> 24 fs"
+ },
+ {
+   "nucleus": "58NI",
+   "elevel": "5359.3 1.6",
+   "spin": "(2)",
+   "thalf": "> 29 fs"
+ },
+ {
+   "nucleus": "58NI",
+   "elevel": "5452.2 0.4",
+   "spin": "1",
+   "thalf": "> 13 fs"
+ },
+ {
+   "nucleus": "58NI",
+   "elevel": "5528.0 0.4",
+   "spin": "(1)",
+   "thalf": "> 7 fs"
+ },
+ {
+   "nucleus": "59NI",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "7.6×10+4 y 0.5E+4"
+ },
+ {
+   "nucleus": "60NI",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "60NI",
+   "elevel": "2284.80 0.04",
+   "spin": "0+",
+   "thalf": "> 1.5 ps"
+ },
+ {
+   "nucleus": "60NI",
+   "elevel": "3871.050 0.022",
+   "spin": "2+",
+   "thalf": "> 3.0 ps"
+ },
+ {
+   "nucleus": "60NI",
+   "elevel": "4077.99 0.05",
+   "spin": "1+,2+",
+   "thalf": "> 12 fs"
+ },
+ {
+   "nucleus": "61NI",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "61NI",
+   "elevel": "2128.87 0.21",
+   "spin": "11/2-",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "61NI",
+   "elevel": "3426.23 0.21",
+   "spin": "13/2-",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "61NI",
+   "elevel": "4019.24 0.22",
+   "spin": "15/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "62NI",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "62NI",
+   "elevel": "2890.63 0.2",
+   "spin": "0+",
+   "thalf": "> 3.1 ps"
+ },
+ {
+   "nucleus": "62NI",
+   "elevel": "4011.0 1.5",
+   "spin": "",
+   "thalf": "> 0.90 ps"
+ },
+ {
+   "nucleus": "63NI",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "101.2 y 1.5"
+ },
+ {
+   "nucleus": "64NI",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "58CU",
+   "elevel": "1427.85 0.25",
+   "spin": "2+",
+   "thalf": "> 0.66 ps"
+ },
+ {
+   "nucleus": "58CU",
+   "elevel": "1549.5 0.3",
+   "spin": "(4+)",
+   "thalf": "> 0.34 ps"
+ },
+ {
+   "nucleus": "58CU",
+   "elevel": "1647.41 0.18",
+   "spin": "(3+)",
+   "thalf": "> 0.90 ps"
+ },
+ {
+   "nucleus": "59CU",
+   "elevel": "914.2 0.4",
+   "spin": "5/2-",
+   "thalf": "> 1.1 ps"
+ },
+ {
+   "nucleus": "61CU",
+   "elevel": "1732.58 0.05",
+   "spin": "7/2-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "61CU",
+   "elevel": "2627.12 0.09",
+   "spin": "11/2-",
+   "thalf": "> 350 fs"
+ },
+ {
+   "nucleus": "61CU",
+   "elevel": "2720.34 0.09",
+   "spin": "9/2+",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "62CU",
+   "elevel": "426.18 0.06",
+   "spin": "3+",
+   "thalf": "> 0.16 ps"
+ },
+ {
+   "nucleus": "62CU",
+   "elevel": "548.31 0.05",
+   "spin": "1+",
+   "thalf": "> 0.17 ps"
+ },
+ {
+   "nucleus": "63CU",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "63CU",
+   "elevel": "2716.47 0.09",
+   "spin": "3/2-,5/2-",
+   "thalf": "> 0.2 ps"
+ },
+ {
+   "nucleus": "63CU",
+   "elevel": "2808.10 0.08",
+   "spin": "3/2-",
+   "thalf": "> 0.18 ps"
+ },
+ {
+   "nucleus": "63CU",
+   "elevel": "5413.0 0.3",
+   "spin": "(17/2+)",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "65CU",
+   "elevel": "0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "65CU",
+   "elevel": "2094.34 0.14",
+   "spin": "(7/2)-",
+   "thalf": "> 1 ps"
+ },
+ {
+   "nucleus": "65CU",
+   "elevel": "2278.5 0.9",
+   "spin": "(7/2)-",
+   "thalf": "> 0.84 fs"
+ },
+ {
+   "nucleus": "82CU",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 636 ns"
+ },
+ {
+   "nucleus": "62ZN",
+   "elevel": "5131.0 0.4",
+   "spin": "(6-)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "637.07 0.06",
+   "spin": "3/2-",
+   "thalf": "> 0.53 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "650.10 0.04",
+   "spin": "5/2-",
+   "thalf": "> 0.28 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "1023.22 0.05",
+   "spin": "3/2-",
+   "thalf": "> 3.5 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "1063.34 0.07",
+   "spin": "7/2-",
+   "thalf": "> 0.29 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "1065.28 0.12",
+   "spin": "1/2-",
+   "thalf": "> 0.22 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "1206.38 0.07",
+   "spin": "7/2-",
+   "thalf": "> 0.42 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "1284.26 0.06",
+   "spin": "5/2-",
+   "thalf": "> 0.40 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "1909.26 0.14",
+   "spin": "1/2,3/2-",
+   "thalf": "> 0.28 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "2050.42 0.19",
+   "spin": "9/2-",
+   "thalf": "> 0.31 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "2233.30 0.23",
+   "spin": "11/2-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "2288.31 0.17",
+   "spin": "7/2-",
+   "thalf": "> 0.21 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "2377.86 0.24",
+   "spin": "9/2+",
+   "thalf": "> 1.39 ps"
+ },
+ {
+   "nucleus": "63ZN",
+   "elevel": "2911.9 0.5",
+   "spin": "9/2",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "64ZN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "64ZN",
+   "elevel": "3552.4 0.3",
+   "spin": "4+",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "64ZN",
+   "elevel": "3853.24 0.22",
+   "spin": "5+",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "65ZN",
+   "elevel": "2053.8 0.3",
+   "spin": "13/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "65ZN",
+   "elevel": "2135.2 0.8",
+   "spin": "9/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "65ZN",
+   "elevel": "3784.9 0.6",
+   "spin": "(17/2)+",
+   "thalf": "≥ 0.28 ps"
+ },
+ {
+   "nucleus": "66ZN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "66ZN",
+   "elevel": "2372.353 0.004",
+   "spin": "0+",
+   "thalf": "> 0.21 ps"
+ },
+ {
+   "nucleus": "66ZN",
+   "elevel": "2765.56 0.07",
+   "spin": "4+",
+   "thalf": "> 7 ps"
+ },
+ {
+   "nucleus": "66ZN",
+   "elevel": "5207.3 0.5",
+   "spin": "(8+)",
+   "thalf": "> 6 ps"
+ },
+ {
+   "nucleus": "67ZN",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "67ZN",
+   "elevel": "393.531 0.007",
+   "spin": "3/2-",
+   "thalf": "> 2.4 ps"
+ },
+ {
+   "nucleus": "67ZN",
+   "elevel": "1807.89 0.14",
+   "spin": "9/2+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "68ZN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "70ZN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "≥ 3.8×1018 y"
+ },
+ {
+   "nucleus": "79ZN",
+   "elevel": "110E1 15E1",
+   "spin": "1/2+",
+   "thalf": "≥ 200 ms"
+ },
+ {
+   "nucleus": "84ZN",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 633 ns"
+ },
+ {
+   "nucleus": "85ZN",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 637 ns"
+ },
+ {
+   "nucleus": "67GA",
+   "elevel": "1975.2 1.1",
+   "spin": "",
+   "thalf": "> 0.09 ps"
+ },
+ {
+   "nucleus": "67GA",
+   "elevel": "2141.85 0.08",
+   "spin": "3/2-",
+   "thalf": "≥ 0.25 ps"
+ },
+ {
+   "nucleus": "67GA",
+   "elevel": "2374.2 0.3",
+   "spin": "3/2+,7/2+",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "67GA",
+   "elevel": "2457.3 1",
+   "spin": "11/2-",
+   "thalf": "> 1.04 ps"
+ },
+ {
+   "nucleus": "67GA",
+   "elevel": "2653.4 0.9",
+   "spin": "11/2-",
+   "thalf": "> 1.04 ps"
+ },
+ {
+   "nucleus": "67GA",
+   "elevel": "3191.1 0.9",
+   "spin": "11/2+",
+   "thalf": "> 1.04 ps"
+ },
+ {
+   "nucleus": "67GA",
+   "elevel": "3525.3 0.4",
+   "spin": "9/2+,13/2+",
+   "thalf": "> 1.04 ps"
+ },
+ {
+   "nucleus": "67GA",
+   "elevel": "3628.6 0.7",
+   "spin": "13/2+,17/2+",
+   "thalf": "> 0.48 ps"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "1525.76 0.04",
+   "spin": "3/2-",
+   "thalf": "≥ 0.55 ps"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "1924.25 0.04",
+   "spin": "7/2-",
+   "thalf": "≥ 0.62 ps"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "1972.37 0.05",
+   "spin": "9/2(+)",
+   "thalf": "≥ 2.8 ps"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "2219.29 0.19",
+   "spin": "",
+   "thalf": "≥ 0.21 ps"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "2353.30 0.24",
+   "spin": "5/2",
+   "thalf": "≥ 0.17 ps"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "2428.68 0.21",
+   "spin": "5/2-,7/2-",
+   "thalf": "≥ 1.7 ps"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "2668.28 0.06",
+   "spin": "11/2",
+   "thalf": "≥ 1.7 ps"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "2717.99 0.05",
+   "spin": "13/2(+)",
+   "thalf": "≥ 1.4 ps"
+ },
+ {
+   "nucleus": "69GA",
+   "elevel": "4528.10 0.14",
+   "spin": "(17/2,19/2)",
+   "thalf": "≥ 2.8 ps"
+ },
+ {
+   "nucleus": "70GA",
+   "elevel": "1203.83 0.2",
+   "spin": "2+",
+   "thalf": "> 220 fs"
+ },
+ {
+   "nucleus": "70GA",
+   "elevel": "1244.61 0.1",
+   "spin": "2",
+   "thalf": "> 500 fs"
+ },
+ {
+   "nucleus": "71GA",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "71GA",
+   "elevel": "1475.96 0.04",
+   "spin": "5/2-",
+   "thalf": "> 0.6 ps"
+ },
+ {
+   "nucleus": "71GA",
+   "elevel": "1699.25 0.08",
+   "spin": "1/2+",
+   "thalf": "> 0.25 ps"
+ },
+ {
+   "nucleus": "87GA",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 634 ns"
+ },
+ {
+   "nucleus": "60GE",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 110 ns"
+ },
+ {
+   "nucleus": "66GE",
+   "elevel": "3736.80 0.12",
+   "spin": "5+",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "66GE",
+   "elevel": "6502.11 0.16",
+   "spin": "10+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "68GE",
+   "elevel": "4999",
+   "spin": "",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "69GE",
+   "elevel": "1613.29 0.08",
+   "spin": "7/2-",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "69GE",
+   "elevel": "1920.28 0.07",
+   "spin": "9/2-",
+   "thalf": "> 1.04 ps"
+ },
+ {
+   "nucleus": "70GE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "70GE",
+   "elevel": "4851.9 0.4",
+   "spin": "(8-)",
+   "thalf": "> 3 ps"
+ },
+ {
+   "nucleus": "71GE",
+   "elevel": "708.189 0.012",
+   "spin": "3/2-",
+   "thalf": "> 10.7 ps"
+ },
+ {
+   "nucleus": "71GE",
+   "elevel": "1026.569 0.012",
+   "spin": "5/2-",
+   "thalf": "> 1.2 ps"
+ },
+ {
+   "nucleus": "71GE",
+   "elevel": "1212.492 0.012",
+   "spin": "5/2-",
+   "thalf": "> 1.2 ps"
+ },
+ {
+   "nucleus": "72GE",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "72GE",
+   "elevel": "2064.93 0.03",
+   "spin": "3+",
+   "thalf": "≥ 2 ps"
+ },
+ {
+   "nucleus": "72GE",
+   "elevel": "3667.26 0.23",
+   "spin": "6+",
+   "thalf": "> 2.1 ps"
+ },
+ {
+   "nucleus": "72GE",
+   "elevel": "3784.18 0.17",
+   "spin": "7-",
+   "thalf": "≥ 2.8 ps"
+ },
+ {
+   "nucleus": "73GE",
+   "elevel": "0",
+   "spin": "9/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "74GE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "76GE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "76GE",
+   "elevel": "1911.07 0.11",
+   "spin": "0+",
+   "thalf": "> 0.8 ps"
+ },
+ {
+   "nucleus": "88GE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "89GE",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "90GE",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 635 ns"
+ },
+ {
+   "nucleus": "71AS",
+   "elevel": "1394.65 0.13",
+   "spin": "9/2-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "71AS",
+   "elevel": "2469.87 0.14",
+   "spin": "13/2-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "71AS",
+   "elevel": "5823.1 0.4",
+   "spin": "(23/2-)",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "75AS",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "89AS",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "90AS",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "64SE",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 180 ns"
+ },
+ {
+   "nucleus": "74SE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "76SE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "77SE",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "77SE",
+   "elevel": "1230.629 0.005",
+   "spin": "(5/2)-",
+   "thalf": "> 0.21 ps"
+ },
+ {
+   "nucleus": "77SE",
+   "elevel": "1364.273 0.004",
+   "spin": "(3/2-,5/2+)",
+   "thalf": "> 0.49 ps"
+ },
+ {
+   "nucleus": "77SE",
+   "elevel": "1607.702 0.008",
+   "spin": "3/2+,5/2+",
+   "thalf": "> 0.42 ps"
+ },
+ {
+   "nucleus": "78SE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "78SE",
+   "elevel": "2949.19 0.16",
+   "spin": "4-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "78SE",
+   "elevel": "4121.2 0.3",
+   "spin": "8+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "78SE",
+   "elevel": "4214.1 0.4",
+   "spin": "(8-)",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "78SE",
+   "elevel": "4786.9 0.5",
+   "spin": "(10+)",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "78SE",
+   "elevel": "5783.8 0.7",
+   "spin": "(12+)",
+   "thalf": "> 0.6 ps"
+ },
+ {
+   "nucleus": "79SE",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "3.27×10+5 y 0.28E+5"
+ },
+ {
+   "nucleus": "79SE",
+   "elevel": "1312.0 0.3",
+   "spin": "(7/2-)",
+   "thalf": "> 0.21 ps"
+ },
+ {
+   "nucleus": "80SE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "82SE",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "94SE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "> 150 ns"
+ },
+ {
+   "nucleus": "95SE",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 392 ns"
+ },
+ {
+   "nucleus": "79BR",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "81BR",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "95BR",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "≥ 150 ns"
+ },
+ {
+   "nucleus": "96BR",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "≥ 150 ns"
+ },
+ {
+   "nucleus": "97BR",
+   "elevel": "0.0",
+   "spin": "(3/2-)",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "98BR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 634 ns"
+ },
+ {
+   "nucleus": "78KR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "78KR",
+   "elevel": "3791.7 0.5",
+   "spin": "",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "80KR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "80KR",
+   "elevel": "3635.3 0.4",
+   "spin": "(7+)",
+   "thalf": "≥ 0.7 ps"
+ },
+ {
+   "nucleus": "80KR",
+   "elevel": "4126.23 0.2",
+   "spin": "(8-)",
+   "thalf": "≥ 1.7 ps"
+ },
+ {
+   "nucleus": "81KR",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "2.29×10+5 y 0.11E+5"
+ },
+ {
+   "nucleus": "81KR",
+   "elevel": "2192.4 0.4",
+   "spin": "(15/2+)",
+   "thalf": "> 2.1 ps"
+ },
+ {
+   "nucleus": "82KR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "83KR",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "84KR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "85KR",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "10.739 y 0.014"
+ },
+ {
+   "nucleus": "86KR",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "101KR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 635 ns"
+ },
+ {
+   "nucleus": "81RB",
+   "elevel": "2656.2 0.6",
+   "spin": "(17/2-)",
+   "thalf": "> 1 ps"
+ },
+ {
+   "nucleus": "81RB",
+   "elevel": "3496.8 1",
+   "spin": "(21/2-)",
+   "thalf": "> 1 ps"
+ },
+ {
+   "nucleus": "83RB",
+   "elevel": "42.0780 0.002",
+   "spin": "9/2+",
+   "thalf": "> 0.3 ms"
+ },
+ {
+   "nucleus": "85RB",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "85RB",
+   "elevel": "3054.56 0.15",
+   "spin": "(21/2-)",
+   "thalf": "> 69 ps"
+ },
+ {
+   "nucleus": "85RB",
+   "elevel": "5419.30 0.19",
+   "spin": "(27/2+)",
+   "thalf": "> 7 ps"
+ },
+ {
+   "nucleus": "87RB",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "4.97×10+10 y 0.03E+10"
+ },
+ {
+   "nucleus": "73SR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 25 ms"
+ },
+ {
+   "nucleus": "80SR",
+   "elevel": "3580.81 0.25",
+   "spin": "(7-)",
+   "thalf": "> 21 ps"
+ },
+ {
+   "nucleus": "80SR",
+   "elevel": "3602.64 0.24",
+   "spin": "(7-)",
+   "thalf": "> 21 ps"
+ },
+ {
+   "nucleus": "81SR",
+   "elevel": "1470.5 0.5",
+   "spin": "(13/2+)",
+   "thalf": "≥ 0.76 ps"
+ },
+ {
+   "nucleus": "81SR",
+   "elevel": "1910.2 1",
+   "spin": "(15/2-)",
+   "thalf": "≥ 1.2 ps"
+ },
+ {
+   "nucleus": "84SR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "85SR",
+   "elevel": "767.34 0.08",
+   "spin": "5/2+",
+   "thalf": "> 7 ps"
+ },
+ {
+   "nucleus": "85SR",
+   "elevel": "1355.15 0.09",
+   "spin": "5/2+",
+   "thalf": "≥ 0.13 ps"
+ },
+ {
+   "nucleus": "85SR",
+   "elevel": "1555.35 0.1",
+   "spin": "(5/2+,7/2)",
+   "thalf": "≥ 0.11 ps"
+ },
+ {
+   "nucleus": "85SR",
+   "elevel": "3227.2 0.4",
+   "spin": "(21/2)-",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "86SR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "87SR",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "87SR",
+   "elevel": "2169.43 0.02",
+   "spin": "1/2+",
+   "thalf": "≥ 0.15 ps"
+ },
+ {
+   "nucleus": "88SR",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "88SR",
+   "elevel": "3992.42 0.07",
+   "spin": "(0+)",
+   "thalf": "> 0.48 ps"
+ },
+ {
+   "nucleus": "88SR",
+   "elevel": "5498.7 1.1",
+   "spin": "(1,2+)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "88SR",
+   "elevel": "5583.3 0.3",
+   "spin": "",
+   "thalf": "> 3.3 ps"
+ },
+ {
+   "nucleus": "88SR",
+   "elevel": "5730.18 0.2",
+   "spin": "4+",
+   "thalf": "> 0.2 ps"
+ },
+ {
+   "nucleus": "88SR",
+   "elevel": "5831.5 0.5",
+   "spin": "(1,2+)",
+   "thalf": "> 1 ps"
+ },
+ {
+   "nucleus": "88SR",
+   "elevel": "6052.2 0.3",
+   "spin": "(2+)",
+   "thalf": "> 1.1 ps"
+ },
+ {
+   "nucleus": "88SR",
+   "elevel": "6101.4 0.3",
+   "spin": "(1,2+)",
+   "thalf": "> 0.8 ps"
+ },
+ {
+   "nucleus": "89SR",
+   "elevel": "1032.00 0.04",
+   "spin": "1/2+",
+   "thalf": "> 1 ps"
+ },
+ {
+   "nucleus": "89SR",
+   "elevel": "3388.1 0.7",
+   "spin": "15/2-",
+   "thalf": "> 7 ps"
+ },
+ {
+   "nucleus": "90SR",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "28.79 y 0.06"
+ },
+ {
+   "nucleus": "107SR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 395 ns"
+ },
+ {
+   "nucleus": "76Y",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 200 ns"
+ },
+ {
+   "nucleus": "81Y",
+   "elevel": "1482.69 0.17",
+   "spin": "(15/2+)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "81Y",
+   "elevel": "2594.5 0.6",
+   "spin": "(17/2-)",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "87Y",
+   "elevel": "5759.59 0.24",
+   "spin": "(27/2-)",
+   "thalf": "> 2.1 ps"
+ },
+ {
+   "nucleus": "88Y",
+   "elevel": "706.79 0.13",
+   "spin": "2-",
+   "thalf": "> 10 ps"
+ },
+ {
+   "nucleus": "89Y",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "89Y",
+   "elevel": "4825.38 0.17",
+   "spin": "17/2+",
+   "thalf": "≥ 3.5 ps"
+ },
+ {
+   "nucleus": "78ZR",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 170 ns"
+ },
+ {
+   "nucleus": "88ZR",
+   "elevel": "9912.6 0.5",
+   "spin": "(19-)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "89ZR",
+   "elevel": "1094.91 0.18",
+   "spin": "3/2-",
+   "thalf": "> 0.05 ps"
+ },
+ {
+   "nucleus": "89ZR",
+   "elevel": "1451.23 0.18",
+   "spin": "5/2-",
+   "thalf": "> 3.5 ps"
+ },
+ {
+   "nucleus": "89ZR",
+   "elevel": "2085.9 0.8",
+   "spin": "(5/2)+",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "89ZR",
+   "elevel": "3111.20 0.09",
+   "spin": "(19/2)+",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "89ZR",
+   "elevel": "5381.0 0.4",
+   "spin": "(27/2)+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "90ZR",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "91ZR",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "91ZR",
+   "elevel": "2170.15 0.15",
+   "spin": "(11/2)-",
+   "thalf": "> 5.5 ps"
+ },
+ {
+   "nucleus": "92ZR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "92ZR",
+   "elevel": "2066.65 0.05",
+   "spin": "2+",
+   "thalf": "> 0.76 ps"
+ },
+ {
+   "nucleus": "92ZR",
+   "elevel": "2743.55 0.07",
+   "spin": "4-",
+   "thalf": "> 2.63 ps"
+ },
+ {
+   "nucleus": "93ZR",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "1.61×10+6 y 0.05E+6"
+ },
+ {
+   "nucleus": "94ZR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "96ZR",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "2.0×10+19 y 0.4E+19"
+ },
+ {
+   "nucleus": "96ZR",
+   "elevel": "3082.36 0.03",
+   "spin": "4+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "96ZR",
+   "elevel": "3150.28 0.03",
+   "spin": "3-",
+   "thalf": "> 0.54 ps"
+ },
+ {
+   "nucleus": "96ZR",
+   "elevel": "3243.61 0.07",
+   "spin": "",
+   "thalf": "> 0.097 ps"
+ },
+ {
+   "nucleus": "96ZR",
+   "elevel": "3448.72 0.08",
+   "spin": "(2+)",
+   "thalf": "> 0.66 ps"
+ },
+ {
+   "nucleus": "96ZR",
+   "elevel": "3749.38 0.1",
+   "spin": "4+",
+   "thalf": "> 0.26 ps"
+ },
+ {
+   "nucleus": "91NB",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "6.8×10+2 y 1.3E+2"
+ },
+ {
+   "nucleus": "91NB",
+   "elevel": "1790.63 0.09",
+   "spin": "(9/2-)",
+   "thalf": "> 1.6 ps"
+ },
+ {
+   "nucleus": "91NB",
+   "elevel": "1844.93 0.13",
+   "spin": "(5/2)-",
+   "thalf": "> 1.5 ps"
+ },
+ {
+   "nucleus": "91NB",
+   "elevel": "2120.87 0.15",
+   "spin": "(7/2-)",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "92NB",
+   "elevel": "0.0",
+   "spin": "7+",
+   "thalf": "3.47×10+7 y 0.24E+7"
+ },
+ {
+   "nucleus": "93NB",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "93NB",
+   "elevel": "30.77 0.02",
+   "spin": "1/2-",
+   "thalf": "16.12 y 0.12"
+ },
+ {
+   "nucleus": "93NB",
+   "elevel": "810.32 0.09",
+   "spin": "5/2-",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "93NB",
+   "elevel": "1082.68 0.05",
+   "spin": "9/2+",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "93NB",
+   "elevel": "1369.86 0.17",
+   "spin": "5/2-",
+   "thalf": "> 0.55 ps"
+ },
+ {
+   "nucleus": "93NB",
+   "elevel": "1395.42 0.13",
+   "spin": "(7/2-)",
+   "thalf": "> 0.55 ps"
+ },
+ {
+   "nucleus": "93NB",
+   "elevel": "1588.06 0.17",
+   "spin": "3/2(-),5/2(-)",
+   "thalf": "> 0.87 ps"
+ },
+ {
+   "nucleus": "93NB",
+   "elevel": "2002.52 0.1",
+   "spin": "(11/2+)",
+   "thalf": "> 0.55 ps"
+ },
+ {
+   "nucleus": "94NB",
+   "elevel": "0.0",
+   "spin": "6+",
+   "thalf": "2.03×10+4 y 0.16E+4"
+ },
+ {
+   "nucleus": "81MO",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 450 ns"
+ },
+ {
+   "nucleus": "82MO",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 437 ns"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "2282.61 0.05",
+   "spin": "4+",
+   "thalf": "> 3.4 ps"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "2519.53 0.21",
+   "spin": "0+",
+   "thalf": "> 3.4 ps"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "3368.68 0.07",
+   "spin": "(4+)",
+   "thalf": "> 3.4 ps"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "3579.81 0.06",
+   "spin": "3-",
+   "thalf": "> 0.21 ps"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "3621.06 0.07",
+   "spin": "(LE4)",
+   "thalf": "> 0.21 ps"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "3688.77 0.07",
+   "spin": "1(-),2,3",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "3814.58 0.08",
+   "spin": "2,3",
+   "thalf": "> 0.48 ps"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "3841.87 0.12",
+   "spin": "0+",
+   "thalf": "> 0.21 ps"
+ },
+ {
+   "nucleus": "92MO",
+   "elevel": "3963.19 0.16",
+   "spin": "4+",
+   "thalf": "> 0.21 ps"
+ },
+ {
+   "nucleus": "93MO",
+   "elevel": "0",
+   "spin": "5/2+",
+   "thalf": "4.0×10+3 y 0.8E+3"
+ },
+ {
+   "nucleus": "93MO",
+   "elevel": "2667.95 0.07",
+   "spin": "(13/2+)",
+   "thalf": "> 0.30 ps"
+ },
+ {
+   "nucleus": "93MO",
+   "elevel": "2755.27 0.08",
+   "spin": "(11/2-)",
+   "thalf": "> 0.54 ps"
+ },
+ {
+   "nucleus": "93MO",
+   "elevel": "3048.23 0.1",
+   "spin": "(9/2-)",
+   "thalf": "> 38 fs"
+ },
+ {
+   "nucleus": "93MO",
+   "elevel": "3068.86 0.12",
+   "spin": "(13/2+)",
+   "thalf": "> 0.125 ps"
+ },
+ {
+   "nucleus": "94MO",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "95MO",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "1625.905 0.016",
+   "spin": "2+",
+   "thalf": "> 0.90 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "1978.450 0.014",
+   "spin": "3+",
+   "thalf": "> 2.29 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "2219.425 0.014",
+   "spin": "4+",
+   "thalf": "> 0.38 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "2234.63 0.04",
+   "spin": "3-",
+   "thalf": "> 0.277 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "2438.477 0.015",
+   "spin": "5+",
+   "thalf": "> 0.139 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "2440.76 0.03",
+   "spin": "6+",
+   "thalf": "> 0.208 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "2481.06 0.06",
+   "spin": "(4)+",
+   "thalf": "> 1.01 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "2611.51 0.1",
+   "spin": "",
+   "thalf": "> 0.194 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "2734.57 0.06",
+   "spin": "(4,5)+",
+   "thalf": "> 0.25 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "2755.08 0.03",
+   "spin": "6+",
+   "thalf": "> 0.194 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "2790.21 0.06",
+   "spin": "(2,4)",
+   "thalf": "> 0.68 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "3416.82 0.06",
+   "spin": "4+",
+   "thalf": "> 0.61 ps"
+ },
+ {
+   "nucleus": "96MO",
+   "elevel": "3623.19 0.1",
+   "spin": "(3+)",
+   "thalf": "> 0.236 ps"
+ },
+ {
+   "nucleus": "97MO",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "98MO",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "100MO",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "7.3×10+18 y 0.4E+18"
+ },
+ {
+   "nucleus": "95TC",
+   "elevel": "927.81 0.03",
+   "spin": "3/2+",
+   "thalf": "≥ 589 fs"
+ },
+ {
+   "nucleus": "95TC",
+   "elevel": "1084.97 0.04",
+   "spin": "(5/2)+",
+   "thalf": "≥ 347 fs"
+ },
+ {
+   "nucleus": "95TC",
+   "elevel": "1214.55 0.04",
+   "spin": "9/2-",
+   "thalf": "≥ 624 fs"
+ },
+ {
+   "nucleus": "95TC",
+   "elevel": "1416.41 0.05",
+   "spin": "3/2,5/2(-)",
+   "thalf": "≥ 492 fs"
+ },
+ {
+   "nucleus": "95TC",
+   "elevel": "1958.98 0.1",
+   "spin": "(5/2-)",
+   "thalf": "≥ 596 fs"
+ },
+ {
+   "nucleus": "95TC",
+   "elevel": "2212.90 0.13",
+   "spin": "(17/2-)",
+   "thalf": "≥ 1.4 ps"
+ },
+ {
+   "nucleus": "95TC",
+   "elevel": "3516.0 0.3",
+   "spin": "25/2+",
+   "thalf": "> 5 ps"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "4.21×10+6 y 0.16E+6"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "656.90 0.06",
+   "spin": "5/2-",
+   "thalf": "≥ 0.76 ps"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "772.68 0.06",
+   "spin": "13/2+",
+   "thalf": "≥ 0.35 ps"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "832.80 0.06",
+   "spin": "11/2(+)",
+   "thalf": "≥ 0.35 ps"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "855.45 0.03",
+   "spin": "7/2+",
+   "thalf": "≥ 0.37 ps"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "861.90 0.08",
+   "spin": "(9/2+)",
+   "thalf": "≥ 0.38 ps"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "1049.22 0.07",
+   "spin": "3/2-",
+   "thalf": "≥ 0.21 ps"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "1240.02 0.07",
+   "spin": "(7/2-)",
+   "thalf": "≥ 0.26 ps"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "1441.1 1",
+   "spin": "",
+   "thalf": "≥ 0.21 ps"
+ },
+ {
+   "nucleus": "97TC",
+   "elevel": "1733.3 0.4",
+   "spin": "(3/2+,5/2,7/2-)",
+   "thalf": "≥ 0.54 ps"
+ },
+ {
+   "nucleus": "98TC",
+   "elevel": "0.0",
+   "spin": "(6)+",
+   "thalf": "4.2×10+6 y 0.3E+6"
+ },
+ {
+   "nucleus": "99TC",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "2.111×10+5 y 0.012E+5"
+ },
+ {
+   "nucleus": "85RU",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 450 ns"
+ },
+ {
+   "nucleus": "86RU",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 438 ns"
+ },
+ {
+   "nucleus": "96RU",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "96RU",
+   "elevel": "2588.41 0.08",
+   "spin": "5-",
+   "thalf": "≥ 2.8 ps"
+ },
+ {
+   "nucleus": "98RU",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "99RU",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "99RU",
+   "elevel": "3982.8 0.3",
+   "spin": "(23/2)-",
+   "thalf": "> 0.9 ps"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "1741.013 0.01",
+   "spin": "0+",
+   "thalf": "> 1.39 ps"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "2075.674 0.012",
+   "spin": "6+",
+   "thalf": "> 0.28 ps"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "2387.38 0.05",
+   "spin": "0+",
+   "thalf": "> 0.52 ps"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "2493.03 0.04",
+   "spin": "(3+,4+,5+)",
+   "thalf": "> 0.83 ps"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "2569.907 0.01",
+   "spin": "(3)-",
+   "thalf": "> 0.30 ps"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "2576.855 0.015",
+   "spin": "(5+)",
+   "thalf": "> 125 fs"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "2764.949 0.018",
+   "spin": "2+,3+",
+   "thalf": "> 0.17 ps"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "3069.525 0.01",
+   "spin": "(1,2)-",
+   "thalf": "> 0.45 ps"
+ },
+ {
+   "nucleus": "100RU",
+   "elevel": "3110.59 0.11",
+   "spin": "(2+,3+)",
+   "thalf": "> 0.26 ps"
+ },
+ {
+   "nucleus": "101RU",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "101RU",
+   "elevel": "422.22 0.03",
+   "spin": "3/2+",
+   "thalf": "≥ 1.4 ps"
+ },
+ {
+   "nucleus": "101RU",
+   "elevel": "1622.3 0.5",
+   "spin": "19/2-",
+   "thalf": "> 1.2 ps"
+ },
+ {
+   "nucleus": "101RU",
+   "elevel": "1862.4 0.4",
+   "spin": "15/2+",
+   "thalf": "> 1.7 ps"
+ },
+ {
+   "nucleus": "101RU",
+   "elevel": "2173.9 0.5",
+   "spin": "17/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "102RU",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "104RU",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "106RU",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "371.8 d 1.8"
+ },
+ {
+   "nucleus": "90RH",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "> 150 ns"
+ },
+ {
+   "nucleus": "101RH",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "3.3 y 0.3"
+ },
+ {
+   "nucleus": "102RH",
+   "elevel": "140.73 0.09",
+   "spin": "6(+)",
+   "thalf": "3.742 y 0.01"
+ },
+ {
+   "nucleus": "103RH",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "107RH",
+   "elevel": "268.36 0.04",
+   "spin": "1/2-",
+   "thalf": "> 10 µS"
+ },
+ {
+   "nucleus": "122RH",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "90PD",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 760 ns"
+ },
+ {
+   "nucleus": "102PD",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "104PD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "105PD",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "105PD",
+   "elevel": "306.25 0.03",
+   "spin": "7/2+",
+   "thalf": "> 69 ps"
+ },
+ {
+   "nucleus": "105PD",
+   "elevel": "673.17 0.03",
+   "spin": "1/2+",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "106PD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "107PD",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "6.5×10+6 y 0.3E+6"
+ },
+ {
+   "nucleus": "108PD",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "108PD",
+   "elevel": "1314.23 0.06",
+   "spin": "0+",
+   "thalf": "> 25 ps"
+ },
+ {
+   "nucleus": "110PD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "124PD",
+   "elevel": "62.2+X 1.7",
+   "spin": "",
+   "thalf": "> 20 µS"
+ },
+ {
+   "nucleus": "107AG",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "108AG",
+   "elevel": "109.466 0.007",
+   "spin": "6+",
+   "thalf": "438 y 9"
+ },
+ {
+   "nucleus": "109AG",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "94CD",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 760 ns"
+ },
+ {
+   "nucleus": "100CD",
+   "elevel": "1004.11 0.1",
+   "spin": "2+",
+   "thalf": "> 1.5 ps"
+ },
+ {
+   "nucleus": "102CD",
+   "elevel": "6746.16 0.15",
+   "spin": "(14-)",
+   "thalf": "> 5.5 ps"
+ },
+ {
+   "nucleus": "102CD",
+   "elevel": "7788.93 0.18",
+   "spin": "(16)",
+   "thalf": "> 5.5 ps"
+ },
+ {
+   "nucleus": "102CD",
+   "elevel": "8099.66 0.13",
+   "spin": "(17-)",
+   "thalf": "> 1.25 ps"
+ },
+ {
+   "nucleus": "102CD",
+   "elevel": "8942.69 0.18",
+   "spin": "(18-)",
+   "thalf": "> 1.25 ps"
+ },
+ {
+   "nucleus": "106CD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "108CD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "109CD",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "461.9 d 0.4"
+ },
+ {
+   "nucleus": "110CD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "111CD",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "111CD",
+   "elevel": "736 10",
+   "spin": "3/2+,5/2+",
+   "thalf": "> 1 ns"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2300.68 0.07",
+   "spin": "0+",
+   "thalf": "> 623 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2570.21 0.06",
+   "spin": "5-",
+   "thalf": "> 693 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2571.47 0.06",
+   "spin": "6+",
+   "thalf": "> 693 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2591.05 0.05",
+   "spin": "4-",
+   "thalf": "> 693 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2665.64 0.06",
+   "spin": "5+",
+   "thalf": "> 208 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2773.08 0.08",
+   "spin": "(0)+",
+   "thalf": "> 693 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2791.79 0.11",
+   "spin": "(4)-",
+   "thalf": "> 97 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2816.71 0.07",
+   "spin": "4+",
+   "thalf": "> 416 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2834.27 0.07",
+   "spin": "0+",
+   "thalf": "> 347 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2840.22 0.11",
+   "spin": "(4)+",
+   "thalf": "> 485 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2882.82 0.08",
+   "spin": "0+",
+   "thalf": "> 693 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2893.51 0.06",
+   "spin": "4+",
+   "thalf": "> 416 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "2924.83 0.05",
+   "spin": "4-",
+   "thalf": "> 139 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3066.23 0.1",
+   "spin": "(2,3)-",
+   "thalf": "> 207 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3068.62 0.06",
+   "spin": "4+",
+   "thalf": "> 555 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3071.46 0.08",
+   "spin": "(4)+",
+   "thalf": "> 249 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3189.82 0.09",
+   "spin": "4+,5,6+",
+   "thalf": "> 354 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3205.74 0.12",
+   "spin": "2+,3,4",
+   "thalf": "> 111 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3392.78 0.12",
+   "spin": "1,2+",
+   "thalf": "> 693 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3393.39 0.04",
+   "spin": "0+:4+",
+   "thalf": "> 970 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3402.93 0.1",
+   "spin": "1+,2+,3+",
+   "thalf": "> 527 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3511.6 0.3",
+   "spin": "3-:7-",
+   "thalf": "> 485 fs"
+ },
+ {
+   "nucleus": "112CD",
+   "elevel": "3754.09 0.11",
+   "spin": "2+:6+",
+   "thalf": "> 416 fs"
+ },
+ {
+   "nucleus": "113CD",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "8.04×1015 y 0.05E15"
+ },
+ {
+   "nucleus": "113CD",
+   "elevel": "263.54 0.03",
+   "spin": "11/2-",
+   "thalf": "14.1 y 0.5"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "1864.262 0.008",
+   "spin": "3+",
+   "thalf": "> 0.87 ps"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "1932.077 0.008",
+   "spin": "(4)+",
+   "thalf": "> 0.31 ps"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "2152.266 0.008",
+   "spin": "3+,4+",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "2204.561 0.008",
+   "spin": "3+",
+   "thalf": "> 0.55 ps"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "2298.93 0.02",
+   "spin": "5-",
+   "thalf": "> 1.04 ps"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "2437.64 0.08",
+   "spin": "0+",
+   "thalf": "> 0.90 ps"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "2460.757 0.012",
+   "spin": "4-",
+   "thalf": "> 0.68 ps"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "2525.420 0.01",
+   "spin": "2+",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "2874.26 0.06",
+   "spin": "2,4",
+   "thalf": "> 0.62 ps"
+ },
+ {
+   "nucleus": "114CD",
+   "elevel": "2935.76 0.06",
+   "spin": "2+",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "116CD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "3.3×10+19 y 0.4E+19"
+ },
+ {
+   "nucleus": "109IN",
+   "elevel": "3285.8 0.3",
+   "spin": "19/2-",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "110IN",
+   "elevel": "334.09 0.05",
+   "spin": "2+",
+   "thalf": "≥ 4.9 ps"
+ },
+ {
+   "nucleus": "110IN",
+   "elevel": "342.55 0.05",
+   "spin": "1+",
+   "thalf": "≥ 4.9 ps"
+ },
+ {
+   "nucleus": "110IN",
+   "elevel": "799.851 0.016",
+   "spin": "7-",
+   "thalf": "≥ 2.0 ps"
+ },
+ {
+   "nucleus": "110IN",
+   "elevel": "808.072 0.021",
+   "spin": "8-",
+   "thalf": "≥ 2.4 ps"
+ },
+ {
+   "nucleus": "110IN",
+   "elevel": "1006.06 0.03",
+   "spin": "(5,6)",
+   "thalf": "≥ 1.7 ps"
+ },
+ {
+   "nucleus": "110IN",
+   "elevel": "1017.93 0.04",
+   "spin": "9-",
+   "thalf": "≥ 1.2 ps"
+ },
+ {
+   "nucleus": "110IN",
+   "elevel": "1204.87 0.05",
+   "spin": "4-,5-,6-",
+   "thalf": "≥ 1.1 ps"
+ },
+ {
+   "nucleus": "110IN",
+   "elevel": "1482.35 0.06",
+   "spin": "",
+   "thalf": "≥ 1.8 ps"
+ },
+ {
+   "nucleus": "111IN",
+   "elevel": "2767.78 0.25",
+   "spin": "5/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "111IN",
+   "elevel": "3024.53 0.14",
+   "spin": "23/2-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "113IN",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "115IN",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "4.41×10+14 y 0.25E+14"
+ },
+ {
+   "nucleus": "99SN",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 760 ns"
+ },
+ {
+   "nucleus": "111SN",
+   "elevel": "2257.4 0.3",
+   "spin": "(17/2)+",
+   "thalf": "≥ 4 ns"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2190.81 0.06",
+   "spin": "0+",
+   "thalf": "≥ 2.7 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2476.16 0.11",
+   "spin": "2+",
+   "thalf": "> 2.4 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2617.62 0.18",
+   "spin": "0+",
+   "thalf": "> 0.4 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2756.02 0.09",
+   "spin": "3+",
+   "thalf": "> 0.8 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2765.2 0.3",
+   "spin": "0+:4+",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2913.07 0.21",
+   "spin": "4+",
+   "thalf": "> 0.6 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2917.39 0.1",
+   "spin": "2+,3,4+",
+   "thalf": "> 1.1 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2926.82 0.18",
+   "spin": "6+",
+   "thalf": "> 0.22 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2945.70 0.13",
+   "spin": "4+",
+   "thalf": "> 1.1 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "2986.4 0.3",
+   "spin": "0+",
+   "thalf": "> 1.7 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3078.53 0.13",
+   "spin": "(2,3)+",
+   "thalf": "> 1.2 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3133.42 0.11",
+   "spin": "5-",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3248.69 0.1",
+   "spin": "2+",
+   "thalf": "> 1.1 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3338.3 0.3",
+   "spin": "2+",
+   "thalf": "> 0.3 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3353.1 0.4",
+   "spin": "2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3417.41 0.11",
+   "spin": "4+",
+   "thalf": "> 0.4 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3456.31 0.2",
+   "spin": "2+,3+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3471.7 0.3",
+   "spin": "4+",
+   "thalf": "> 0.23 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3524.54 0.18",
+   "spin": "2+",
+   "thalf": "> 0.12 ps"
+ },
+ {
+   "nucleus": "112SN",
+   "elevel": "3557.29 0.12",
+   "spin": "",
+   "thalf": "> 0.3 ps"
+ },
+ {
+   "nucleus": "113SN",
+   "elevel": "498.07 0.05",
+   "spin": "3/2+",
+   "thalf": "> 0.35 ps"
+ },
+ {
+   "nucleus": "113SN",
+   "elevel": "2200.7 0.3",
+   "spin": "5/2+",
+   "thalf": "> 0.24 ps"
+ },
+ {
+   "nucleus": "113SN",
+   "elevel": "3223.2 0.5",
+   "spin": "(19/2)-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "113SN",
+   "elevel": "4475.1 0.6",
+   "spin": "(27/2+)",
+   "thalf": "> 1.1 ps"
+ },
+ {
+   "nucleus": "114SN",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "114SN",
+   "elevel": "2156.28 0.03",
+   "spin": "0+",
+   "thalf": "> 7.6 ps"
+ },
+ {
+   "nucleus": "114SN",
+   "elevel": "2815.146 0.022",
+   "spin": "5-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "114SN",
+   "elevel": "3244.39 0.07",
+   "spin": "6-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "115SN",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "115SN",
+   "elevel": "2592.35 0.19",
+   "spin": "(15/2-)",
+   "thalf": "> 2.4 ps"
+ },
+ {
+   "nucleus": "115SN",
+   "elevel": "2938.24 0.17",
+   "spin": "(17/2-)",
+   "thalf": "> 1.7 ps"
+ },
+ {
+   "nucleus": "115SN",
+   "elevel": "3203.81 0.12",
+   "spin": "17/2-",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "115SN",
+   "elevel": "4060.18 0.13",
+   "spin": "(23/2-)",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "116SN",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "117SN",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "118SN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "118SN",
+   "elevel": "2328.02 0.03",
+   "spin": "2+",
+   "thalf": "> 0.2 ps"
+ },
+ {
+   "nucleus": "118SN",
+   "elevel": "2488.871 0.019",
+   "spin": "4+",
+   "thalf": "> 0.55 ps"
+ },
+ {
+   "nucleus": "118SN",
+   "elevel": "2677.35 0.03",
+   "spin": "2+",
+   "thalf": "> 0.28 ps"
+ },
+ {
+   "nucleus": "119SN",
+   "elevel": "0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "120SN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "120SN",
+   "elevel": "2159.931 0.025",
+   "spin": "0+",
+   "thalf": "> 4 ps"
+ },
+ {
+   "nucleus": "120SN",
+   "elevel": "2587.25 0.15",
+   "spin": "0+",
+   "thalf": "> 0.34 ps"
+ },
+ {
+   "nucleus": "120SN",
+   "elevel": "2643.353 0.02",
+   "spin": "4+",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "121SN",
+   "elevel": "6.31 0.06",
+   "spin": "11/2-",
+   "thalf": "43.9 y 0.5"
+ },
+ {
+   "nucleus": "122SN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "122SN",
+   "elevel": "2087.71 0.05",
+   "spin": "0+",
+   "thalf": "> 0.277 ps"
+ },
+ {
+   "nucleus": "122SN",
+   "elevel": "2675.57 0.06",
+   "spin": "0+",
+   "thalf": "> 0.2 ps"
+ },
+ {
+   "nucleus": "124SN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "124SN",
+   "elevel": "2192.17 0.03",
+   "spin": "0+",
+   "thalf": "> 0.55 ps"
+ },
+ {
+   "nucleus": "124SN",
+   "elevel": "2688.50 0.05",
+   "spin": "0+",
+   "thalf": "> 0.28 ps"
+ },
+ {
+   "nucleus": "124SN",
+   "elevel": "2819.3 0.5",
+   "spin": "(6+)",
+   "thalf": "> 0.4 ps"
+ },
+ {
+   "nucleus": "124SN",
+   "elevel": "2836.58 0.04",
+   "spin": "3+",
+   "thalf": "> 0.28 ps"
+ },
+ {
+   "nucleus": "124SN",
+   "elevel": "2958.11 0.06",
+   "spin": "4+",
+   "thalf": "> 0.9 ps"
+ },
+ {
+   "nucleus": "124SN",
+   "elevel": "2988.03 0.03",
+   "spin": "3-",
+   "thalf": "> 0.55 ps"
+ },
+ {
+   "nucleus": "124SN",
+   "elevel": "3267.13 0.09",
+   "spin": "1,2,3",
+   "thalf": "> 0.14 ps"
+ },
+ {
+   "nucleus": "126SN",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "2.30×10+5 y 0.14E+5"
+ },
+ {
+   "nucleus": "115SB",
+   "elevel": "2638.42 0.09",
+   "spin": "15/2-",
+   "thalf": "> 2.1 ps"
+ },
+ {
+   "nucleus": "117SB",
+   "elevel": "1159.99 0.08",
+   "spin": "9/2+",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "117SB",
+   "elevel": "1310.62 0.14",
+   "spin": "9/2+",
+   "thalf": "> 50 fs"
+ },
+ {
+   "nucleus": "117SB",
+   "elevel": "1471.7 0.8",
+   "spin": "7/2",
+   "thalf": "≥ 367 fs"
+ },
+ {
+   "nucleus": "117SB",
+   "elevel": "1536.53 0.16",
+   "spin": "(9/2+)",
+   "thalf": "≥ 243 fs"
+ },
+ {
+   "nucleus": "117SB",
+   "elevel": "1623.9 1.2",
+   "spin": "3/2",
+   "thalf": "≥ 132 fs"
+ },
+ {
+   "nucleus": "117SB",
+   "elevel": "2323.05 0.13",
+   "spin": "15/2-",
+   "thalf": "> 2 ps"
+ },
+ {
+   "nucleus": "117SB",
+   "elevel": "2778.65 0.25",
+   "spin": "17/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "117SB",
+   "elevel": "3214.13 0.15",
+   "spin": "19/2-",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "119SB",
+   "elevel": "699.88 0.05",
+   "spin": "3/2+,5/2+",
+   "thalf": "> 300 fs"
+ },
+ {
+   "nucleus": "119SB",
+   "elevel": "1048.42 0.05",
+   "spin": "7/2+",
+   "thalf": "> 300 fs"
+ },
+ {
+   "nucleus": "119SB",
+   "elevel": "1327.25 0.11",
+   "spin": "(1/2-)",
+   "thalf": "> 76 fs"
+ },
+ {
+   "nucleus": "119SB",
+   "elevel": "1487.61 0.06",
+   "spin": "(3/2+)",
+   "thalf": "> 215 fs"
+ },
+ {
+   "nucleus": "119SB",
+   "elevel": "1646.5 1",
+   "spin": "1/2+",
+   "thalf": "> 450 fs"
+ },
+ {
+   "nucleus": "119SB",
+   "elevel": "1848.2 1",
+   "spin": "",
+   "thalf": "> 130 fs"
+ },
+ {
+   "nucleus": "121SB",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "121SB",
+   "elevel": "1035.429 0.014",
+   "spin": "9/2+",
+   "thalf": "> 0.3×10-3 ps"
+ },
+ {
+   "nucleus": "123SB",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "125SB",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "2.75856 y 2.5E-4"
+ },
+ {
+   "nucleus": "120TE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "122TE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "122TE",
+   "elevel": "1357.401 0.024",
+   "spin": "0+",
+   "thalf": "> 1.39 ps"
+ },
+ {
+   "nucleus": "122TE",
+   "elevel": "1747.04 0.03",
+   "spin": "0+",
+   "thalf": "> 1.32 ps"
+ },
+ {
+   "nucleus": "122TE",
+   "elevel": "1940.44 0.09",
+   "spin": "0+",
+   "thalf": "> 1.39 ps"
+ },
+ {
+   "nucleus": "122TE",
+   "elevel": "2535.72 0.07",
+   "spin": "3,4,5",
+   "thalf": "> 0.47 ps"
+ },
+ {
+   "nucleus": "122TE",
+   "elevel": "2538.84 0.05",
+   "spin": "",
+   "thalf": "> 0.76 ps"
+ },
+ {
+   "nucleus": "123TE",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "> 9.2×10+16 y"
+ },
+ {
+   "nucleus": "124TE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "125TE",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "126TE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "128TE",
+   "elevel": "2308.30 0.04",
+   "spin": "0+",
+   "thalf": "> 1.7 ps"
+ },
+ {
+   "nucleus": "143TE",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 408 ns"
+ },
+ {
+   "nucleus": "112I",
+   "elevel": "X",
+   "spin": "",
+   "thalf": "> 25 ps"
+ },
+ {
+   "nucleus": "127I",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "129I",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "1.57×10+7 y 0.04E+7"
+ },
+ {
+   "nucleus": "144I",
+   "elevel": "X",
+   "spin": "",
+   "thalf": "≥ 300 ns"
+ },
+ {
+   "nucleus": "145I",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 407 ns"
+ },
+ {
+   "nucleus": "124XE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "≥ 1.6×10+14 y"
+ },
+ {
+   "nucleus": "126XE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "128XE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "129XE",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "130XE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "131XE",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "132XE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "148XE",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 0.4 µS"
+ },
+ {
+   "nucleus": "122CS",
+   "elevel": "45.87 0.12",
+   "spin": "(3)+",
+   "thalf": "> 1 µS"
+ },
+ {
+   "nucleus": "126CS",
+   "elevel": "273.0 0.7",
+   "spin": "",
+   "thalf": "≥ 1 µS"
+ },
+ {
+   "nucleus": "133CS",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "134CS",
+   "elevel": "0.0",
+   "spin": "4+",
+   "thalf": "2.0652 y 4.0E-4"
+ },
+ {
+   "nucleus": "135CS",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "2.3×10+6 y 0.3E+6"
+ },
+ {
+   "nucleus": "137CS",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "30.08 y 0.09"
+ },
+ {
+   "nucleus": "152CS",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 50 ms"
+ },
+ {
+   "nucleus": "130BA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "133BA",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "10.551 y 0.011"
+ },
+ {
+   "nucleus": "134BA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "135BA",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "136BA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "136BA",
+   "elevel": "1578.969 0.022",
+   "spin": "0+",
+   "thalf": "> 735 fs"
+ },
+ {
+   "nucleus": "136BA",
+   "elevel": "2315.26 0.07",
+   "spin": "0+",
+   "thalf": "> 0.85 ps"
+ },
+ {
+   "nucleus": "136BA",
+   "elevel": "2587.08 0.03",
+   "spin": "(5)+",
+   "thalf": "> 0.83 ps"
+ },
+ {
+   "nucleus": "137BA",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "138BA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "138BA",
+   "elevel": "2189.861 0.022",
+   "spin": "(1,2+)",
+   "thalf": "≥ 0.8 ps"
+ },
+ {
+   "nucleus": "138BA",
+   "elevel": "3504.28 0.1",
+   "spin": "2-",
+   "thalf": "≥ 0.2 ps"
+ },
+ {
+   "nucleus": "138BA",
+   "elevel": "3600.73 0.1",
+   "spin": "1",
+   "thalf": "≥ 0.09 ps"
+ },
+ {
+   "nucleus": "129LA",
+   "elevel": "1558.03 0.23",
+   "spin": "(23/2-)",
+   "thalf": "≥ 1.2 ps"
+ },
+ {
+   "nucleus": "137LA",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "6×10+4 y 2E+4"
+ },
+ {
+   "nucleus": "138LA",
+   "elevel": "0.0",
+   "spin": "5+",
+   "thalf": "1.03×10+11 y 0.01E+11"
+ },
+ {
+   "nucleus": "139LA",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "127CE",
+   "elevel": "36.8 1.2",
+   "spin": "(7/2-)",
+   "thalf": "> 10 µS"
+ },
+ {
+   "nucleus": "131CE",
+   "elevel": "1451.8 0.4",
+   "spin": "(19/2-)",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "136CE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "136CE",
+   "elevel": "5642.6 0.8",
+   "spin": "16+",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "136CE",
+   "elevel": "5876.9 0.9",
+   "spin": "17+",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "136CE",
+   "elevel": "6170.2 0.9",
+   "spin": "(18+)",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "138CE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "> 4.4×10+16 y"
+ },
+ {
+   "nucleus": "139CE",
+   "elevel": "2088.6 0.3",
+   "spin": "3/2+,5/2+",
+   "thalf": "> 0.8 ps"
+ },
+ {
+   "nucleus": "140CE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "140CE",
+   "elevel": "3016.9 0.5",
+   "spin": "0+",
+   "thalf": "≥ 0.14 ps"
+ },
+ {
+   "nucleus": "140CE",
+   "elevel": "3408.02 0.15",
+   "spin": "(2+)",
+   "thalf": "≥ 0.062 ps"
+ },
+ {
+   "nucleus": "140CE",
+   "elevel": "3539.1 0.3",
+   "spin": "2+",
+   "thalf": "≥ 0.21 ps"
+ },
+ {
+   "nucleus": "140CE",
+   "elevel": "3646.7 0.6",
+   "spin": "(1,2+)",
+   "thalf": "≥ 0.062 ps"
+ },
+ {
+   "nucleus": "140CE",
+   "elevel": "3723.54 0.17",
+   "spin": "(2+)",
+   "thalf": "≥ 0.097 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "> 5×10+16 y"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "1652.91 0.04",
+   "spin": "3-",
+   "thalf": "> 1.8 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "2124.91 0.08",
+   "spin": "5-",
+   "thalf": "> 0.41 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "2374.96 0.08",
+   "spin": "+",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "2576.23 0.06",
+   "spin": "3+",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "2598.27 0.1",
+   "spin": "2+",
+   "thalf": "> 1.66 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "2734.77 0.09",
+   "spin": "(3,2)+",
+   "thalf": "> 0.37 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "2773.92 0.09",
+   "spin": "(3)+",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "2859.75 0.1",
+   "spin": "4",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "2868.97 0.1",
+   "spin": "(4)+",
+   "thalf": "> 0.46 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "2935.14 0.21",
+   "spin": "(2,3,4)",
+   "thalf": "> 0.48 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "3009.90 0.2",
+   "spin": "",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "3051.79 0.15",
+   "spin": "(3)+",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "3109.79 0.15",
+   "spin": "",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "3125.71 0.2",
+   "spin": "(1,2,3)",
+   "thalf": "> 0.65 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "3155.36 0.15",
+   "spin": "",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "3180.37 0.15",
+   "spin": "1",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "3218.21 0.2",
+   "spin": "",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "142CE",
+   "elevel": "3300.74 0.21",
+   "spin": "",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "1126.99 0.09",
+   "spin": "3/2+",
+   "thalf": "> 188 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "1657.14 0.15",
+   "spin": "1/2+",
+   "thalf": "> 0.67 ps"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "1767.67 0.13",
+   "spin": "13/2+",
+   "thalf": "> 0.37 ps"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "1986.24 0.16",
+   "spin": "(13/2+)",
+   "thalf": "> 0.42 ps"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2108.44 0.23",
+   "spin": "15/2(+)",
+   "thalf": "> 28 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2126.11 0.15",
+   "spin": "(11/2+)",
+   "thalf": "> 114 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2190.43 0.2",
+   "spin": "(1/2-)",
+   "thalf": "> 215 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2267.25 0.18",
+   "spin": "(1/2+)",
+   "thalf": "> 184 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2336.54 0.21",
+   "spin": "(15/2-)",
+   "thalf": "> 28 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2454.52 0.22",
+   "spin": "(15/2+)",
+   "thalf": "> 94 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2473.2 0.3",
+   "spin": "(1/2-)",
+   "thalf": "> 14 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2580.72 0.16",
+   "spin": "(11/2+)",
+   "thalf": "> 13 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2659.6 0.8",
+   "spin": "(11/2+)",
+   "thalf": "> 156 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2718.5 0.4",
+   "spin": "(9/2,11/2)",
+   "thalf": "> 159 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2739.7 0.4",
+   "spin": "(1/2-)",
+   "thalf": "> 87 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2782.7 0.3",
+   "spin": "(13/2+)",
+   "thalf": "> 51 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2810.71 0.22",
+   "spin": "(1/2+)",
+   "thalf": "> 76 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2847.6 0.3",
+   "spin": "9/2+",
+   "thalf": "> 97 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2881.6 0.4",
+   "spin": "(7/2+,9/2+)",
+   "thalf": "> 55 fs"
+ },
+ {
+   "nucleus": "141PR",
+   "elevel": "2887.50 0.25",
+   "spin": "(9/2,11/2+)",
+   "thalf": "> 24 fs"
+ },
+ {
+   "nucleus": "151PR",
+   "elevel": "35.10 0.1",
+   "spin": "(7/2+)",
+   "thalf": "> 10 µS"
+ },
+ {
+   "nucleus": "142ND",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "142ND",
+   "elevel": "2585.550 0.02",
+   "spin": "1(+)",
+   "thalf": "> 0.17 ps"
+ },
+ {
+   "nucleus": "143ND",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "2.29×10+15 y 0.16E+15"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2109.79 0.03",
+   "spin": "4+",
+   "thalf": "> 0.2 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2218.31 0.05",
+   "spin": "6+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2295.41 0.03",
+   "spin": "4+",
+   "thalf": "> 0.27 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2420.21 0.07",
+   "spin": "5+",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2655.097 0.024",
+   "spin": "(3+)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2692.97 0.04",
+   "spin": "2+",
+   "thalf": "> 0.12 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2715.79 0.07",
+   "spin": "(5,6)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2808.83 0.09",
+   "spin": "6+",
+   "thalf": "> 44 fs"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2834.58 0.04",
+   "spin": "(4+)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2868.26 0.05",
+   "spin": "(3,2+)",
+   "thalf": "> 0.14 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2887.98 0.06",
+   "spin": "(5,4)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2901.34 0.03",
+   "spin": "2+",
+   "thalf": "> 0.06 ps"
+ },
+ {
+   "nucleus": "144ND",
+   "elevel": "2950.98 0.06",
+   "spin": "3(+)",
+   "thalf": "> 58 fs"
+ },
+ {
+   "nucleus": "145ND",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "146ND",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "148ND",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "150ND",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "0.91×1019 y 0.07E19"
+ },
+ {
+   "nucleus": "154ND",
+   "elevel": "1349",
+   "spin": "(5-)",
+   "thalf": "> 1 µS"
+ },
+ {
+   "nucleus": "160ND",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "160ND",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "141PM",
+   "elevel": "2530.75 0.17",
+   "spin": "",
+   "thalf": "> 2 µS"
+ },
+ {
+   "nucleus": "141PM",
+   "elevel": "2574.4 0.4",
+   "spin": "",
+   "thalf": "≥ 2 µS"
+ },
+ {
+   "nucleus": "144PM",
+   "elevel": "0.0",
+   "spin": "5-",
+   "thalf": "363 d 14"
+ },
+ {
+   "nucleus": "145PM",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "17.7 y 0.4"
+ },
+ {
+   "nucleus": "146PM",
+   "elevel": "0.0",
+   "spin": "3-",
+   "thalf": "5.53 y 0.05"
+ },
+ {
+   "nucleus": "147PM",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "2.6234 y 2.0E-4"
+ },
+ {
+   "nucleus": "158PM",
+   "elevel": "121+X",
+   "spin": "",
+   "thalf": "> 16 µS"
+ },
+ {
+   "nucleus": "161PM",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "161PM",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "139SM",
+   "elevel": "5934.6 1.5",
+   "spin": "(39/2)",
+   "thalf": "> 0.7 ps"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "2190.891 0.025",
+   "spin": "4+",
+   "thalf": "> 0.14 ps"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "2477.651 0.023",
+   "spin": "0+",
+   "thalf": "> 1.2 ps"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "2587.78 0.03",
+   "spin": "4+",
+   "thalf": "> 0.12 ps"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "2707.04 0.11",
+   "spin": "(5+)",
+   "thalf": "> 36 fs"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "2822.52 0.04",
+   "spin": "0+",
+   "thalf": "> 0.76 ps"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "2825.71 0.03",
+   "spin": "(5-)",
+   "thalf": "> 0.51 ps"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "3079.34 0.15",
+   "spin": "(5,6+,7)",
+   "thalf": "> 7 ps"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "3124.07 0.07",
+   "spin": "7-",
+   "thalf": "> 55 fs"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "3266.19 0.08",
+   "spin": "(4+,6)",
+   "thalf": "> 15 fs"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "3308.27 0.1",
+   "spin": "(6+)",
+   "thalf": "> 38 fs"
+ },
+ {
+   "nucleus": "144SM",
+   "elevel": "3343.57 0.05",
+   "spin": "(3,4,5,6)",
+   "thalf": "> 190 fs"
+ },
+ {
+   "nucleus": "146SM",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "6.8×10+7 y 0.7E+7"
+ },
+ {
+   "nucleus": "147SM",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "1.060×1011 y 0.011E11"
+ },
+ {
+   "nucleus": "148SM",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "7×10+15 y 3E+15"
+ },
+ {
+   "nucleus": "149SM",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "150SM",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "151SM",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "90 y 8"
+ },
+ {
+   "nucleus": "152SM",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "152SM",
+   "elevel": "1682.07 0.12",
+   "spin": "4-",
+   "thalf": "> 596 fs"
+ },
+ {
+   "nucleus": "152SM",
+   "elevel": "1754.98 0.04",
+   "spin": "0+",
+   "thalf": "> 277 fs"
+ },
+ {
+   "nucleus": "154SM",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "154SM",
+   "elevel": "1177.812 0.021",
+   "spin": "2+",
+   "thalf": "> 2.4 ps"
+ },
+ {
+   "nucleus": "156SM",
+   "elevel": "75.89 0.05",
+   "spin": "2+",
+   "thalf": "> 2 ns"
+ },
+ {
+   "nucleus": "150EU",
+   "elevel": "0.0",
+   "spin": "5-",
+   "thalf": "36.9 y 0.9"
+ },
+ {
+   "nucleus": "151EU",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "≥ 1.7×10+18 y"
+ },
+ {
+   "nucleus": "152EU",
+   "elevel": "0.0",
+   "spin": "3-",
+   "thalf": "13.517 y 0.009"
+ },
+ {
+   "nucleus": "153EU",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "154EU",
+   "elevel": "0.0",
+   "spin": "3-",
+   "thalf": "8.601 y 0.01"
+ },
+ {
+   "nucleus": "155EU",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "4.753 y 0.014"
+ },
+ {
+   "nucleus": "136GD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "≥ 200 ns"
+ },
+ {
+   "nucleus": "142GD",
+   "elevel": "6620.8 0.6",
+   "spin": "18-",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "142GD",
+   "elevel": "7071.3 0.7",
+   "spin": "19-",
+   "thalf": "> 1.0 ps"
+ },
+ {
+   "nucleus": "142GD",
+   "elevel": "7455.3 0.8",
+   "spin": "(20-)",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "148GD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "71.1 y 1.2"
+ },
+ {
+   "nucleus": "150GD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "1.79×10+6 y 0.08E+6"
+ },
+ {
+   "nucleus": "152GD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "1.08×1014 y 0.08E14"
+ },
+ {
+   "nucleus": "154GD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "155GD",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "156GD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "156GD",
+   "elevel": "1319.658 0.002",
+   "spin": "2-",
+   "thalf": "> 3.9 ps"
+ },
+ {
+   "nucleus": "156GD",
+   "elevel": "1468.506 0.002",
+   "spin": "4-",
+   "thalf": "> 3.5 ps"
+ },
+ {
+   "nucleus": "157GD",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "158GD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "158GD",
+   "elevel": "1743.147 0.014",
+   "spin": "0+",
+   "thalf": "> 0.75 ps"
+ },
+ {
+   "nucleus": "160GD",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "138TB",
+   "elevel": "X",
+   "spin": "",
+   "thalf": "≥ 200 ns"
+ },
+ {
+   "nucleus": "157TB",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "71 y 7"
+ },
+ {
+   "nucleus": "158TB",
+   "elevel": "0.0",
+   "spin": "3-",
+   "thalf": "180 y 11"
+ },
+ {
+   "nucleus": "159TB",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "154DY",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "3.0×10+6 y 1.5E+6"
+ },
+ {
+   "nucleus": "155DY",
+   "elevel": "10520.5 1.4",
+   "spin": "71/2-",
+   "thalf": "≥ 1.0 ps"
+ },
+ {
+   "nucleus": "155DY",
+   "elevel": "11450.6 1.8",
+   "spin": "75/2-",
+   "thalf": "≥ 1.0 ps"
+ },
+ {
+   "nucleus": "156DY",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "158DY",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "158DY",
+   "elevel": "1607.99 0.09",
+   "spin": "(2)+",
+   "thalf": "> 0.18 ps"
+ },
+ {
+   "nucleus": "160DY",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "161DY",
+   "elevel": "0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "162DY",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "163DY",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "164DY",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "172DY",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "174DY",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "149HO",
+   "elevel": "7.20E3 0.35E3",
+   "spin": "",
+   "thalf": "≥ 100 ns"
+ },
+ {
+   "nucleus": "163HO",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "4570 y 25"
+ },
+ {
+   "nucleus": "163HO",
+   "elevel": "1505.2",
+   "spin": "(17/2+)",
+   "thalf": "≥ 15 ns"
+ },
+ {
+   "nucleus": "165HO",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "166HO",
+   "elevel": "5.969 0.012",
+   "spin": "7-",
+   "thalf": "1.20×103 y 0.18E3"
+ },
+ {
+   "nucleus": "168HO",
+   "elevel": "143.43 0.17",
+   "spin": "(1)-",
+   "thalf": "> 4 µS"
+ },
+ {
+   "nucleus": "176HO",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "144ER",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "≥ 200 ns"
+ },
+ {
+   "nucleus": "162ER",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "162ER",
+   "elevel": "1623.24 0.1",
+   "spin": "3-",
+   "thalf": "> 0.31 ns"
+ },
+ {
+   "nucleus": "164ER",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "164ER",
+   "elevel": "3263.09 0.18",
+   "spin": "16+",
+   "thalf": "> 0.30 ps"
+ },
+ {
+   "nucleus": "166ER",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "166ER",
+   "elevel": "1713.4 0.7",
+   "spin": "0+",
+   "thalf": "> 0.97 ps"
+ },
+ {
+   "nucleus": "167ER",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "168ER",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "168ER",
+   "elevel": "1411.0959 0.0018",
+   "spin": "4+",
+   "thalf": "> 0.83 ps"
+ },
+ {
+   "nucleus": "168ER",
+   "elevel": "1616.8060 0.0019",
+   "spin": "6+",
+   "thalf": "> 1.7 ps"
+ },
+ {
+   "nucleus": "170ER",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "176ER",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "177ER",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "178ER",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "169TM",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "171TM",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "1.92 y 0.01"
+ },
+ {
+   "nucleus": "178TM",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "179TM",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "180TM",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "181TM",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "150YB",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "≥ 200 ns"
+ },
+ {
+   "nucleus": "163YB",
+   "elevel": "58.1",
+   "spin": "(3/2-,5/2,7/2-)",
+   "thalf": "> 10 ns"
+ },
+ {
+   "nucleus": "168YB",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "170YB",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "171YB",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "172YB",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "173YB",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "174YB",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "176YB",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "181YB",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "182YB",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "183YB",
+   "elevel": "0.0",
+   "spin": "",
+   "thalf": "≥ 222 ns"
+ },
+ {
+   "nucleus": "184YB",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "185YB",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "153LU",
+   "elevel": "2502.5 0.4",
+   "spin": "23/2-",
+   "thalf": "> 0.1 µS"
+ },
+ {
+   "nucleus": "165LU",
+   "elevel": "4996.5+X 0.3",
+   "spin": "(47/2-)",
+   "thalf": "> 0.19 ps"
+ },
+ {
+   "nucleus": "165LU",
+   "elevel": "5740.6+X 0.4",
+   "spin": "(51/2-)",
+   "thalf": "> 0.13 ps"
+ },
+ {
+   "nucleus": "167LU",
+   "elevel": "0.0+X",
+   "spin": "1/2+",
+   "thalf": "≥ 1 m"
+ },
+ {
+   "nucleus": "173LU",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "1.37 y 0.01"
+ },
+ {
+   "nucleus": "174LU",
+   "elevel": "0.0",
+   "spin": "(1)-",
+   "thalf": "3.31 y 0.05"
+ },
+ {
+   "nucleus": "175LU",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "176LU",
+   "elevel": "0.0",
+   "spin": "7-",
+   "thalf": "3.76×10+10 y 0.07E+10"
+ },
+ {
+   "nucleus": "180LU",
+   "elevel": "624.0 0.5",
+   "spin": "(9-)",
+   "thalf": "≥ 1 ms"
+ },
+ {
+   "nucleus": "185LU",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "186LU",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "187LU",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "153HF",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 60 ns"
+ },
+ {
+   "nucleus": "172HF",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "1.87 y 0.03"
+ },
+ {
+   "nucleus": "174HF",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "2.0×10+15 y 0.4E+15"
+ },
+ {
+   "nucleus": "175HF",
+   "elevel": "7455.2 1.7",
+   "spin": "(57/2-)",
+   "thalf": "> 7 ns"
+ },
+ {
+   "nucleus": "176HF",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "177HF",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "178HF",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "178HF",
+   "elevel": "2446.09 0.08",
+   "spin": "16+",
+   "thalf": "31 y 1"
+ },
+ {
+   "nucleus": "179HF",
+   "elevel": "0.0",
+   "spin": "9/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "180HF",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "180HF",
+   "elevel": "2537.4 1",
+   "spin": "(14+)",
+   "thalf": "> 10 µS"
+ },
+ {
+   "nucleus": "182HF",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "8.90×10+6 y 0.09E+6"
+ },
+ {
+   "nucleus": "190HF",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "171TA",
+   "elevel": "2571.0 0.3",
+   "spin": "(33/2-)",
+   "thalf": "> 0.69 ps"
+ },
+ {
+   "nucleus": "179TA",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "1.82 y 0.03"
+ },
+ {
+   "nucleus": "180TA",
+   "elevel": "77.2 1.2",
+   "spin": "9-",
+   "thalf": "> 7.1×1015 y"
+ },
+ {
+   "nucleus": "181TA",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "185TA",
+   "elevel": "1258.5+X",
+   "spin": "(21/2)",
+   "thalf": "> 1 ms"
+ },
+ {
+   "nucleus": "191TA",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "194TA",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "168W",
+   "elevel": "1834.2 0.4",
+   "spin": "7(-)",
+   "thalf": "> 3.1 ps"
+ },
+ {
+   "nucleus": "168W",
+   "elevel": "2581.6 0.9",
+   "spin": "(10+)",
+   "thalf": "> 104 ps"
+ },
+ {
+   "nucleus": "174W",
+   "elevel": "1672.0 0.5",
+   "spin": "",
+   "thalf": "≥ 187 ns"
+ },
+ {
+   "nucleus": "180W",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "1.8×1018 y 0.2E18"
+ },
+ {
+   "nucleus": "182W",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "184W",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "184W",
+   "elevel": "1431.02 0.05",
+   "spin": "2+",
+   "thalf": "> 5 ps"
+ },
+ {
+   "nucleus": "186W",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "186W",
+   "elevel": "3542.8 2.1",
+   "spin": "(16+)",
+   "thalf": "> 3 ms"
+ },
+ {
+   "nucleus": "194W",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "195W",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "196W",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "197W",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "185RE",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "186RE",
+   "elevel": "149 7",
+   "spin": "(8+)",
+   "thalf": "2.0×10+5 y"
+ },
+ {
+   "nucleus": "187RE",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "4.33×10+10 y 0.07E+10"
+ },
+ {
+   "nucleus": "187RE",
+   "elevel": "589.143 0.016",
+   "spin": "3/2+",
+   "thalf": "> 1.4 ps"
+ },
+ {
+   "nucleus": "197RE",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "198RE",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "199RE",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "173OS",
+   "elevel": "141.2 0.2",
+   "spin": "(9/2+)",
+   "thalf": "> 28 ns"
+ },
+ {
+   "nucleus": "184OS",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "> 5.6×1013 y"
+ },
+ {
+   "nucleus": "186OS",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "2.0×10+15 y 1.1E+15"
+ },
+ {
+   "nucleus": "186OS",
+   "elevel": "3439.77 0.18",
+   "spin": "14+",
+   "thalf": "≥ 1 ps"
+ },
+ {
+   "nucleus": "187OS",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "188OS",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "189OS",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "189OS",
+   "elevel": "427.93 0.04",
+   "spin": "5/2-,7/2-",
+   "thalf": "> 4.4 ps"
+ },
+ {
+   "nucleus": "189OS",
+   "elevel": "531.55 0.03",
+   "spin": "5/2-",
+   "thalf": "> 0.26 ps"
+ },
+ {
+   "nucleus": "189OS",
+   "elevel": "550.04 0.03",
+   "spin": "3/2-",
+   "thalf": "> 0.039 ps"
+ },
+ {
+   "nucleus": "190OS",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "192OS",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "192OS",
+   "elevel": "3103.8 1.5",
+   "spin": "(12+)",
+   "thalf": "≥ 2.1 ps"
+ },
+ {
+   "nucleus": "194OS",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "6.0 y 0.2"
+ },
+ {
+   "nucleus": "195OS",
+   "elevel": "454 10",
+   "spin": "",
+   "thalf": "> 9 m"
+ },
+ {
+   "nucleus": "201OS",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "202OS",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "203OS",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "178IR",
+   "elevel": "140.50+Y 0.1",
+   "spin": "(8-)",
+   "thalf": "≥ 4 ns"
+ },
+ {
+   "nucleus": "184IR",
+   "elevel": "432.49 0.11",
+   "spin": "(2)+",
+   "thalf": "> 10 ns"
+ },
+ {
+   "nucleus": "190IR",
+   "elevel": "36.154 0.025",
+   "spin": "(4)+",
+   "thalf": "> 2 µS"
+ },
+ {
+   "nucleus": "191IR",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "191IR",
+   "elevel": "624.07 0.04",
+   "spin": "(1/2+)",
+   "thalf": "> 5 ps"
+ },
+ {
+   "nucleus": "192IR",
+   "elevel": "118.7824 0.0018",
+   "spin": "3-",
+   "thalf": "> 15 ns"
+ },
+ {
+   "nucleus": "192IR",
+   "elevel": "168.14 0.12",
+   "spin": "(11-)",
+   "thalf": "241 y 9"
+ },
+ {
+   "nucleus": "193IR",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "200IR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "201IR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "203IR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "204IR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "205IR",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "181PT",
+   "elevel": "116.65 0.08",
+   "spin": "(7/2)-",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "183PT",
+   "elevel": "195.90 0.1",
+   "spin": "(9/2)+",
+   "thalf": "> 150 ns"
+ },
+ {
+   "nucleus": "190PT",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "6.5×10+11 y 0.3E+11"
+ },
+ {
+   "nucleus": "191PT",
+   "elevel": "100.663 0.02",
+   "spin": "(9/2)-",
+   "thalf": "> 1 µS"
+ },
+ {
+   "nucleus": "192PT",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "193PT",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "50 y 6"
+ },
+ {
+   "nucleus": "194PT",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "195PT",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "195PT",
+   "elevel": "455.272 0.007",
+   "spin": "5/2-",
+   "thalf": "> 10.5 ps"
+ },
+ {
+   "nucleus": "195PT",
+   "elevel": "544.1 0.5",
+   "spin": "(5/2-)",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "195PT",
+   "elevel": "678.3 1",
+   "spin": "5/2-,7/2-",
+   "thalf": "> 72.8 ps"
+ },
+ {
+   "nucleus": "195PT",
+   "elevel": "1189 6",
+   "spin": "5/2-,7/2-",
+   "thalf": "≥ 2.4×10-6 eV"
+ },
+ {
+   "nucleus": "196PT",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "196PT",
+   "elevel": "2429.7 0.4",
+   "spin": "3-",
+   "thalf": "> 166 fs"
+ },
+ {
+   "nucleus": "196PT",
+   "elevel": "2603.2 0.2",
+   "spin": "(1,2,3,4,5)",
+   "thalf": "> 66 fs"
+ },
+ {
+   "nucleus": "196PT",
+   "elevel": "2606.0 0.1",
+   "spin": "(2,3,4,5)",
+   "thalf": "> 111 fs"
+ },
+ {
+   "nucleus": "196PT",
+   "elevel": "2711.0 0.1",
+   "spin": "3-",
+   "thalf": "> 55 fs"
+ },
+ {
+   "nucleus": "198PT",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "205PT",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "206PT",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "207PT",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "208PT",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 160 ns"
+ },
+ {
+   "nucleus": "179AU",
+   "elevel": "86+X 13",
+   "spin": "",
+   "thalf": "> 100 µS"
+ },
+ {
+   "nucleus": "183AU",
+   "elevel": "73.3 0.4",
+   "spin": "(1/2)+",
+   "thalf": "> 1 µS"
+ },
+ {
+   "nucleus": "188AU",
+   "elevel": "0.0+X",
+   "spin": "(11-)",
+   "thalf": "> 400 ns"
+ },
+ {
+   "nucleus": "197AU",
+   "elevel": "0.0",
+   "spin": "3/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "207AU",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "208AU",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "209AU",
+   "elevel": "0",
+   "spin": "(3/2+)",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "210AU",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "194HG",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "444 y 77"
+ },
+ {
+   "nucleus": "196HG",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "198HG",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "199HG",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "200HG",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "201HG",
+   "elevel": "0",
+   "spin": "3/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "202HG",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "204HG",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "211HG",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "212HG",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "213HG",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "214HG",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "215HG",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "216HG",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "190TL",
+   "elevel": "151.3+X",
+   "spin": "(1+,2+,3+)",
+   "thalf": "> 34 ns"
+ },
+ {
+   "nucleus": "203TL",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "204TL",
+   "elevel": "0",
+   "spin": "2-",
+   "thalf": "3.783 y 0.012"
+ },
+ {
+   "nucleus": "205TL",
+   "elevel": "0.0",
+   "spin": "1/2+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "208TL",
+   "elevel": "328.04 0.05",
+   "spin": "5+",
+   "thalf": "> 0.1 ps"
+ },
+ {
+   "nucleus": "214TL",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "215TL",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "216TL",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "194PB",
+   "elevel": "6535.3 0.3",
+   "spin": "(18+)",
+   "thalf": "> 0.5 ps"
+ },
+ {
+   "nucleus": "198PB",
+   "elevel": "4573.2 0.6",
+   "spin": "14-",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "198PB",
+   "elevel": "4702.5 0.6",
+   "spin": "(16+)",
+   "thalf": "> 5.5 ps"
+ },
+ {
+   "nucleus": "198PB",
+   "elevel": "4837.2 0.6",
+   "spin": "15-",
+   "thalf": "> 2.8 ps"
+ },
+ {
+   "nucleus": "202PB",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "52.5×10+3 y 2.8E+3"
+ },
+ {
+   "nucleus": "204PB",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "≥ 1.4×10+17 y"
+ },
+ {
+   "nucleus": "205PB",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "1.73×10+7 y 0.07E+7"
+ },
+ {
+   "nucleus": "206PB",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3175.674 0.013",
+   "spin": "9/2(+)",
+   "thalf": "> 402 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3225.542 0.02",
+   "spin": "11/2+",
+   "thalf": "> 333 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3384.579 0.013",
+   "spin": "9/2+",
+   "thalf": "> 284 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3429.843 0.018",
+   "spin": "(9/2+)",
+   "thalf": "> 437 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3476.364 0.013",
+   "spin": "9/2(+)",
+   "thalf": "> 388 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3509.849 0.016",
+   "spin": "11/2+",
+   "thalf": "> 208 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3620.496 0.021",
+   "spin": "11/2+",
+   "thalf": "> 243 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3650.09 0.03",
+   "spin": "9/2-,11/2-",
+   "thalf": "> 312 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3673.82 0.03",
+   "spin": "9/2,11/2",
+   "thalf": "> 263 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3711.40 0.03",
+   "spin": "(7/2+)",
+   "thalf": "> 118 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3726.094 0.022",
+   "spin": "(5/2+,7/2+)",
+   "thalf": "> 201 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3828.997 0.018",
+   "spin": "9/2+,11/2+",
+   "thalf": "> 111 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3869.37 0.05",
+   "spin": "9/2+,11/2+,13/2+",
+   "thalf": "> 104 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "3903.33 0.1",
+   "spin": "(13/2+)",
+   "thalf": "> 17 fs"
+ },
+ {
+   "nucleus": "207PB",
+   "elevel": "4064.02 0.08",
+   "spin": "(9/2+,11/2+,13/2+)",
+   "thalf": "> 37 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "STABLE"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "3919.966 0.013",
+   "spin": "6-",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "3946.578 0.014",
+   "spin": "4-",
+   "thalf": "> 430 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "3995.438 0.013",
+   "spin": "4-",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4037.443 0.014",
+   "spin": "7-",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4125.347 0.012",
+   "spin": "5-",
+   "thalf": "> 490 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4206.277 0.014",
+   "spin": "6-",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4261.871 0.013",
+   "spin": "4-",
+   "thalf": "> 520 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4383.285 0.017",
+   "spin": "6-",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4423.647 0.015",
+   "spin": "6+",
+   "thalf": "> 110 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4680.266 0.022",
+   "spin": "7-",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4711.817 0.021",
+   "spin": "4-",
+   "thalf": "> 340 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4860.78 0.06",
+   "spin": "8+",
+   "thalf": "> 22 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4867.91 0.04",
+   "spin": "7+",
+   "thalf": "> 97 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4868.35 0.05",
+   "spin": "0+",
+   "thalf": "> 312 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "4962.428 0.021",
+   "spin": "4(-),5(+)",
+   "thalf": "> 440 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "5085.470 0.024",
+   "spin": "7-",
+   "thalf": "> 229 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "5092.99 0.03",
+   "spin": "8+",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "5193.428 0.025",
+   "spin": "5+",
+   "thalf": "> 319 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "5195.37 0.1",
+   "spin": "7+",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "5241.1 0.3",
+   "spin": "0+",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "5280.47 0.04",
+   "spin": "0-",
+   "thalf": "> 319 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "5317.041 0.018",
+   "spin": "(3)+",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "5599.48 0.06",
+   "spin": "0-",
+   "thalf": "> 159 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "5799.41 0.09",
+   "spin": "",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "208PB",
+   "elevel": "6101.1 1",
+   "spin": "(5+)",
+   "thalf": "> 690 fs"
+ },
+ {
+   "nucleus": "210PB",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "22.20 y 0.22"
+ },
+ {
+   "nucleus": "216PB",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "218PB",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "219PB",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "220PB",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "188BI",
+   "elevel": "65 29",
+   "spin": "",
+   "thalf": "> 5 µS"
+ },
+ {
+   "nucleus": "207BI",
+   "elevel": "0",
+   "spin": "9/2-",
+   "thalf": "31.55 y 0.04"
+ },
+ {
+   "nucleus": "208BI",
+   "elevel": "0.0",
+   "spin": "5+",
+   "thalf": "3.68×10+5 y 0.04E+5"
+ },
+ {
+   "nucleus": "208BI",
+   "elevel": "650.57 0.1",
+   "spin": "7+",
+   "thalf": "> 1.0 ns"
+ },
+ {
+   "nucleus": "208BI",
+   "elevel": "936.27 0.06",
+   "spin": "3+",
+   "thalf": "> 1.7 ps"
+ },
+ {
+   "nucleus": "208BI",
+   "elevel": "1539.39 0.07",
+   "spin": "2+,3+",
+   "thalf": "> 1.2 ps"
+ },
+ {
+   "nucleus": "209BI",
+   "elevel": "0.0",
+   "spin": "9/2-",
+   "thalf": "2.01×1019 y 0.08E19"
+ },
+ {
+   "nucleus": "210BI",
+   "elevel": "271.31 0.11",
+   "spin": "9-",
+   "thalf": "3.04×10+6 y 0.06E+6"
+ },
+ {
+   "nucleus": "220BI",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "221BI",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "222BI",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "223BI",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "224BI",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "203PO",
+   "elevel": "2158.5 0.6",
+   "spin": "",
+   "thalf": "> 200 ns"
+ },
+ {
+   "nucleus": "208PO",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "2.898 y 0.002"
+ },
+ {
+   "nucleus": "209PO",
+   "elevel": "0.0",
+   "spin": "1/2-",
+   "thalf": "124 y 3"
+ },
+ {
+   "nucleus": "220PO",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "223PO",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "224PO",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "225PO",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "226PO",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "227PO",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "225AT",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "226AT",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "227AT",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "228AT",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "229AT",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "205RN",
+   "elevel": "0.0+X",
+   "spin": "(13/2+)",
+   "thalf": "≥ 100 ns"
+ },
+ {
+   "nucleus": "223RA",
+   "elevel": "130.141 0.018",
+   "spin": "9/2+",
+   "thalf": "> 0.3 ns"
+ },
+ {
+   "nucleus": "226RA",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "1600 y 7"
+ },
+ {
+   "nucleus": "228RA",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "5.75 y 0.03"
+ },
+ {
+   "nucleus": "227AC",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "21.772 y 0.003"
+ },
+ {
+   "nucleus": "228TH",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "1.9116 y 0.0016"
+ },
+ {
+   "nucleus": "229TH",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "7880 y 120"
+ },
+ {
+   "nucleus": "230TH",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "7.54×10+4 y 0.03E+4"
+ },
+ {
+   "nucleus": "230TH",
+   "elevel": "1009.601 0.014",
+   "spin": "2+",
+   "thalf": "≥ 0.8 ps"
+ },
+ {
+   "nucleus": "232TH",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "1.40×1010 y 0.01E10"
+ },
+ {
+   "nucleus": "211PA",
+   "elevel": "0",
+   "spin": "",
+   "thalf": "> 300 ns"
+ },
+ {
+   "nucleus": "231PA",
+   "elevel": "0",
+   "spin": "3/2-",
+   "thalf": "3.276×104 y 0.011E4"
+ },
+ {
+   "nucleus": "232U",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "68.9 y 0.4"
+ },
+ {
+   "nucleus": "233U",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "1.592×10+5 y 0.002E+5"
+ },
+ {
+   "nucleus": "234U",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "2.455×10+5 y 0.006E+5"
+ },
+ {
+   "nucleus": "234U",
+   "elevel": "851.74 0.03",
+   "spin": "2+",
+   "thalf": "≥ 1.74 ps"
+ },
+ {
+   "nucleus": "235U",
+   "elevel": "0.0",
+   "spin": "7/2-",
+   "thalf": "7.04×10+8 y 0.01E+8"
+ },
+ {
+   "nucleus": "236U",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "2.342×107 y 0.004E7"
+ },
+ {
+   "nucleus": "238U",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "4.468×109 y 0.006E9"
+ },
+ {
+   "nucleus": "239U",
+   "elevel": "0.0+X",
+   "spin": "(5/2+)",
+   "thalf": "> 0.25 µS"
+ },
+ {
+   "nucleus": "235NP",
+   "elevel": "0",
+   "spin": "5/2+",
+   "thalf": "396.1 d 1.2"
+ },
+ {
+   "nucleus": "236NP",
+   "elevel": "0",
+   "spin": "(6-)",
+   "thalf": "153×10+3 y 5E+3"
+ },
+ {
+   "nucleus": "237NP",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "2.144×10+6 y 0.007E+6"
+ },
+ {
+   "nucleus": "236PU",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "2.858 y 0.008"
+ },
+ {
+   "nucleus": "238PU",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "87.7 y 0.1"
+ },
+ {
+   "nucleus": "239PU",
+   "elevel": "0",
+   "spin": "1/2+",
+   "thalf": "24110 y 30"
+ },
+ {
+   "nucleus": "240PU",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "6561 y 7"
+ },
+ {
+   "nucleus": "241PU",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "14.329 y 0.029"
+ },
+ {
+   "nucleus": "242PU",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "3.75×10+5 y 0.02E+5"
+ },
+ {
+   "nucleus": "244PU",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "8.13×10+7 y 0.03E+7"
+ },
+ {
+   "nucleus": "241AM",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "432.6 y 0.6"
+ },
+ {
+   "nucleus": "242AM",
+   "elevel": "48.60 0.05",
+   "spin": "5-",
+   "thalf": "141 y 2"
+ },
+ {
+   "nucleus": "243AM",
+   "elevel": "0.0",
+   "spin": "5/2-",
+   "thalf": "7364 y 22"
+ },
+ {
+   "nucleus": "243CM",
+   "elevel": "0.0",
+   "spin": "5/2+",
+   "thalf": "29.1 y 0.1"
+ },
+ {
+   "nucleus": "244CM",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "18.11 y 0.03"
+ },
+ {
+   "nucleus": "244CM",
+   "elevel": "0+X",
+   "spin": "",
+   "thalf": "> 500 ns"
+ },
+ {
+   "nucleus": "245CM",
+   "elevel": "0.0",
+   "spin": "7/2+",
+   "thalf": "8423 y 74"
+ },
+ {
+   "nucleus": "246CM",
+   "elevel": "0",
+   "spin": "0+",
+   "thalf": "4706 y 40"
+ },
+ {
+   "nucleus": "247CM",
+   "elevel": "0.0",
+   "spin": "9/2-",
+   "thalf": "1.56×10+7 y 0.05E+7"
+ },
+ {
+   "nucleus": "248CM",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "3.48×10+5 y 0.06E+5"
+ },
+ {
+   "nucleus": "250CM",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "≈ 8.3×10+3 y"
+ },
+ {
+   "nucleus": "247BK",
+   "elevel": "0.0",
+   "spin": "3/2-",
+   "thalf": "1380 y 250"
+ },
+ {
+   "nucleus": "248BK",
+   "elevel": "0.0+Z",
+   "spin": "(6+,8-)",
+   "thalf": "> 9 y"
+ },
+ {
+   "nucleus": "253BK",
+   "elevel": "X",
+   "spin": "",
+   "thalf": "> 10 m"
+ },
+ {
+   "nucleus": "249CF",
+   "elevel": "0",
+   "spin": "9/2-",
+   "thalf": "351 y 2"
+ },
+ {
+   "nucleus": "250CF",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "13.08 y 0.09"
+ },
+ {
+   "nucleus": "251CF",
+   "elevel": "0",
+   "spin": "1/2+",
+   "thalf": "898 y 44"
+ },
+ {
+   "nucleus": "252CF",
+   "elevel": "0.0",
+   "spin": "0+",
+   "thalf": "2.645 y 0.008"
+ },
+ {
+   "nucleus": "252ES",
+   "elevel": "0.0",
+   "spin": "(5-)",
+   "thalf": "471.7 d 1.9"
+ },
+ {
+   "nucleus": "255LR",
+   "elevel": "878.8+Y 1",
+   "spin": "(19/2-)",
+   "thalf": "≥ 10 ns"
+ }
+]

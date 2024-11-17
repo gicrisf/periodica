@@ -1,11 +1,14 @@
-// import { useState } from 'react'
-import { create } from 'zustand'
+import { useEffect } from 'react'
+import { create } from 'zustand';
+import { produce } from 'immer';
 
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 // import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
+
+import data from './assets/common_isotopes.min.json';
 
 const group_01_symbols: string[] = ["H", "Li", "Na", "K", "Rb", "Cs", "Fr"];
 const group_02_symbols: string[] = ["Be", "Mg", "Ca", "Sr", "Ba", "Ra"];
@@ -26,13 +29,15 @@ const group_16_symbols: string[] = ["O", "S", "Se", "Te", "Po", "Lv"];
 const group_17_symbols: string[] = ["F", "Cl", "Br", "I", "At", "Ts"];
 const group_18_symbols: string[] = ["He", "Ne", "Ar", "Kr", "Xe", "Rn", "Og"];
 
-const lanthanides_symbols: string[] = ["La", "Ce", "Pr", "Nd", "Pm", "Sm",
-                                       "Eu", "Gd", "Tb", "Dy", "Ho", "Er",
-                                       "Tm", "Yb", "Lu"];
+const lanthanides_symbols: string[] =
+  ["La", "Ce", "Pr", "Nd", "Pm", "Sm",
+   "Eu", "Gd", "Tb", "Dy", "Ho", "Er",
+   "Tm", "Yb", "Lu"];
 
-const actinides_symbols: string[] = ["Ac", "Th", "Pa", "U", "Np", "Pu",
-                                     "Am", "Cm", "Bk", "Cf", "Es", "Fm",
-                                     "Md", "No", "Lr"];
+const actinides_symbols: string[] =
+  ["Ac", "Th", "Pa", "U", "Np", "Pu",
+   "Am", "Cm", "Bk", "Cf", "Es", "Fm",
+   "Md", "No", "Lr"];
 
 interface ElementButtonProps {
   symbol: string
@@ -40,7 +45,7 @@ interface ElementButtonProps {
 }
 
 function ElementButton({ symbol, invisible } : ElementButtonProps) {
-  const { selected, selectElement } = useAppStore();
+  const { selected, isotopes, selectElement } = useAppStore();
 
   const StyledButton = styled(Button)({
     borderRadius: "8px",
@@ -152,30 +157,45 @@ function PeriodicTableGrid() {
   )
 }
 
-interface Element {
-  atomic_number: number;
+interface Isotope {
+  // atomic_number: number;
+  atomic_number: string;
   symbol: string;
-  mass_number: number;
+  // mass_number: number;
+  mass_number: string;
   relative_atomic_mass: string;
-  isotopic_composition: string;
+  isotopic_composition?: string;
   standard_atomic_weight: string;
-  notes: string;
+  notes?: string;
 }
 
 interface AppStore {
   selected: string | null;
+  isotopes: Isotope[];
   selectElement: (sym: string) => void;
 }
 
 const useAppStore = create<AppStore>()((set) => ({
   selected: null,
-  selectElement: (payload) => set(
-    { selected: payload }
-  )
+  isotopes: data,
+  selectElement: (payload) =>
+    set(produce((draft) => {
+      draft.selected = payload
+    }))
 }))
 
 function App() {
-  const { selected } = useAppStore();
+  const { selected, isotopes } = useAppStore();
+
+  let selected_isotopes;
+  let first;
+
+  useEffect(() => {
+    console.log("Selected element changed with: " + selected);
+    selected_isotopes = isotopes.filter(el => el.symbol == selected);
+    first = selected_isotopes[0];
+    console.log(selected_isotopes);
+  }, [selected]);
 
   return (
     <>

@@ -1,14 +1,13 @@
 import { useEffect } from 'react'
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer'
-// import { produce } from 'immer';
 
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 import Button from '@mui/material/Button';
 
-import data from './assets/common_isotopes.min.json';
+import common_isotopes from './assets/common_isotopes.min.json';
 
 const group_01_symbols: string[] = ["H", "Li", "Na", "K", "Rb", "Cs", "Fr"];
 const group_02_symbols: string[] = ["Be", "Mg", "Ca", "Sr", "Ba", "Ra"];
@@ -45,7 +44,7 @@ interface ElementButtonProps {
 }
 
 function ElementButton({ symbol, invisible } : ElementButtonProps) {
-  const { selected, isotopes, selectElement } = useAppStore();
+  const { selected, selectElement } = useAppStore();
 
   const StyledButton = styled(Button)({
     borderRadius: "8px",
@@ -70,7 +69,7 @@ function ElementButton({ symbol, invisible } : ElementButtonProps) {
     <Grid size={1} sx={{visibility: (invisible) ? "hidden" : "inherit" }}>
       <StyledButton
         size="small"
-        color={(symbol==selected) ? 'primary': 'inherit'}
+        color={(symbol==selected.symbol) ? 'primary': 'inherit'}
         onClick={() => {
           selectElement(symbol);
         }}>
@@ -91,7 +90,7 @@ function Group({ symbols, offset }: GroupProps) {
       return(
         Array
           .from(Array(offset).keys()) // Define a range of numbers to map
-          .map(_ => <ElementButton invisible symbol={"."}></ElementButton>)
+          .map(() => <ElementButton invisible symbol={"."}></ElementButton>)
       )
     }
   })();
@@ -169,8 +168,13 @@ interface Isotope {
   notes?: string;
 }
 
+interface Element {
+    symbol: string;
+    isotopes: Isotope[];
+}
+
 type State = {
-  selected: string | null;
+  selected: Element;
   isotopes: Isotope[];
 }
 
@@ -180,29 +184,55 @@ type Actions = {
 
 const useAppStore = create<State & Actions>()(
   immer((set) => ({
-    selected: null,
-    isotopes: data,
+    selected: {
+      symbol: "H",
+      isotopes: common_isotopes.filter(el => el.symbol == "H"),
+    },
+    isotopes: common_isotopes,
     selectElement: (payload) =>
       set((draft) => {
-        draft.selected = payload
+        draft.selected = {
+          symbol: payload,
+          isotopes: draft.isotopes.filter(el => el.symbol == payload),
+        }
       })
 })))
 
 function App() {
-  const { selected, isotopes } = useAppStore();
+  const { selected } = useAppStore();
 
-  let selected_isotopes;
-
+  // Debugging effect
   useEffect(() => {
-    console.log("Selected element changed with: " + selected);
-    selected_isotopes = isotopes.filter(el => el.symbol == selected);
-    console.log(selected_isotopes);
+    console.log(selected);
   }, [selected]);
 
   return (
     <>
       <Box sx={{ flexGrow: 1, margin: "3rem" }}>
-        <h1>{ selected }</h1>
+        <h1>{ selected.symbol }</h1>
+
+        <Grid container spacing={1} columns={4}>
+          <Grid container direction="column" spacing={1} columns={1}>
+            <Grid>Mass number</Grid>
+            {selected.isotopes.map((obj, index) => (
+              <Grid size={1} key={index}>{obj.mass_number}</Grid>
+            ))}
+          </Grid>
+          <Grid container direction="column" spacing={1} columns={1}>
+            <Grid>Relative Atomic Mass</Grid>
+            {selected.isotopes.map((obj, index) => (
+              <Grid size={1} key={index}>{obj.relative_atomic_mass}</Grid>
+            ))}
+          </Grid>
+          <Grid container direction="column" spacing={1} columns={1}>
+            <Grid>Isotopic Composition</Grid>
+            {selected.isotopes.map((obj, index) => (
+              <Grid size={1} key={index}>{obj.isotopic_composition}</Grid>
+            ))}
+          </Grid>
+        </Grid>
+
+        <Box>.</Box>
         <PeriodicTableGrid></PeriodicTableGrid>
       </Box>
     </>

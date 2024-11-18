@@ -6,6 +6,7 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 import Button from '@mui/material/Button';
+import { DataGrid } from '@mui/x-data-grid';
 
 import common_isotopes from './assets/common_isotopes.min.json';
 
@@ -186,14 +187,19 @@ const useAppStore = create<State & Actions>()(
   immer((set) => ({
     selected: {
       symbol: "H",
-      isotopes: common_isotopes.filter(el => el.symbol == "H"),
+      isotopes: common_isotopes
+        .filter(el => el.symbol == "H")
+        .map((el, idx) => ({ id: idx, ...el })),
     },
     isotopes: common_isotopes,
     selectElement: (payload) =>
       set((draft) => {
         draft.selected = {
           symbol: payload,
-          isotopes: draft.isotopes.filter(el => el.symbol == payload),
+          isotopes: draft
+            .isotopes
+            .filter(el => el.symbol == payload)
+            .map((el, idx) => ({ id: idx, ...el })),
         }
       })
 })))
@@ -206,32 +212,31 @@ function App() {
     console.log(selected);
   }, [selected]);
 
+  const columns = [
+    { field: 'mass_number', headerName: 'Mass Number', width: 130 },
+    { field: 'relative_atomic_mass', headerName: 'Relative Atomic Mass', width: 200 },
+    { field: 'isotopic_composition', headerName: 'Isotopic Composition', width: 200 },
+    { field: 'notes', headerName: 'Notes', width: 130 },
+  ];
+
   return (
     <>
       <Box sx={{ flexGrow: 1, margin: "3rem" }}>
-        <h1>{ selected.symbol }</h1>
-
-        <Grid container spacing={1} columns={4}>
-          <Grid container direction="column" spacing={1} columns={1}>
-            <Grid>Mass number</Grid>
-            {selected.isotopes.map((obj, index) => (
-              <Grid size={1} key={index}>{obj.mass_number}</Grid>
-            ))}
-          </Grid>
-          <Grid container direction="column" spacing={1} columns={1}>
-            <Grid>Relative Atomic Mass</Grid>
-            {selected.isotopes.map((obj, index) => (
-              <Grid size={1} key={index}>{obj.relative_atomic_mass}</Grid>
-            ))}
-          </Grid>
-          <Grid container direction="column" spacing={1} columns={1}>
-            <Grid>Isotopic Composition</Grid>
-            {selected.isotopes.map((obj, index) => (
-              <Grid size={1} key={index}>{obj.isotopic_composition}</Grid>
-            ))}
-          </Grid>
+        <Grid container spacing={3} columns={1}>
+          <h1>{ selected.symbol }</h1>
+          <Box sx={{ backgroundColor: "white" }}>
+            <DataGrid
+              rows={selected.isotopes}
+              columns={columns}
+              sortModel={[
+                {
+                  field: 'isotopic_composition',
+                  sort: 'desc',
+                }
+              ]}
+            />
+          </Box>
         </Grid>
-
         <Box>.</Box>
         <PeriodicTableGrid></PeriodicTableGrid>
       </Box>

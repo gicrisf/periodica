@@ -9,7 +9,9 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import { DataGrid } from '@mui/x-data-grid';
 
+// import all_isotopes from './assets/all_isotopes.min.json';
 import common_isotopes from './assets/common_isotopes.min.json';
+import spins from './assets/spins.json';
 
 const group_01_symbols: string[] = ["H", "Li", "Na", "K", "Rb", "Cs", "Fr"];
 const group_02_symbols: string[] = ["Be", "Mg", "Ca", "Sr", "Ba", "Ra"];
@@ -117,18 +119,15 @@ function ElementSquare( { selected } : ElementeSquareProps ) {
       <Grid container>
         <Grid size={12}>
           <Box sx={{ fontSize: "3rem" }}>
-            <span>{ selected.isotopes[0].atomic_number }</span>
+            <span>{ selected.atomic_number }</span>
           </Box>
         </Grid>
-        <Grid size={1}></Grid>
-        <Grid size={1}>
+        <Grid size={2}></Grid>
+        <Grid size="auto">
           <Box sx={{ fontSize: "8.2rem" }}>
             <span>{ selected.symbol }</span>
           </Box>
         </Grid>
-        <Grid size={2}></Grid>
-        <Grid size={2}></Grid>
-        <Grid size="auto"></Grid>
       </Grid>
     </Box>
   )
@@ -184,11 +183,20 @@ function PeriodicTableGrid() {
   )
 }
 
-interface Isotope {
-  // atomic_number: number;
+/* {
+ *   "atomic_number": "1",
+ *   "symbol": "H",
+ *   "mass_number": "1",
+ *   "relative_atomic_mass": "1.00782503223(9)",
+ *   "isotopic_composition": "0.999885(70)",
+ *   "standard_atomic_weight": "[1.00784,1.00811]",
+ *   "notes": "m"
+ * } */
+interface IsotopeObj {
+  // TODO atomic_number: number;
   atomic_number: string;
   symbol: string;
-  // mass_number: number;
+  // TODO mass_number: number;
   mass_number: string;
   relative_atomic_mass: string;
   isotopic_composition?: string;
@@ -196,14 +204,44 @@ interface Isotope {
   notes?: string;
 }
 
-interface Element {
-    symbol: string;
-    isotopes: Isotope[];
+/* {
+ *    "nucleus": "1H",
+ *    "elevel": "0.0",
+ *    "spin": "1/2+",
+ *    "thalf": "STABLE"
+ *  }, */
+interface SpinObj {
+  nucleus: string;
+  elevel: string;
+  spin: string;
+  // TODO thalf: thalfEnum
+  thalf: string;
+}
+
+class Element {
+  symbol: string;
+  atomic_number: string;
+  isotopes: IsotopeObj & SpinObj;
+
+  constructor(symbol: string) {
+    this.symbol = symbol;
+
+    this.isotopes = common_isotopes
+      .filter(el => el.symbol == symbol)
+      .map((el, idx) => {
+        let nucleus = el.mass_number.concat(symbol.toUpperCase());
+        let n_spins = spins.find(s => s.nucleus == nucleus);
+        return { id: idx, ...el, ...n_spins }
+      });
+
+    this.atomic_number = this.isotopes[0].atomic_number;
+  }
 }
 
 type State = {
   selected: Element;
-  isotopes: Isotope[];
+  isotopes: IsotopeObj[];
+  spins: SpinObj[];
 }
 
 type Actions = {
@@ -212,22 +250,11 @@ type Actions = {
 
 const useAppStore = create<State & Actions>()(
   immer((set) => ({
-    selected: {
-      symbol: "H",
-      isotopes: common_isotopes
-        .filter(el => el.symbol == "H")
-        .map((el, idx) => ({ id: idx, ...el })),
-    },
+    selected: new Element("H"),
     isotopes: common_isotopes,
     selectElement: (payload) =>
       set((draft) => {
-        draft.selected = {
-          symbol: payload,
-          isotopes: draft
-            .isotopes
-            .filter(el => el.symbol == payload)
-            .map((el, idx) => ({ id: idx, ...el })),
-        }
+        draft.selected = new Element(payload)
       })
 })))
 
@@ -243,6 +270,8 @@ function App() {
     { field: 'mass_number', headerName: 'Mass Number', width: 130 },
     { field: 'relative_atomic_mass', headerName: 'Relative Atomic Mass', width: 200 },
     { field: 'isotopic_composition', headerName: 'Isotopic Composition', width: 200 },
+    { field: 'spin', headerName: 'Spin', width: 200  },
+    { field: 'thalf', headerName: 'Half Life', width: 200 },
     { field: 'notes', headerName: 'Notes', width: 130 },
   ];
 
@@ -256,7 +285,7 @@ function App() {
           fontFamily: "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif",
           padding: "3rem",
         }}>
-          <Grid container spacing={3} sx={{ width: "100%" }}>
+          <Grid container spacing={3} sx={{ width: "100%", padding: "3.5rem" }}>
             <Grid size="auto" sx={{ width: 400 }}>
               <ElementSquare selected={selected}></ElementSquare>
             </Grid>

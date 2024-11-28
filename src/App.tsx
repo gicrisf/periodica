@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
+import LinearProgress, { LinearProgressProps } from '@mui/material/LinearProgress';
 import { DataGrid } from '@mui/x-data-grid';
 
 // import all_isotopes from './assets/all_isotopes.min.json';
@@ -192,7 +193,7 @@ function PeriodicTableGrid() {
  *   "standard_atomic_weight": "[1.00784,1.00811]",
  *   "notes": "m"
  * } */
-interface IsotopeObj {
+interface Isotope {
   // TODO atomic_number: number;
   atomic_number: string;
   symbol: string;
@@ -210,7 +211,7 @@ interface IsotopeObj {
  *    "spin": "1/2+",
  *    "thalf": "STABLE"
  *  }, */
-interface SpinObj {
+interface Spin {
   nucleus: string;
   elevel: string;
   spin: string;
@@ -220,7 +221,9 @@ interface SpinObj {
 class Element {
   symbol: string;
   atomic_number: string;
-  isotopes: IsotopeObj & SpinObj;
+  isotopic_composition: number;
+  relative_atomic_mass: number;
+  mass_number: number;
 
   constructor(symbol: string) {
     this.symbol = symbol;
@@ -230,17 +233,61 @@ class Element {
       .map((el, idx) => {
         let nucleus = el.mass_number.concat(symbol.toUpperCase());
         let n_spins = spins.find(s => s.nucleus == nucleus);
-        return { id: idx, ...el, ...n_spins }
-      });
 
-    this.atomic_number = this.isotopes[0].atomic_number;
+        // Ugly solution
+        if (this.atomic_number == undefined) {
+          this.atomic_number = el.atomic_number;
+        }
+
+        let isotopic_composition: number;
+        switch(el.isotopic_composition) {
+          case undefined:
+            isotopic_composition = 0;
+            break;
+          case "1":
+            isotopic_composition = 1;
+            break;
+          default:
+            isotopic_composition =
+              parseFloat(el.isotopic_composition.substring(0, 7));
+        };
+
+        let relative_atomic_mass: number;
+        switch(el.relative_atomic_mass) {
+          case undefined:
+            // shouldn't happen at all
+            relative_atomic_mass = 0;
+            break;
+          default:
+            relative_atomic_mass =
+              parseFloat(el.relative_atomic_mass.substring(0, 7));
+        };
+
+        let mass_number: number;
+        switch(el.mass_number) {
+          case undefined:
+            // shouldn't happen at all
+            mass_number = 0;
+            break;
+          default:
+            mass_number = parseInt(el.mass_number);
+        };
+
+        return {
+          id: idx,
+          mass_number: mass_number,
+          isotopic_composition: isotopic_composition,
+          relative_atomic_mass: relative_atomic_mass,
+          ...n_spins
+        }
+      });
   }
 }
 
 type State = {
   selected: Element;
-  isotopes: IsotopeObj[];
-  spins: SpinObj[];
+  isotopes: Isotope[];
+  spins: Spin[];
 }
 
 type Actions = {

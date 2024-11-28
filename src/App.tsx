@@ -115,8 +115,8 @@ interface ElementSquareProps {
 
 function ElementSquare( { selected } : ElementeSquareProps ) {
   return (
-    <Box>
-      <Grid container>
+    <Box sx={{ border: "1px solid black" }}>
+      <Grid container sx={{ padding: "1.5rem" }}>
         <Grid size={12}>
           <Box sx={{ fontSize: "3rem" }}>
             <span>{ selected.atomic_number }</span>
@@ -214,7 +214,6 @@ interface SpinObj {
   nucleus: string;
   elevel: string;
   spin: string;
-  // TODO thalf: thalfEnum
   thalf: string;
 }
 
@@ -289,7 +288,7 @@ function App() {
             <Grid size="grow">
               <ElementSquare selected={selected}></ElementSquare>
             </Grid>
-            <Grid size="auto" sx={{ height: 400 }}>
+            <Grid size="auto" sx={{ height: 268 }}>
                 <DataGrid
                   rows={selected.isotopes}
                   columns={columns}

@@ -6,6 +6,7 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
 import { DataGrid } from '@mui/x-data-grid';
 
 import common_isotopes from './assets/common_isotopes.min.json';
@@ -49,8 +50,7 @@ function ElementButton({ symbol, invisible } : ElementButtonProps) {
 
   const StyledButton = styled(Button)({
     borderRadius: "8px",
-    border: "1px solid transparent",
-    backgroundColor: "#1a1a1a",
+    border: "1px solid ",
     textTransform: "inherit",
     cursor: "pointer",
     transition: "border-color 0.25s",
@@ -107,6 +107,33 @@ function Group({ symbols, offset }: GroupProps) {
   )
 }
 
+interface ElementSquareProps {
+  selected: Element
+}
+
+function ElementSquare( { selected } : ElementeSquareProps ) {
+  return (
+    <Box>
+      <Grid container>
+        <Grid size={12}>
+          <Box sx={{ fontSize: "3rem" }}>
+            <span>{ selected.isotopes[0].atomic_number }</span>
+          </Box>
+        </Grid>
+        <Grid size={1}></Grid>
+        <Grid size={1}>
+          <Box sx={{ fontSize: "8.2rem" }}>
+            <span>{ selected.symbol }</span>
+          </Box>
+        </Grid>
+        <Grid size={2}></Grid>
+        <Grid size={2}></Grid>
+        <Grid size="auto"></Grid>
+      </Grid>
+    </Box>
+  )
+}
+
 function PeriodicTableGrid() {
   // Special treatment for lanthanides and actinides
   const invisible_buttons = Array
@@ -121,7 +148,7 @@ function PeriodicTableGrid() {
 
   return (
     <Box>
-      <Grid container spacing={1} columns={18}>
+      <Grid container spacing={1} columns={18} justifyContent="center">
         <Group symbols={group_01_symbols}></Group>
         <Group symbols={group_02_symbols} offset={1}></Group>
         <Group symbols={group_03_symbols} offset={3}></Group>
@@ -143,7 +170,7 @@ function PeriodicTableGrid() {
       </Grid>
 
       <Box sx={{ height: ".5rem" }}></Box>
-      <Grid container spacing={1} columns={10}>
+      <Grid container spacing={1} columns={10} justifyContent="center">
         <Grid container direction='row' spacing={1} columns={18}>
           {invisible_buttons}
           {lanthanides_buttons}
@@ -221,25 +248,37 @@ function App() {
 
   return (
     <>
-      <Box sx={{ flexGrow: 1, margin: "3rem" }}>
-        <Grid container spacing={3} columns={1}>
-          <h1>{ selected.symbol }</h1>
-          <Box sx={{ backgroundColor: "white" }}>
-            <DataGrid
-              rows={selected.isotopes}
-              columns={columns}
-              sortModel={[
-                {
-                  field: 'isotopic_composition',
-                  sort: 'desc',
-                }
-              ]}
-            />
-          </Box>
+      <Container maxWidth="xl">
+      <Grid container spacing={3} direction='row' columns={2}>
+        <Grid container spacing={3} columns={2}
+          sx={{
+          flexGrow: 1,
+          fontFamily: "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif",
+          padding: "3rem",
+        }}>
+          <Grid container spacing={3} sx={{ width: "100%" }}>
+            <Grid size="auto" sx={{ width: 400 }}>
+              <ElementSquare selected={selected}></ElementSquare>
+            </Grid>
+            <Grid size="auto" sx={{ height: 400 }}>
+                <DataGrid
+                  rows={selected.isotopes}
+                  columns={columns}
+                  sortModel={[
+                    {
+                      field: 'isotopic_composition',
+                      sort: 'desc',
+                  }
+                  ]}
+              />
+            </Grid>
+          </Grid>
+          <Grid size={18}>
+            <PeriodicTableGrid></PeriodicTableGrid>
+          </Grid>
         </Grid>
-        <Box>.</Box>
-        <PeriodicTableGrid></PeriodicTableGrid>
-      </Box>
+      </Grid>
+      </Container>
     </>
   )
 }

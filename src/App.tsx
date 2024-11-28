@@ -286,7 +286,7 @@ function App() {
           padding: "3rem",
         }}>
           <Grid container spacing={3} sx={{ width: "100%", padding: "3.5rem" }}>
-            <Grid size="auto" sx={{ width: 400 }}>
+            <Grid size="grow">
               <ElementSquare selected={selected}></ElementSquare>
             </Grid>
             <Grid size="auto" sx={{ height: 400 }}>

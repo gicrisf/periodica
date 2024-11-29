@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { useEffect } from 'react'
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer'
@@ -8,7 +9,8 @@ import Grid from '@mui/material/Grid2';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import LinearProgress, { LinearProgressProps } from '@mui/material/LinearProgress';
-import { DataGrid } from '@mui/x-data-grid';
+import { DataGrid, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
+import { TouchRippleActions } from '@mui/material/ButtonBase/TouchRipple';
 
 // import all_isotopes from './assets/all_isotopes.min.json';
 import common_isotopes from './assets/common_isotopes.min.json';
@@ -116,7 +118,7 @@ interface ElementSquareProps {
 
 function ElementSquare( { selected } : ElementeSquareProps ) {
   return (
-    <Box sx={{ border: "1px solid black" }}>
+    <Box>
       <Grid container sx={{ padding: "1.5rem" }}>
         <Grid size={12}>
           <Box sx={{ fontSize: "3rem" }}>
@@ -132,6 +134,45 @@ function ElementSquare( { selected } : ElementeSquareProps ) {
       </Grid>
     </Box>
   )
+}
+
+function RenderBtn(props: GridRenderCellParams<any, number>) {
+  const { hasFocus, value } = props;
+  const buttonElement = React.useRef<HTMLButtonElement>(null);
+  const rippleRef = React.useRef<TouchRippleActions>(null);
+
+  React.useLayoutEffect(() => {
+    if (hasFocus) {
+      const input = buttonElement.current!.querySelector('input');
+      input?.focus();
+    } else if (rippleRef.current) {
+      // Only available in @mui/material v5.4.1 or later
+      rippleRef.current.stop({} as any);
+    }
+  }, [hasFocus]);
+
+  return (
+    <Button
+      ref={buttonElement}
+      touchRippleRef={rippleRef}
+      variant="contained"
+      size="small"
+      style={{ marginLeft: 16 }}
+      // Remove button from tab sequence when cell does not have focus
+      tabIndex={hasFocus ? 0 : -1}
+      onKeyDown={(event: React.KeyboardEvent) => {
+        if (event.key === ' ') {
+          // Prevent key navigation when focus is on button
+          event.stopPropagation();
+        }
+      }}
+      onClick={() => {
+        console.log("pressed: " + value);
+      }}
+    >
+      {value}
+    </Button>
+  );
 }
 
 function PeriodicTableGrid() {
@@ -358,13 +399,15 @@ function App() {
     console.log(selected);
   }, [selected]);
 
-  const columns = [
+  const columns: GridColDef[] = [
     { field: 'mass_number', headerName: 'Mass Number', width: 130 },
     { field: 'relative_atomic_mass', headerName: 'Relative Atomic Mass', width: 200 },
-    { field: 'isotopic_composition', headerName: 'Isotopic Composition', width: 200 },
+    { field: 'isotopic_composition',
+      headerName: 'Isotopic Composition',
+      renderCell: (params: GridRenderCellParams<any, number>) => <RenderBtn value={params.value}></RenderBtn>,
+    },
     { field: 'spin', headerName: 'Spin', width: 200  },
     { field: 'thalf', headerName: 'Half Life', width: 200 },
-    { field: 'notes', headerName: 'Notes', width: 130 },
   ];
 
   return (

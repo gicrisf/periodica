@@ -194,15 +194,42 @@ function PeriodicTableGrid() {
  *   "notes": "m"
  * } */
 interface Isotope {
-  // TODO atomic_number: number;
   atomic_number: string;
   symbol: string;
-  // TODO mass_number: number;
   mass_number: string;
   relative_atomic_mass: string;
   isotopic_composition?: string;
   standard_atomic_weight: string;
   notes?: string;
+}
+
+
+
+/* g: Geological materials
+/are known in which the element has an isotopic composition outside the limits for normal material.
+/The difference between the atomic weight of the element in such materials and
+/that given in the table may exceed the stated uncertainty.
+ * m: Modified isotopic compositions may be found in commercially available material because
+/the material has been subjected to an undisclosed or inadvertent isotopic fractionation.
+/Substantial deviations in atomic weight of the element from that given in the table can occur.
+ * r: Range in isotopic composition of normal terrestrial material prevents a more precise
+/standard atomic weight being given; the tabulated atomic-weight value and uncertainty
+/should be applicable to normal materials.
+ */
+type Note = "g" | "m" | "r";
+
+// Imagine this is implemented specifically into Note
+function serializeNote(note: Note): string {
+  switch(note) {
+      case "g":
+          return "Geological materials are known in which the element has an isotopic composition outside the limits for normal material. The difference between the atomic weight of the element in such materials and that given in the table may exceed the stated uncertainty.";
+      case "m":
+          return "Modified isotopic compositions may be found in commercially available material because the material has been subjected to an undisclosed or inadvertent isotopic fractionation. Substantial deviations in atomic weight of the element from that given in the table can occur."
+      case "r":
+          return "Range in isotopic composition of normal terrestrial material prevents a more precise standard atomic weight being given; the tabulated atomic-weight value and uncertainty should be applicable to normal materials."
+      default:
+          return "Not a note"
+  }
 }
 
 /* {
@@ -221,9 +248,8 @@ interface Spin {
 class Element {
   symbol: string;
   atomic_number: string;
-  isotopic_composition: number;
-  relative_atomic_mass: number;
-  mass_number: number;
+  standard_atomic_weight: string;
+  notes: Note[];
 
   constructor(symbol: string) {
     this.symbol = symbol;
@@ -237,6 +263,26 @@ class Element {
         // Ugly solution
         if (this.atomic_number == undefined) {
           this.atomic_number = el.atomic_number;
+        }
+
+        if (this.standard_atomic_weight == undefined) {
+          this.standard_atomic_weight = el.standard_atomic_weight;
+        }
+
+        // It should be an enum, clearly
+        if (this.notes == undefined) {
+          // I start by collecting an array of strings
+          let notes: string[];
+          switch(el.notes) {
+            case undefined:
+              notes = [];
+              break;
+            default:
+              notes = el.notes.split(",");
+          };
+          // Now, I enforce the type Note[]
+          // leveraging the class property
+          this.notes = notes;
         }
 
         let isotopic_composition: number;

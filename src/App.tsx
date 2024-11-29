@@ -134,6 +134,19 @@ function ElementSquare( { selected } : ElementeSquareProps ) {
   )
 }
 
+function LinearProgressWithLabel(props: LinearProgressProps & { value: number }) {
+  return (
+    <Box sx={{ display: 'flex', alignItems: 'center' }}>
+      <Box sx={{ width: '100%', mr: 1 }}>
+        <LinearProgress variant="determinate" {...props} />
+      </Box>
+      <Box sx={{ minWidth: 35 }}>
+        <span>{`${props.value.toFixed(2)}%`}</span>
+      </Box>
+    </Box>
+  );
+}
+
 function PeriodicTableGrid() {
   // Special treatment for lanthanides and actinides
   const invisible_buttons = Array
@@ -363,9 +376,9 @@ function App() {
     { field: 'relative_atomic_mass', headerName: 'Relative Atomic Mass', width: 200 },
     { field: 'isotopic_composition',
       headerName: 'Isotopic Composition',
-      width: 200,
+      width: 250,
       renderCell: (params: GridRenderCellParams<any, number>) =>
-        <LinearProgress value={params.value}></LinearProgress>
+        <LinearProgressWithLabel value={ params.value ? params.value*100 : 0.0}></LinearProgressWithLabel>
     },
     { field: 'spin', headerName: 'Spin', width: 200  },
     { field: 'thalf', headerName: 'Half Life', width: 200 },

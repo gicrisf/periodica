@@ -94,13 +94,14 @@ function Group({ symbols, offset }: GroupProps) {
       return(
         Array
           .from(Array(offset).keys()) // Define a range of numbers to map
-          .map(() => <ElementButton invisible symbol={"."}></ElementButton>)
+          .map((_, idx) => <ElementButton symbol={idx.toString()} invisible
+                                          key={idx.toString()}></ElementButton>)
       )
     }
   })();
 
   const buttons = symbols
-    .map(el => <ElementButton symbol={el}></ElementButton>);
+    .map(el => <ElementButton key={el} symbol={el}></ElementButton>);
 
   return(
     <Grid container direction="column" spacing={1} columns={1}>
@@ -151,35 +152,36 @@ function PeriodicTableGrid() {
   // Special treatment for lanthanides and actinides
   const invisible_buttons = Array
     .from(Array(3).keys())
-    .map(_ => <ElementButton invisible symbol={"."}></ElementButton>);
+    .map((_, idx) => <ElementButton key={idx.toString()} invisible symbol={"."}></ElementButton>);
 
   const lanthanides_buttons = lanthanides_symbols
-    .map(el => <ElementButton symbol={el}></ElementButton>);
+    .map(el => <ElementButton key={el} symbol={el}></ElementButton>);
 
   const actinides_buttons = actinides_symbols
-    .map(el => <ElementButton symbol={el}></ElementButton>);
+    .map(el => <ElementButton key={el} symbol={el}></ElementButton>);
 
+  // (Keys aren't actually mandatory in the following groups)
   return (
     <Box>
       <Grid container spacing={1} columns={18} justifyContent="center">
-        <Group symbols={group_01_symbols}></Group>
-        <Group symbols={group_02_symbols} offset={1}></Group>
-        <Group symbols={group_03_symbols} offset={3}></Group>
-        <Group symbols={group_04_symbols} offset={3}></Group>
-        <Group symbols={group_05_symbols} offset={3}></Group>
-        <Group symbols={group_06_symbols} offset={3}></Group>
-        <Group symbols={group_07_symbols} offset={3}></Group>
-        <Group symbols={group_08_symbols} offset={3}></Group>
-        <Group symbols={group_09_symbols} offset={3}></Group>
-        <Group symbols={group_10_symbols} offset={3}></Group>
-        <Group symbols={group_11_symbols} offset={3}></Group>
-        <Group symbols={group_12_symbols} offset={3}></Group>
-        <Group symbols={group_13_symbols} offset={1}></Group>
-        <Group symbols={group_14_symbols} offset={1}></Group>
-        <Group symbols={group_15_symbols} offset={1}></Group>
-        <Group symbols={group_16_symbols} offset={1}></Group>
-        <Group symbols={group_17_symbols} offset={1}></Group>
-        <Group symbols={group_18_symbols}></Group>
+        <Group key="Group01" symbols={group_01_symbols}></Group>
+        <Group key="Group02" symbols={group_02_symbols} offset={1}></Group>
+        <Group key="Group03" symbols={group_03_symbols} offset={3}></Group>
+        <Group key="Group04" symbols={group_04_symbols} offset={3}></Group>
+        <Group key="Group05" symbols={group_05_symbols} offset={3}></Group>
+        <Group key="Group06" symbols={group_06_symbols} offset={3}></Group>
+        <Group key="Group07" symbols={group_07_symbols} offset={3}></Group>
+        <Group key="Group08" symbols={group_08_symbols} offset={3}></Group>
+        <Group key="Group09" symbols={group_09_symbols} offset={3}></Group>
+        <Group key="Group10" symbols={group_10_symbols} offset={3}></Group>
+        <Group key="Group11" symbols={group_11_symbols} offset={3}></Group>
+        <Group key="Group12" symbols={group_12_symbols} offset={3}></Group>
+        <Group key="Group13" symbols={group_13_symbols} offset={1}></Group>
+        <Group key="Group14" symbols={group_14_symbols} offset={1}></Group>
+        <Group key="Group15" symbols={group_15_symbols} offset={1}></Group>
+        <Group key="Group16" symbols={group_16_symbols} offset={1}></Group>
+        <Group key="Group17" symbols={group_17_symbols} offset={1}></Group>
+        <Group key="Group18" symbols={group_18_symbols}></Group>
       </Grid>
 
       <Box sx={{ height: ".5rem" }}></Box>

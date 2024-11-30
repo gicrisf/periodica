@@ -114,7 +114,7 @@ interface ElementSquareProps {
   selected: Element
 }
 
-function ElementSquare( { selected } : ElementeSquareProps ) {
+function ElementSquare( { selected } : ElementSquareProps ) {
   return (
     <Box>
       <Grid container sx={{ padding: "1.5rem" }}>
@@ -216,8 +216,6 @@ interface Isotope {
   notes?: string;
 }
 
-
-
 /* g: Geological materials
 /are known in which the element has an isotopic composition outside the limits for normal material.
 /The difference between the atomic weight of the element in such materials and
@@ -229,9 +227,10 @@ interface Isotope {
 /standard atomic weight being given; the tabulated atomic-weight value and uncertainty
 /should be applicable to normal materials.
  */
-type Note = "g" | "m" | "r";
+type Note = "g" | "m" | "r" | undefined;
 
 // Imagine this is implemented specifically into Note
+// TODO Use it only on place as a lambda when needed
 function serializeNote(note: Note): string {
   switch(note) {
       case "g":
@@ -258,14 +257,33 @@ interface Spin {
   thalf: string;
 }
 
+// Isotope interface after the conversions
+// into the Element constructor
+// We build this by matching the Isotope var
+// with an expected Spin into the dataset
+// This search shouldn't fail, but could fail;
+// that's why we keep the spin fields optional.
+interface ElIsotope {
+  id: number,
+  mass_number: number,
+  isotopic_composition: number,
+  relative_atomic_mass: number,
+  nucleus?: string | undefined;
+  elevel?: string | undefined;
+  spin?: string | undefined;
+  thalf?: string | undefined;
+}
+
 class Element {
   symbol: string;
-  atomic_number: string;
-  standard_atomic_weight: string;
+  atomic_number: string | undefined;
+  standard_atomic_weight: string | undefined;
   notes: Note[];
+  isotopes: ElIsotope[];
 
   constructor(symbol: string) {
     this.symbol = symbol;
+    this.notes = []; // Type-safe fallback
 
     this.isotopes = common_isotopes
       .filter(el => el.symbol == symbol)
@@ -273,7 +291,7 @@ class Element {
         let nucleus = el.mass_number.concat(symbol.toUpperCase());
         let n_spins = spins.find(s => s.nucleus == nucleus);
 
-        // Ugly solution
+        // Ugly solution to get these values out of here
         if (this.atomic_number == undefined) {
           this.atomic_number = el.atomic_number;
         }
@@ -283,7 +301,7 @@ class Element {
         }
 
         // It should be an enum, clearly
-        if (this.notes == undefined) {
+        if (this.notes.length === 0) {
           // I start by collecting an array of strings
           let notes: string[];
           switch(el.notes) {
@@ -293,9 +311,19 @@ class Element {
             default:
               notes = el.notes.split(",");
           };
-          // Now, I enforce the type Note[]
-          // leveraging the class property
-          this.notes = notes;
+          // Now, I enforce the type Note on the array values
+          this.notes = notes.map((n: string): Note => {
+            switch(n) {
+              case "g":
+                return "g"
+              case "m":
+                return "m"
+              case "r":
+                return "m"
+              default:
+                return undefined
+            }
+          });
         }
 
         let isotopic_composition: number;
@@ -345,6 +373,7 @@ class Element {
 
 type State = {
   selected: Element;
+  elements: Element[];
   isotopes: Isotope[];
   spins: Spin[];
 }
@@ -356,10 +385,18 @@ type Actions = {
 const useAppStore = create<State & Actions>()(
   immer((set) => ({
     selected: new Element("H"),
-    isotopes: common_isotopes,
+    elements: [],
     selectElement: (payload) =>
       set((draft) => {
-        draft.selected = new Element(payload)
+        let element = draft.elements.find(e => e.symbol == payload);
+        switch (element) {
+          case undefined:
+            draft.selected = new Element(payload);  // new selection
+            draft.elements.push(draft.selected);  // add to cache
+            break;
+          default:
+            draft.selected = element;  // Use cached element
+        };
       })
 })))
 
@@ -376,11 +413,11 @@ function App() {
     { field: 'relative_atomic_mass', headerName: 'Relative Atomic Mass', width: 200 },
     { field: 'isotopic_composition',
       headerName: 'Isotopic Composition',
-      width: 250,
+      width: 300,
       renderCell: (params: GridRenderCellParams<any, number>) =>
         <LinearProgressWithLabel value={ params.value ? params.value*100 : 0.0}></LinearProgressWithLabel>
     },
-    { field: 'spin', headerName: 'Spin', width: 200  },
+    { field: 'spin', headerName: 'Spin', width: 100  },
     { field: 'thalf', headerName: 'Half Life', width: 200 },
   ];
 

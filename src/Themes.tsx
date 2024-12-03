@@ -1,13 +1,17 @@
 import { createTheme } from '@mui/material/styles';
 
-export const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
+export const basicTheme = createTheme({
+  cssVariables: {
+    colorSchemeSelector: 'data-toolpad-color-scheme',
   },
-});
-
-export const lightTheme = createTheme({
-  palette: {
-    mode: 'light',
+  colorSchemes: { light: true, dark: true },
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 500,
+      lg: 1200,
+      xl: 1536,
+    },
   },
 });

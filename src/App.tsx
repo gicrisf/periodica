@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer'
 
-import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
+import { ThemeProvider, styled } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
@@ -14,18 +14,7 @@ import { DataGrid, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
 // import all_isotopes from './assets/all_isotopes.min.json';
 import common_isotopes from './assets/common_isotopes.min.json';
 import spins from './assets/spins.json';
-
-const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
-  },
-});
-
-const lightTheme = createTheme({
-  palette: {
-    mode: 'light',
-  },
-});
+import { darkTheme, lightTheme } from './Themes';
 
 const group_01_symbols: string[] = ["H", "Li", "Na", "K", "Rb", "Cs", "Fr"];
 const group_02_symbols: string[] = ["Be", "Mg", "Ca", "Sr", "Ba", "Ra"];
@@ -423,22 +412,11 @@ const useAppStore = create<State & Actions>()(
       })
 })))
 
-function App() {
-  const { selected, themeName } = useAppStore();
-  const [ theme, selectTheme ] = useState(lightTheme);
-
-  // Debugging effects
-  useEffect(() => {
-    console.log(selected);
-  }, [selected]);
-
-  useEffect(() => {
-    console.log(theme);
-  }, [theme]);
-
+function useSelectedTheme(themeName: string) {
   // Change theme according to its name
   // The alternative is storing the whole theme in Zustand
   // This would let us avoid zustand at all
+  const [ theme, selectTheme ] = useState(lightTheme);
   useEffect(() => {
     switch (themeName) {
       case "light":
@@ -454,6 +432,18 @@ function App() {
         selectTheme(lightTheme);
     };
   }, [themeName]);
+
+  return theme;
+}
+
+function App() {
+  const { selected, themeName } = useAppStore();
+  const theme = useSelectedTheme(themeName);
+
+  // Debugging effects
+  useEffect(() => {
+    console.log(selected);
+  }, [selected]);
 
   const columns: GridColDef[] = [
     { field: 'mass_number', headerName: 'Mass Number', width: 130 },

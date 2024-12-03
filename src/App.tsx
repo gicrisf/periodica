@@ -1,8 +1,9 @@
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer'
 
-import { styled } from '@mui/material/styles';
+import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 import Button from '@mui/material/Button';
@@ -13,6 +14,18 @@ import { DataGrid, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
 // import all_isotopes from './assets/all_isotopes.min.json';
 import common_isotopes from './assets/common_isotopes.min.json';
 import spins from './assets/spins.json';
+
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
+
+const lightTheme = createTheme({
+  palette: {
+    mode: 'light',
+  },
+});
 
 const group_01_symbols: string[] = ["H", "Li", "Na", "K", "Rb", "Cs", "Fr"];
 const group_02_symbols: string[] = ["Be", "Mg", "Ca", "Sr", "Ba", "Ra"];
@@ -378,16 +391,19 @@ type State = {
   elements: Element[];
   isotopes: Isotope[];
   spins: Spin[];
+  themeName: string;
 }
 
 type Actions = {
-  selectElement: (sym: string) => void
+  selectElement: (payload: string) => void
+  selectThemeName: (payload: string) => void
 }
 
 const useAppStore = create<State & Actions>()(
   immer((set) => ({
     selected: new Element("H"),
     elements: [],
+    themeName: "light",
     selectElement: (payload) =>
       set((draft) => {
         let element = draft.elements.find(e => e.symbol == payload);
@@ -399,16 +415,45 @@ const useAppStore = create<State & Actions>()(
           default:
             draft.selected = element;  // Use cached element
         };
+      }),
+    selectThemeName: (payload) =>
+      // Just change the string with the new theme name
+      set((draft) => {
+        draft.themeName = payload;
       })
 })))
 
 function App() {
-  const { selected } = useAppStore();
+  const { selected, themeName } = useAppStore();
+  const [ theme, selectTheme ] = useState(lightTheme);
 
-  // Debugging effect
+  // Debugging effects
   useEffect(() => {
     console.log(selected);
   }, [selected]);
+
+  useEffect(() => {
+    console.log(theme);
+  }, [theme]);
+
+  // Change theme according to its name
+  // The alternative is storing the whole theme in Zustand
+  // This would let us avoid zustand at all
+  useEffect(() => {
+    switch (themeName) {
+      case "light":
+        console.log("Theme changed into lightTheme");
+        selectTheme(lightTheme);
+        break;
+      case "dark":
+        console.log("Theme changed into darkTheme");
+        selectTheme(darkTheme);
+        break;
+      default:
+        console.log("Theme changed into default");
+        selectTheme(lightTheme);
+    };
+  }, [themeName]);
 
   const columns: GridColDef[] = [
     { field: 'mass_number', headerName: 'Mass Number', width: 130 },
@@ -425,37 +470,40 @@ function App() {
 
   return (
     <>
-      <Container maxWidth="xl">
-      <Grid container spacing={3} direction='row' columns={2}>
-        <Grid container spacing={3} columns={2}
-          sx={{
-          flexGrow: 1,
-          fontFamily: "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif",
-          padding: "3rem",
-        }}>
-          <Grid container spacing={3} sx={{ width: "100%", padding: "3.5rem" }}>
-            <Grid size="grow">
-              <ElementSquare selected={selected}></ElementSquare>
-            </Grid>
-            <Grid size="auto" sx={{ height: 268 }}>
-                <DataGrid
-                  rows={selected.isotopes}
-                  columns={columns}
-                  sortModel={[
-                    {
-                      field: 'isotopic_composition',
-                      sort: 'desc',
-                  }
-                  ]}
-              />
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Container maxWidth="xl">
+          <Grid container spacing={3} direction='row' columns={2}>
+            <Grid container spacing={3} columns={2}
+                  sx={{
+                    flexGrow: 1,
+                    fontFamily: "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif",
+                    padding: "3rem",
+                  }}>
+              <Grid container spacing={3} sx={{ width: "100%", padding: "3.5rem" }}>
+                <Grid size="grow">
+                  <ElementSquare selected={selected}></ElementSquare>
+                </Grid>
+                <Grid size="auto" sx={{ height: 268 }}>
+                  <DataGrid
+                    rows={selected.isotopes}
+                    columns={columns}
+                    sortModel={[
+                      {
+                        field: 'isotopic_composition',
+                        sort: 'desc',
+                      }
+                    ]}
+                  />
+                </Grid>
+              </Grid>
+              <Grid size={18}>
+                <PeriodicTableGrid></PeriodicTableGrid>
+              </Grid>
             </Grid>
           </Grid>
-          <Grid size={18}>
-            <PeriodicTableGrid></PeriodicTableGrid>
-          </Grid>
-        </Grid>
-      </Grid>
-      </Container>
+        </Container>
+      </ThemeProvider>
     </>
   )
 }

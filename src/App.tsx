@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 // TODO Integrate when the guys at MUI publish the new version
 // https://github.com/mui/toolpad/issues/4270
 // import { AppProvider, type Navigation } from '@toolpad/core/react-router-dom';
-
 // In the meantime,
 import { AppProvider, type Navigation } from '@toolpad/core/AppProvider';
 import { DashboardLayout } from '@toolpad/core/DashboardLayout';

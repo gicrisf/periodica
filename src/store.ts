@@ -22,10 +22,12 @@ const useAppStore = create<State & Actions>()(
   immer((set) => ({
     selected: new Element("H"),
     elements: [],
+    isotopes: [],
+    spins: [],
     themeName: "light",
     selectElement: (payload) =>
       set((draft) => {
-        let element = draft.elements.find(e => e.symbol == payload);
+        const element = draft.elements.find(e => e.symbol == payload);
         switch (element) {
           case undefined:
             draft.selected = new Element(payload);  // new selection

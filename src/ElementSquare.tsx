@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
-import { Element } from "./App";
+import { Element } from "./Element";
 
 interface ElementSquareProps {
   selected: Element

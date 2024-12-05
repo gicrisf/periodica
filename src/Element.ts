@@ -17,18 +17,18 @@ type Note = "g" | "m" | "r" | undefined;
 
 // Imagine this is implemented specifically into Note
 // TODO Use it only on place as a lambda when needed
-function serializeNote(note: Note): string {
-  switch(note) {
-      case "g":
-          return "Geological materials are known in which the element has an isotopic composition outside the limits for normal material. The difference between the atomic weight of the element in such materials and that given in the table may exceed the stated uncertainty.";
-      case "m":
-          return "Modified isotopic compositions may be found in commercially available material because the material has been subjected to an undisclosed or inadvertent isotopic fractionation. Substantial deviations in atomic weight of the element from that given in the table can occur."
-      case "r":
-          return "Range in isotopic composition of normal terrestrial material prevents a more precise standard atomic weight being given; the tabulated atomic-weight value and uncertainty should be applicable to normal materials."
-      default:
-          return "Not a note"
-  }
-}
+// function serializeNote(note: Note): string {
+//   switch(note) {
+//       case "g":
+//           return "Geological materials are known in which the element has an isotopic composition outside the limits for normal material. The difference between the atomic weight of the element in such materials and that given in the table may exceed the stated uncertainty.";
+//       case "m":
+//           return "Modified isotopic compositions may be found in commercially available material because the material has been subjected to an undisclosed or inadvertent isotopic fractionation. Substantial deviations in atomic weight of the element from that given in the table can occur."
+//       case "r":
+//           return "Range in isotopic composition of normal terrestrial material prevents a more precise standard atomic weight being given; the tabulated atomic-weight value and uncertainty should be applicable to normal materials."
+//       default:
+//           return "Not a note"
+//   }
+// }
 
 // Isotope interface after the conversions
 // into the Element constructor

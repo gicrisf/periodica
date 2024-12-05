@@ -1,21 +1,23 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 
-import { Outlet } from 'react-router-dom';
-
 // MUI
 import DashboardIcon from '@mui/icons-material/Dashboard';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
+// TODO Remove me asap (you're using a quick placeholder icon)
+import Box from '@mui/material/Box';
 
 // TODO Integrate when the guys at MUI publish the new version
 // https://github.com/mui/toolpad/issues/4270
 // import { AppProvider, type Navigation } from '@toolpad/core/react-router-dom';
 // In the meantime,
-import { AppProvider, type Navigation } from '@toolpad/core/AppProvider';
+import { AppProvider } from '@toolpad/core/react-router-dom';
+import { type Navigation } from '@toolpad/core/AppProvider';
 
-// TODO Remove me asap (you're using a quick placeholder icon)
-import Box from '@mui/material/Box';
+import { Outlet } from 'react-router-dom';
 
-// Internal
+// Internals
 import { basicTheme } from './Themes';
 import useAppStore from './store';
 
@@ -31,7 +33,7 @@ const navigation: Navigation = [
   {
     segment: 'settings',
     title: 'Settings',
-    icon: <DashboardIcon />,
+    icon: <ShoppingCartIcon />,
   },
 ];
 

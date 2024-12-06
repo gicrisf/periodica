@@ -1,5 +1,5 @@
-// import all_isotopes from './assets/all_isotopes.min.json';
-import common_isotopes from './assets/common_isotopes.min.json';
+import all_isotopes from './assets/all_isotopes.min.json';
+// import common_isotopes from './assets/common_isotopes.min.json';
 import spins from './assets/spins.json';
 
 /* g: Geological materials
@@ -31,45 +31,61 @@ type Note = "g" | "m" | "r" | undefined;
 // }
 
 // Isotope interface after the conversions
+//
+// NOT THE SAME AS ISOTOPE in `Isotope.ts`!
+//
 // into the Element constructor
 // We build this by matching the Isotope var
 // with an expected Spin into the dataset
 // This search shouldn't fail, but could fail;
 // that's why we keep the spin fields optional.
-interface ElIsotope {
+interface Isotope {
   id: number,
   mass_number: number,
   isotopic_composition: number,
   relative_atomic_mass: number,
-  nucleus?: string | undefined;
-  elevel?: string | undefined;
-  spin?: string | undefined;
-  thalf?: string | undefined;
+  nucleus: string;
+  elevel: string;
+  spin: string;
+  thalf: string;
 }
 
 export class Element {
   symbol: string;
-  atomic_number: string | undefined;
-  standard_atomic_weight: string | undefined;
+  atomic_number: string;
+  standard_atomic_weight: string;
   notes: Note[];
-  isotopes: ElIsotope[];
+  isotopes: Isotope[];
 
   constructor(symbol: string) {
     this.symbol = symbol;
-    this.notes = []; // Type-safe fallback
+    // Fallbacks
+    this.notes = [];
+    this.atomic_number = "0";
+    this.standard_atomic_weight = "0.0";
 
-    this.isotopes = common_isotopes
+    this.isotopes = all_isotopes
       .filter(el => el.symbol == symbol)
       .map((el, idx) => {
-        let nucleus = el.mass_number.concat(symbol.toUpperCase());
+        const nucleus = el.mass_number.concat(symbol.toUpperCase());
         let n_spins = spins.find(s => s.nucleus == nucleus);
 
+        // Fallback for n_spins
+        if (n_spins == undefined) {
+          n_spins = {
+            nucleus: nucleus,
+            elevel: "?",
+            spin: "?",
+            thalf: "?",
+          }
+        };
+
         // Ugly solution to get these values out of here
-        if (this.atomic_number == undefined) {
+        if (this.atomic_number == "0") {
           this.atomic_number = el.atomic_number;
         }
 
-        if (this.standard_atomic_weight == undefined) {
+        if (this.standard_atomic_weight == "0.0") {
           this.standard_atomic_weight = el.standard_atomic_weight;
         }
 

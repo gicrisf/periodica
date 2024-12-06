@@ -2,15 +2,11 @@ import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
 import { devtools } from 'zustand/middleware';
 
-import Isotope from './Isotope';
-import Spin from './Spin';
 import Element from './Element';
 
 type State = {
   selected: Element;
   elements: Element[];
-  isotopes: Isotope[];
-  spins: Spin[];
   themeName: string;
 }
 
@@ -24,8 +20,6 @@ const useAppStore = create<State & Actions>()(
     immer((set) => ({
       selected: new Element("H"),
       elements: [],
-      isotopes: [],
-      spins: [],
       themeName: "light",
       selectElement: (payload) =>
         set((draft) => {

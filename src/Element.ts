@@ -2,6 +2,10 @@ import all_isotopes from './assets/all_isotopes.min.json';
 // import common_isotopes from './assets/common_isotopes.min.json';
 import spins from './assets/spins.json';
 
+// I assume everything is parsed as string when deserializing the JSON
+// The type-checking is done in the Element constructor
+// (that's why I removed original Isotope and Spin interfaces)
+
 /* g: Geological materials
 /are known in which the element has an isotopic composition outside the limits for normal material.
 /The difference between the atomic weight of the element in such materials and
@@ -23,11 +27,11 @@ enum Note {
 // TODO Use it only on place as a lambda when needed
 // function serializeNote(note: Note): string {
 //   switch(note) {
-//       case "g":
+//       case Note.g:
 //           return "Geological materials are known in which the element has an isotopic composition outside the limits for normal material. The difference between the atomic weight of the element in such materials and that given in the table may exceed the stated uncertainty.";
-//       case "m":
+//       case Note.m:
 //           return "Modified isotopic compositions may be found in commercially available material because the material has been subjected to an undisclosed or inadvertent isotopic fractionation. Substantial deviations in atomic weight of the element from that given in the table can occur."
-//       case "r":
+//       case Note.r:
 //           return "Range in isotopic composition of normal terrestrial material prevents a more precise standard atomic weight being given; the tabulated atomic-weight value and uncertainty should be applicable to normal materials."
 //       default:
 //           return "Not a note"
@@ -35,8 +39,6 @@ enum Note {
 // }
 
 // Isotope interface after the conversions
-//
-// NOT THE SAME AS ISOTOPE in `Isotope.ts`!
 //
 // into the Element constructor
 // We build this by matching the Isotope var

@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
+import { devtools } from 'zustand/middleware';
 
 import Isotope from './Isotope';
 import Spin from './Spin';
@@ -19,29 +20,32 @@ type Actions = {
 }
 
 const useAppStore = create<State & Actions>()(
-  immer((set) => ({
-    selected: new Element("H"),
-    elements: [],
-    isotopes: [],
-    spins: [],
-    themeName: "light",
-    selectElement: (payload) =>
-      set((draft) => {
-        const element = draft.elements.find(e => e.symbol == payload);
-        switch (element) {
-          case undefined:
-            draft.selected = new Element(payload);  // new selection
-            draft.elements.push(draft.selected);  // add to cache
-            break;
-          default:
-            draft.selected = element;  // Use cached element
-        };
-      }),
-    selectThemeName: (payload) =>
-      // Just change the string with the new theme name
-      set((draft) => {
-        draft.themeName = payload;
-      })
-})))
+  devtools(
+    immer((set) => ({
+      selected: new Element("H"),
+      elements: [],
+      isotopes: [],
+      spins: [],
+      themeName: "light",
+      selectElement: (payload) =>
+        set((draft) => {
+          const element = draft.elements.find(e => e.symbol == payload);
+          switch (element) {
+            case undefined:
+              draft.selected = new Element(payload);  // new selection
+              draft.elements.push(draft.selected);  // add to cache
+              break;
+            default:
+              draft.selected = element;  // Use cached element
+          };
+        }),
+      selectThemeName: (payload) =>
+        // Just change the string with the new theme name
+        set((draft) => {
+          draft.themeName = payload;
+        })
+    }))
+  )
+)
 
 export default useAppStore;

@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider, type DataRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './index.css';
 import App from './App';
@@ -8,7 +8,7 @@ import Layout from './Dashboard';
 import Table from './Table';
 import Mock from './Mock';
 
-const router: DataRouter = createBrowserRouter([
+const router = createBrowserRouter([
   {
     Component: App,
     children: [

@@ -13,7 +13,11 @@ import spins from './assets/spins.json';
 /standard atomic weight being given; the tabulated atomic-weight value and uncertainty
 /should be applicable to normal materials.
  */
-type Note = "g" | "m" | "r" | undefined;
+enum Note {
+  G = "g",
+  M = "m",
+  R = "r",
+}
 
 // Imagine this is implemented specifically into Note
 // TODO Use it only on place as a lambda when needed
@@ -104,13 +108,14 @@ export class Element {
           this.notes = notes.map((n: string): Note => {
             switch(n) {
               case "g":
-                return "g"
+                return Note.G
               case "m":
-                return "m"
+                return Note.M
               case "r":
-                return "m"
+                return Note.M
               default:
-                return undefined
+                // This should never happen
+                throw new Error(`Unhandled note: ${n}`);
             }
           });
         }

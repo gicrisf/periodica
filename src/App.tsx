@@ -1,35 +1,40 @@
+import * as React from 'react';
 import { useState, useEffect } from 'react';
+
+// MUI
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
+// TODO Remove me asap (you're using a quick placeholder icon)
+import Box from '@mui/material/Box';
 
 // TODO Integrate when the guys at MUI publish the new version
 // https://github.com/mui/toolpad/issues/4270
 // import { AppProvider, type Navigation } from '@toolpad/core/react-router-dom';
 // In the meantime,
-import { AppProvider, type Navigation } from '@toolpad/core/AppProvider';
-import { DashboardLayout } from '@toolpad/core/DashboardLayout';
-import DashboardIcon from '@mui/icons-material/Dashboard';
+import { AppProvider } from '@toolpad/core/react-router-dom';
+import { type Navigation } from '@toolpad/core/AppProvider';
 
-// TODO Remove me asap (you're using a quick placeholder icon)
-import Box from '@mui/material/Box';
+import { Outlet } from 'react-router-dom';
 
+// Internals
 import { basicTheme } from './Themes';
 import useAppStore from './store';
-import Table from './Table';
 
-// Do I actually need routing?
 const navigation: Navigation = [
   {
     kind: 'header',
     title: 'Main items',
   },
   {
-    segment: 'table',
-    title: 'Table',
+    title: 'Dashboard',
     icon: <DashboardIcon />,
-  }
-  /* {
-   *   segment: 'page-2',
-   *   title: 'Page 2',
-   * }, */
+  },
+  {
+    segment: 'settings',
+    title: 'Settings',
+    icon: <ShoppingCartIcon />,
+  },
 ];
 
 function useSelectedTheme(themeName: string) {
@@ -51,7 +56,7 @@ function useSelectedTheme(themeName: string) {
 }
 
 
-function App() {
+const App: React.FC = () => {
   const { themeName } = useAppStore();
   const theme = useSelectedTheme(themeName);
 
@@ -62,20 +67,16 @@ function App() {
    * }, [selected]); */
 
   return (
-    <>
-      <AppProvider
-        navigation={navigation}
-        theme={theme}
-        branding={{
-          logo: <Box sx={{ padding: '8px' }}><DashboardIcon/></Box>,
-          title: 'Periodica'
-        }}
-      >
-        <DashboardLayout defaultSidebarCollapsed>
-          <Table />
-        </DashboardLayout>
-      </AppProvider>
-    </>
+    <AppProvider
+      navigation={navigation}
+      theme={theme}
+      branding={{
+        logo: <Box sx={{ padding: '8px' }}><DashboardIcon/></Box>,
+        title: 'Periodica'
+      }}
+    >
+      <Outlet />
+    </AppProvider>
   )
 }
 

@@ -1,6 +1,5 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
-import Container from '@mui/material/Container';
 import LinearProgress, { LinearProgressProps } from '@mui/material/LinearProgress';
 import { DataGrid, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
 
@@ -9,7 +8,8 @@ import ElementSquare from './ElementSquare';
 
 import useAppStore from './store';
 
-function LinearProgressWithLabel(props: LinearProgressProps & { value: number }) {
+// TODO React.FC
+function LinearProgressWithLabel (props: LinearProgressProps & { value: number }) {
   return (
     <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <Box sx={{ width: '100%', mr: 1 }}>
@@ -22,7 +22,7 @@ function LinearProgressWithLabel(props: LinearProgressProps & { value: number })
   );
 }
 
-function Table() {
+const Table: React.FC = () => {
   const { selected } = useAppStore();
 
   const columns: GridColDef[] = [
@@ -39,32 +39,30 @@ function Table() {
   ];
 
   return(
-    <Container maxWidth="xl">
-      <Grid container spacing={3} direction='row' columns={2}>
-        <Grid container spacing={3} columns={2} sx={{ padding: "3rem" }}>
-          <Grid container spacing={3} sx={{ width: "100%", padding: "3.5rem" }}>
-            <Grid size="grow">
-              <ElementSquare selected={selected}></ElementSquare>
-            </Grid>
-            <Grid size="auto" sx={{ height: 268 }}>
-              <DataGrid
-                rows={selected.isotopes}
-                columns={columns}
-                sortModel={[
-                  {
-                    field: 'isotopic_composition',
-                    sort: 'desc',
-                  }
-                ]}
-              />
-            </Grid>
+    <Grid container spacing={3} direction='row' columns={2}>
+      <Grid container spacing={3} columns={2} sx={{ padding: "3rem" }}>
+        <Grid container spacing={3} sx={{ width: "100%", padding: "3.5rem" }}>
+          <Grid size="grow">
+            <ElementSquare selected={selected}></ElementSquare>
           </Grid>
-          <Grid size={18}>
-            <PeriodicTableGrid />
+          <Grid size="auto" sx={{ height: 268 }}>
+            <DataGrid
+              rows={selected.isotopes}
+              columns={columns}
+              sortModel={[
+                {
+                  field: 'isotopic_composition',
+                  sort: 'desc',
+                }
+              ]}
+            />
           </Grid>
         </Grid>
+        <Grid size={18}>
+          <PeriodicTableGrid />
+        </Grid>
       </Grid>
-    </Container>
+    </Grid>
   )
 }
 

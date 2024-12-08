@@ -8,6 +8,7 @@ import Layout from './Dashboard';
 import Table from './Table';
 import Mock from './Mock';
 import Plot from './Plot';
+import Pie from './Doughnut';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
           {
             path: 'plot',
             Component: Plot,
+          },
+          {
+            path: 'pie',
+            Component: Pie,
           },
         ],
       },

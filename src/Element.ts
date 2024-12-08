@@ -1,5 +1,5 @@
-import all_isotopes from './assets/all_isotopes.min.json';
-// import common_isotopes from './assets/common_isotopes.min.json';
+// import all_isotopes from './assets/all_isotopes.min.json';
+import common_isotopes from './assets/common_isotopes.min.json';
 import spins from './assets/spins.json';
 
 // I assume everything is parsed as string when deserializing the JSON
@@ -70,7 +70,7 @@ export class Element {
     this.atomic_number = "0";
     this.standard_atomic_weight = "0.0";
 
-    this.isotopes = all_isotopes
+    this.isotopes = common_isotopes
       .filter(el => el.symbol == symbol)
       .map((el, idx) => {
         const nucleus = el.mass_number.concat(symbol.toUpperCase());

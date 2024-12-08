@@ -8,8 +8,7 @@ import ElementSquare from './ElementSquare';
 
 import useAppStore from './store';
 
-// TODO React.FC
-function LinearProgressWithLabel (props: LinearProgressProps & { value: number }) {
+const LinearProgressWithLabel = (props: LinearProgressProps & { value: number }): JSX.Element => {
   return (
     <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <Box sx={{ width: '100%', mr: 1 }}>

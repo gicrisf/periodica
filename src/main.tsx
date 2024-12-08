@@ -7,6 +7,7 @@ import App from './App';
 import Layout from './Dashboard';
 import Table from './Table';
 import Mock from './Mock';
+import Plot from './Plot';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
           {
             path: 'settings',
             Component: Mock,
+          },
+          {
+            path: 'plot',
+            Component: Plot,
           },
         ],
       },

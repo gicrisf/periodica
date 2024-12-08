@@ -35,6 +35,11 @@ const navigation: Navigation = [
     title: 'Settings',
     icon: <ShoppingCartIcon />,
   },
+  {
+    segment: 'plot',
+    title: 'Plot',
+    icon: <ShoppingCartIcon />,
+  },
 ];
 
 function useSelectedTheme(themeName: string) {

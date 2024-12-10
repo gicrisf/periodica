@@ -63,8 +63,17 @@ export default function Plot() {
     },
   };
 
+  const asNum = (str_fraction) => {
+    // Move the sign before the number
+    let n = str_fraction.replace(/(\d+)(\/\d+)?([+*/-])/g, '$3$1$2');
+    // Eval as float
+    n = eval(n);
+    return(n)
+  };
+
   const data = {
-    labels: labels.map((el) => el.spin),
+    // I should sort labels by value
+    labels: labels.map((el) => el.spin).sort((a, b) => asNum(a) - asNum(b)),
     datasets: [
       // TODO
       // { fill: 'origin' },

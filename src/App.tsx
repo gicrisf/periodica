@@ -47,11 +47,11 @@ const navigation: Navigation = [
   },
 ];
 
-function useSelectedTheme(themeName: string) {
-  // Change theme according to its name
-  // The alternative is storing the whole theme in Zustand
-  // This would let us avoid zustand at all
+const App: React.FC = () => {
+  const { themeName } = useAppStore();
   const [ theme, selectTheme ] = useState(basicTheme);
+
+  // Use selected theme
   useEffect(() => {
     switch (themeName) {
       case "basic":
@@ -61,14 +61,6 @@ function useSelectedTheme(themeName: string) {
         selectTheme(basicTheme);
     };
   }, [themeName]);
-
-  return theme;
-}
-
-
-const App: React.FC = () => {
-  const { themeName } = useAppStore();
-  const theme = useSelectedTheme(themeName);
 
   // Debugging effects
   // Get `selected` from store when you uncomment

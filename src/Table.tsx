@@ -9,6 +9,7 @@ const PeriodicTableGrid = React.lazy(() => import('./PeriodicTableGrid'));
 import ElementSquare from './ElementSquare';
 
 import useAppStore from './store';
+import { Spin } from './Element';
 
 const LinearProgressWithLabel = (props: LinearProgressProps & { value: number }): JSX.Element => {
   return (
@@ -35,7 +36,10 @@ const Table: React.FC = () => {
       renderCell: (params: GridRenderCellParams<any, number>) =>
         <LinearProgressWithLabel value={ params.value ? params.value*100 : 0.0}></LinearProgressWithLabel>
     },
-    { field: 'spin', headerName: 'Spin', width: 100  },
+    { field: 'spin', headerName: 'Spin', width: 100,
+      renderCell: (params: GridRenderCellParams<any, Spin>) =>
+        <span>{ params.value ? params.value.label : "?" }</span>
+    },
     { field: 'thalf', headerName: 'Half Life', width: 200 },
   ];
 

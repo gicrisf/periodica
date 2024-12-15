@@ -38,7 +38,7 @@ enum Note {
 //   }
 // }
 
-class Spin {
+export class Spin {
   label: string;
   value: number;
 
@@ -66,21 +66,6 @@ class Spin {
     }
   }
 }
-
-// Like implementing a Display trait for the Spin "struct"
-// (but this is just a hack; what if I need to do the same
-// for other classes?)
-// ...
-// TODO I should build an interface that is implemented by each class
-// this way, it would be perfectly readable and extensible
-// FIXME This function isn't ran when the component loads
-Object.prototype.toString = function() {
-    if (this instanceof Spin) {
-        return this.label;
-    } else {
-        return "[object Object]";
-    }
-};
 
 // Isotope interface after the conversions
 //

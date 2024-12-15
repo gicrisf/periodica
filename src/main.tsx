@@ -7,8 +7,8 @@ const App = React.lazy(() => import("./App"));
 const Layout = React.lazy(() => import("./Dashboard"));
 const Table = React.lazy(() => import("./Table"));
 const Mock = React.lazy(() => import("./Mock"));
-const Plot = React.lazy(() => import("./Plot"));
-const Pie = React.lazy(() => import("./Pie"));
+// TODO
+// const Pie = React.lazy(() => import("./Pie"));
 
 const router = createBrowserRouter([
   {
@@ -25,14 +25,6 @@ const router = createBrowserRouter([
               {
                   path: 'settings',
                   Component: Mock,
-              },
-              {
-                  path: 'plot',
-                  Component: Plot,
-              },
-              {
-                  path: 'pie',
-                  Component: Pie,
               },
           ],
       },

@@ -38,6 +38,50 @@ enum Note {
 //   }
 // }
 
+class Spin {
+  label: string;
+  value: number;
+
+  // It takes just an original label
+  // It has the sign in the wrong side
+  constructor(lbl: string) {
+    // Zero is just zero
+    if (lbl == "0+" || lbl == "0-") {
+      this.label = "0";
+      this.value = 0;
+    } else if (lbl == "?") {
+      this.label = "?";
+      this.value = 100;
+    } else {
+      try {
+        // Move the sign on the left
+        this.label = lbl.replace(/(\d+)(\/\d+)?([+*/-])/g, '$3$1$2');
+        // Evaluate as a float
+        this.value = eval(this.label);
+      } catch {
+        // It shouldn't happen but you never know
+        this.label = lbl + "*"; // <- something is not perfect here
+        this.value = 100;
+      }
+    }
+  }
+}
+
+// Like implementing a Display trait for the Spin "struct"
+// (but this is just a hack; what if I need to do the same
+// for other classes?)
+// ...
+// TODO I should build an interface that is implemented by each class
+// this way, it would be perfectly readable and extensible
+// FIXME This function isn't ran when the component loads
+Object.prototype.toString = function() {
+    if (this instanceof Spin) {
+        return this.label;
+    } else {
+        return "[object Object]";
+    }
+};
+
 // Isotope interface after the conversions
 //
 // into the Element constructor
@@ -52,7 +96,7 @@ interface Isotope {
   relative_atomic_mass: number,
   nucleus: string;
   elevel: string;
-  spin: string;
+  spin: Spin;
   thalf: string;
 }
 
@@ -74,16 +118,21 @@ export class Element {
       .filter(el => el.symbol == symbol)
       .map((el, idx) => {
         const nucleus = el.mass_number.concat(symbol.toUpperCase());
-        let n_spins = spins.find(s => s.nucleus == nucleus);
+        const n_spins = spins.find(s => s.nucleus == nucleus);
+        let elevel;
+        let spin;
+        let thalf;
 
-        // Fallback for n_spins
+        // Fallback if I can't find a known nucleus
+        // in the spin dataset
         if (n_spins == undefined) {
-          n_spins = {
-            nucleus: nucleus,
-            elevel: "?",
-            spin: "?",
-            thalf: "?",
-          }
+          elevel = "?";
+          spin = new Spin("?");
+          thalf = "?";
+        } else {
+          elevel = n_spins.elevel;
+          spin = new Spin(n_spins.spin);
+          thalf = n_spins.thalf;
         };
 
         // Ugly solution to get these values out of here
@@ -161,7 +210,10 @@ export class Element {
           mass_number: mass_number,
           isotopic_composition: isotopic_composition,
           relative_atomic_mass: relative_atomic_mass,
-          ...n_spins
+          nucleus: nucleus,
+          elevel: elevel,
+          spin: spin,
+          thalf: thalf,
         }
       });
   }

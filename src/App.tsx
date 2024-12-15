@@ -35,16 +35,6 @@ const navigation: Navigation = [
     title: 'Settings',
     icon: <ShoppingCartIcon />,
   },
-  {
-    segment: 'plot',
-    title: 'Plot',
-    icon: <ShoppingCartIcon />,
-  },
-  {
-    segment: 'pie',
-    title: 'Pie',
-    icon: <ShoppingCartIcon />,
-  },
 ];
 
 const App: React.FC = () => {

@@ -1,9 +1,11 @@
+import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 import LinearProgress, { LinearProgressProps } from '@mui/material/LinearProgress';
 import { DataGrid, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
 
-import PeriodicTableGrid from './PeriodicTableGrid';
+const PeriodicTableGrid = React.lazy(() => import('./PeriodicTableGrid'));
+// I expect the square to load instantly
 import ElementSquare from './ElementSquare';
 
 import useAppStore from './store';

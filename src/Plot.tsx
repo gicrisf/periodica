@@ -7,8 +7,8 @@ import useAppStore from './store';
 const Plot: React.FC = () => {
     const svgRef = useRef<SVGSVGElement>(null);
     const { selected } = useAppStore();
-    const width = 400;
-    const height = 400;
+    const width = 600;
+    const height = 600;
     const radius = Math.min(width, height) / 2;
 
     useEffect(() => {
@@ -58,11 +58,11 @@ const Plot: React.FC = () => {
         // Color scales
         const isotopeColor = d3.scaleOrdinal<string>()
             .domain(orderedIsotopes.map(iso => iso.nucleus))
-            .range(d3.schemeTableau10);
+            .range(d3.schemeDark2);
 
         const spinColor = d3.scaleOrdinal<string>()
             .domain(Array.from(spinGroups.keys()))
-            .range(d3.schemeCategory10);
+            .range(d3.schemePaired);
 
         // Pie generators
         const pie = d3.pie<any>()
@@ -98,7 +98,9 @@ const Plot: React.FC = () => {
                   .data(spinArcs)
                   .enter().append("text")
                   .attr("transform", d => `translate(${outerArc.centroid(d)})`)
-                  .text(d => `${d.data[0]} (${(d.data[1].total * 100).toFixed(1)}%)`);
+                  .text(d => `${d.data[0]} (${(d.data[1].total * 100).toFixed(1)}%)`)
+                  .style("font-size", "10px")
+                  .style("font-weight", "bold");
 
         // Add isotope labels (inner ring)
         chartGroup.selectAll(".isotope-label")
@@ -110,6 +112,23 @@ const Plot: React.FC = () => {
                   .text(d => d.data.mass_number)
                   .style("font-size", "10px")
                   .style("font-weight", "bold");
+
+        // Add element symbol at center
+        const symbol = chartGroup.append("text")
+                                 .attr("text-anchor", "middle")
+                                 .attr("dy", ".3em")
+                                 .style("font-size", "24px")
+                                 .style("font-weight", "bold")
+                                 .text(selected.symbol);
+
+        // Add atomic number at top-left of symbol
+        symbol.node()?.getBBox(); // Force layout calculation
+        chartGroup.append("text")
+                  .attr("x", -12)  // Small offset left from center
+                  .attr("y", -10)  // Small offset up from center
+                  .style("font-size", "14px")
+                  .style("text-anchor", "end")  // Right-align to position
+                  .text(selected.atomic_number);
 
     }, [selected]);
 

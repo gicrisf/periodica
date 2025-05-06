@@ -7,8 +7,8 @@ import useAppStore from './store';
 const Plot: React.FC = () => {
     const svgRef = useRef<SVGSVGElement>(null);
     const { selected } = useAppStore();
-    const width = 600;
-    const height = 600;
+    const width = 400;
+    const height = 400;
     const radius = Math.min(width, height) / 2;
 
     useEffect(() => {

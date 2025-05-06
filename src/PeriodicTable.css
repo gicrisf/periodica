@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 800px;
   min-height: 240px;
   margin: 0 auto;
+  max-width: 750px;
 }
 
 .main-groups {
@@ -64,11 +64,11 @@
 }
 
 .element-button:hover {
-  border-color: #646cff;
+  border-color: #000;
 }
 
 .element-button.selected {
-  background: #646cff;
+  background: #000;
   color: white;
 }
 

@@ -12,11 +12,11 @@ import Table from './Table';
 const App: React.FC = () => {
   return (
     <div className="container">
-      <div className="table">
-        <PeriodicTableGrid />
-      </div>
       <div className="plot">
         <Plot />
+      </div>
+      <div className="table">
+        <PeriodicTableGrid />
       </div>
     </div>
   )

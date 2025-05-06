@@ -71,12 +71,11 @@ button:focus-visible {
   display: flex;
   gap: 16px;
   padding: 16px;
-  font-size: clamp(14px, 1.5vw, 16px);
 }
 
 .table {
-  min-width: 800px;
   background: #fff;
+  font-size: 14px;
 }
 .plot {
   flex: 1;

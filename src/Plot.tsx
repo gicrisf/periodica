@@ -56,13 +56,30 @@ const Plot: React.FC = () => {
                               .attr("transform", `translate(${width/2},${height/2})`);
 
         // Color scales
-        const isotopeColor = d3.scaleOrdinal<string>()
-            .domain(orderedIsotopes.map(iso => iso.nucleus))
-            .range(d3.schemeDark2);
+      const neonPalette = [
+        "#FF0D72", // Hot pink
+        "#0DFF72", // Acid green
+        "#FF8C0D", // Orange
+        "#0D72FF", // Electric blue
+        "#8C0DFF"  // Purple
+      ];
+
+      const brutalCyber = [
+        "#FF0000", // Pure red
+        "#00FF00", // Pure green
+        "#0000FF", // Pure blue
+        "#FF00FF", // Magenta (red+blue clash)
+        "#FFFF00", // Yellow (red+green clash)
+        "#00FFFF"  // Cyan (green+blue clash)
+      ];
+
+      const isotopeColor = d3.scaleOrdinal<string>()
+        .domain(orderedIsotopes.map(iso => iso.nucleus))
+        .range(brutalCyber);
 
         const spinColor = d3.scaleOrdinal<string>()
             .domain(Array.from(spinGroups.keys()))
-            .range(d3.schemePaired);
+            .range(neonPalette);
 
         // Pie generators
         const pie = d3.pie<any>()
@@ -76,15 +93,44 @@ const Plot: React.FC = () => {
 
         // Outer ring (spin groups)
         const outerArc = d3.arc()
-                           .innerRadius(radius * 0.65)
-                           .outerRadius(radius * 0.9);
+                           .innerRadius(radius * 0.70)
+                           .outerRadius(radius * 0.71);
+
+      // Create corner arc generator
+      const cornerArc = d3.arc()
+                          .innerRadius(radius * 0.65)  // Start of corner curve
+                          .outerRadius(radius * 0.70)   // Your original outer radius
+                          .cornerRadius(10);           // Adjust for desired roundness
+
+      // Draw just the corners for each segment
+      chartGroup.selectAll(".spin-corner")
+                .data(spinArcs)
+                .enter().append("path")
+                .attr("d", d => {
+                  // Create small arcs just for the start and end corners
+                  const startCorner = {
+                    startAngle: d.startAngle - 0.001,  // Small angle before
+                    endAngle: d.startAngle + 0.001     // Small angle after
+                  };
+                  const endCorner = {
+                    startAngle: d.endAngle - 0.005,
+                    endAngle: d.endAngle + 0.005
+                  };
+                  return cornerArc(startCorner) + cornerArc(endCorner);
+                })
+                .attr("fill", "black")
+                .attr("stroke", "black")
+                .attr("stroke-width", 1);
+
 
         // Outer ring (spin groups)
-        chartGroup.selectAll(".spin-arc")
-                  .data(spinArcs)
-                  .enter().append("path")
-                  .attr("d", outerArc)
-                  .attr("fill", d => spinColor(d.data[0]));
+      chartGroup.selectAll(".spin-arc")
+                .data(spinArcs)
+                .enter().append("path")
+                .attr("d", outerArc)
+                .attr("fill", "black")
+                .attr("stroke", "black")
+                .attr("stroke-width", 1);
 
         // Inner isotope ring
         chartGroup.selectAll(".isotope-arc")
@@ -94,13 +140,25 @@ const Plot: React.FC = () => {
                   .attr("fill", d => isotopeColor(d.data.nucleus));
 
         // Add labels with proper data access
-        chartGroup.selectAll(".spin-label")
-                  .data(spinArcs)
-                  .enter().append("text")
-                  .attr("transform", d => `translate(${outerArc.centroid(d)})`)
-                  .text(d => `${d.data[0]} (${(d.data[1].total * 100).toFixed(1)}%)`)
-                  .style("font-size", "10px")
-                  .style("font-weight", "bold");
+      chartGroup.selectAll(".spin-label")
+                .data(spinArcs)
+                .enter().append("text")
+                .attr("transform", d => {
+                  // Position labels slightly outside the arcs
+                  const pos = outerArc.centroid(d);
+                  const midAngle = Math.atan2(pos[1], pos[0]);
+                  const x = Math.cos(midAngle) * (radius * 0.75);
+                  const y = Math.sin(midAngle) * (radius * 0.75);
+                  return `translate(${x},${y})`;
+                })
+                .attr("text-anchor", d => {
+                  // Smart label positioning based on angle
+                  const pos = outerArc.centroid(d);
+                  return pos[0] > 0 ? "start" : "end";
+                })
+                .text(d => `${d.data[0]} (${(d.data[1].total * 100).toFixed(1)}%)`)
+                .style("font-size", "10px")
+                .style("font-weight", "bold");
 
         // Add isotope labels (inner ring)
         chartGroup.selectAll(".isotope-label")

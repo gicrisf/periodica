@@ -58,17 +58,19 @@ const Table: React.FC = () => {
 
 return (
     <div style={{
-      overflowY: 'auto',
+      overflow: 'auto',
       maxWidth: '1000px',
-      height: '400px'
+      height: '400px',
+      width: '100%'
     }}>
-      <table className="ibm-inverted" style={{
+      <table style={{
         width: '100%',
+        minWidth: 'auto',
         borderCollapse: 'separate',
         borderSpacing: 0,
       }}>
         <thead>
-          <tr style={{ backgroundColor: '#f8f9fa' }}>
+          <tr>
             {['mass_number', 'relative_atomic_mass', 'spin', 'thalf', 'isotopic_composition'].map((key) => (
               <th
                 key={key}

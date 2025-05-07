@@ -2,8 +2,6 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-
-  /* Brutalist typography */
   font-family: 'Courier New', monospace;
   font-weight: bold;
 }
@@ -82,7 +80,6 @@ button:focus-visible {
 }
 
 .table, .plot {
-  padding: 8px;
   width: 100%;
   min-width: auto;
   display: flex;
@@ -93,6 +90,11 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+thead {
+  background-color: #000;
+  color: white;
 }
 
 /* Prevent children from overflowing */

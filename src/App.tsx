@@ -6,14 +6,11 @@ import PeriodicTableGrid from './PeriodicTableGrid';
 import Plot from './Plot';
 import Table from './Table';
 
-// <Table></Table>
-// <Plot />
-
 const App: React.FC = () => {
   return (
     <div className="container">
       <div className="plot">
-        <Plot />
+        <Table />
       </div>
       <div className="table">
         <PeriodicTableGrid />

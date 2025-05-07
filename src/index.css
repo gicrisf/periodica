@@ -57,13 +57,9 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
   }
   a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }
 
@@ -71,32 +67,24 @@ button:focus-visible {
   display: flex;
   gap: 16px;
   padding: 16px;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .table {
-  background: #fff;
-  font-size: 14px;
+  font-size: clamp(14px, 1.5vw, 16px);
 }
+
 .plot {
   flex: 1;
-  background: #fff;
-}
-@media (max-width: 1200px) {
-  .container {
-    flex-direction: column;
-  }
-  .table, .plot {
-    width: 100%;
-    min-width: auto;
-  }
+  border: 18px solid #000;
 }
 
 .table, .plot {
-  background: white;
-  border: 3px solid black;
-  box-shadow: 8px 8px 0px #000;
   padding: 8px;
-
+  width: 100%;
+  min-width: auto;
   display: flex;
   justify-content: center;
   /* Ensure borders are contained */
@@ -105,8 +93,6 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Add visible border */
-  border: 1px solid #e0e0e0;
 }
 
 /* Prevent children from overflowing */

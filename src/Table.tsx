@@ -18,7 +18,7 @@ const ProgressBar = ({ value }: { value: number }) => {
         .join('div')
         .style('width', d => `${d}%`)
         .style('height', '4px')
-        .style('background', 'steelblue');
+        .style('background', '#0074D9');
     }
   }, [value]);
 
@@ -58,16 +58,14 @@ const Table: React.FC = () => {
 
 return (
     <div style={{
-      overflowX: 'auto',
+      overflowY: 'auto',
       maxWidth: '1000px',
-      borderRadius: '8px',
-      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+      height: '400px'
     }}>
-      <table style={{
+      <table className="ibm-inverted" style={{
         width: '100%',
         borderCollapse: 'separate',
         borderSpacing: 0,
-        fontFamily: 'sans-serif'
       }}>
         <thead>
           <tr style={{ backgroundColor: '#f8f9fa' }}>
@@ -78,9 +76,7 @@ return (
                 style={{
                   padding: '12px 16px',
                   textAlign: 'left',
-                  fontWeight: 600,
                   cursor: key !== 'spin' ? 'pointer' : 'default',
-                  borderBottom: '2px solid #e9ecef',
                   ':hover': key !== 'spin' ? { backgroundColor: '#e9ecef' } : {}
                 }}
               >

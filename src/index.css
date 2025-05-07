@@ -1,11 +1,53 @@
+:root {
+  --industrial-blue: #001871;
+  --dark-blue: #000d3a;
+  --light-blue: #2a3d8c;
+  --cream: #f8f4e8;
+}
+
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+               'Helvetica Neue', Arial, sans-serif; /* System stack */
+  color: var(--industrial-blue);
+  line-height: 1.4;
+  background: var(--cream);
+}
 
-  /* Brutalist typography */
-  font-family: 'Courier New', monospace;
-  font-weight: bold;
+h1, h2, h3 {
+  border-bottom: 2px solid var(--industrial-blue);
+  padding-bottom: 0.3em;
+}
+
+table.ibm-inverted {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--industrial-blue);
+  color: var(--cream);
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+table.ibm-inverted th {
+  background: var(--dark-blue);
+  padding: 0.6em;
+  text-align: left;
+  border-bottom: 2px solid var(--cream);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--cream);
+}
+
+table.ibm-inverted td {
+  padding: 0.5em;
+  border-bottom: 1px solid #2a3d8c;
+  color: var(--cream);
+}
+
+table.ibm-inverted tr:last-child td {
+  border-bottom: none;
 }
 
 #root {
@@ -15,11 +57,11 @@ body, html {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--light-blue);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--light-blue);
 }
 
 body {
@@ -42,25 +84,17 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--dark-blue);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--light-blue);
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-  }
-  a:hover {
-    color: #747bff;
-  }
 }
 
 .container {
@@ -93,6 +127,7 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--dark-blue);
 }
 
 /* Prevent children from overflowing */

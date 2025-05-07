@@ -170,8 +170,8 @@ const Plot: React.FC = () => {
                 // Position labels slightly outside the arcs
                 const pos = outerArc.centroid(d);
                 const midAngle = Math.atan2(pos[1], pos[0]);
-                const x = Math.cos(midAngle) * (radius * 0.75);
-                const y = Math.sin(midAngle) * (radius * 0.75);
+                const x = Math.cos(midAngle) * (radius * 0.80);
+                const y = Math.sin(midAngle) * (radius * 0.80);
                 return `translate(${x},${y})`;
               })
               .attr("text-anchor", d => {
@@ -180,7 +180,7 @@ const Plot: React.FC = () => {
                 return pos[0] > 0 ? "start" : "end";
               })
               .text(d => `${d.data[0]} (${(d.data[1].total * 100).toFixed(1)}%)`)
-              .style("font-size", "10px")
+              .style("font-size", "11px")
               .style("font-weight", "bold");
 
     // Add isotope labels (inner ring)
@@ -191,23 +191,23 @@ const Plot: React.FC = () => {
               .attr("transform", d => `translate(${innerArc.centroid(d)})`)
               .attr("text-anchor", "middle")
               .text(d => d.data.mass_number)
-              .style("font-size", "10px")
+              .style("font-size", "11px")
               .style("font-weight", "bold");
 
     // Add element symbol at center
     const symbol = chartGroup.append("text")
                              .attr("text-anchor", "middle")
                              .attr("dy", ".3em")
-                             .style("font-size", "24px")
+                             .style("font-size", "34px")
                              .style("font-weight", "bold")
                              .text(selected.symbol);
 
     // Add atomic number at top-left of symbol
     symbol.node()?.getBBox(); // Force layout calculation
     chartGroup.append("text")
-              .attr("x", -12)  // Small offset left from center
-              .attr("y", -10)  // Small offset up from center
-              .style("font-size", "14px")
+              .attr("x", -20)  // Small offset left from center
+              .attr("y", -12)  // Small offset up from center
+              .style("font-size", "12px")
               .style("text-anchor", "end")  // Right-align to position
               .text(selected.atomic_number);
 

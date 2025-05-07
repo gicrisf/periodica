@@ -6,7 +6,7 @@ import * as d3 from 'd3';
 const ProgressBar = ({ value }: { value: number }) => {
     const ref = React.useRef<HTMLDivElement>(null);
 
-    const maxWidth = 150;
+    const maxWidth = 120;
     const scale = d3.scaleLinear().domain([0, 100]).range([0, maxWidth]);
 
   useEffect(() => {

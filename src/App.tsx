@@ -5,33 +5,14 @@ import useAppStore from './store';
 import PeriodicTableGrid from './PeriodicTableGrid';
 import Plot from './Plot';
 import Table from './Table';
+import Nav from './Nav';
 
 const App: React.FC = () => {
-  const [showPlot, setShowPlot] = useState(true);
+  const { showPlot } = useAppStore();
 
   return (
     <div className="container">
-      <nav style={{
-        backgroundColor: 'black',
-        color: 'white',
-        padding: '.5rem',
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center'
-      }}>
-        <div>Periodica</div>
-        <button
-          onClick={() => setShowPlot(!showPlot)}
-          style={{
-            background: 'white',
-            border: 'none',
-            padding: '0.5rem 1rem',
-            cursor: 'pointer'
-          }}
-        >
-          {showPlot ? 'Show Table' : 'Show Plot'}
-        </button>
-      </nav>
+      <Nav />
       <div className="content">
         {showPlot ? (
           <div className="plot">

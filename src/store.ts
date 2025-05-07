@@ -11,8 +11,9 @@ type State = {
 }
 
 type Actions = {
-  selectElement: (payload: string) => void
-  selectThemeName: (payload: string) => void
+  selectElement: (payload: string) => void;
+  selectThemeName: (payload: string) => void;
+  changeContent: () => void;
 }
 
 const useAppStore = create<State & Actions>()(
@@ -22,6 +23,7 @@ const useAppStore = create<State & Actions>()(
         selected: new Element("H"),
         elements: [],
         themeName: "light",
+        showPlot: true,
         selectElement: (payload) =>
           set((draft) => {
             const element = draft.elements.find(e => e.symbol == payload);
@@ -34,6 +36,11 @@ const useAppStore = create<State & Actions>()(
                 draft.selected = element;  // Use cached element
             };
           }),
+        changeContent: () =>
+          set((draft) => {
+            draft.showPlot = !draft.showPlot;
+          }),
+        // FIXME I should remove this
         selectThemeName: (payload) =>
           // Just change the string with the new theme name
           set((draft) => {

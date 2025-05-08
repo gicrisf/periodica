@@ -24,6 +24,8 @@ const useAppStore = create<State & Actions>()(
         elements: [],
         themeName: "light",
         showPlot: true,
+        showHelp: false,
+        showLegends: false,
         selectElement: (payload) =>
           set((draft) => {
             const element = draft.elements.find(e => e.symbol == payload);
@@ -39,6 +41,14 @@ const useAppStore = create<State & Actions>()(
         changeContent: () =>
           set((draft) => {
             draft.showPlot = !draft.showPlot;
+          }),
+        help: () =>
+          set((draft) => {
+            draft.showHelp = !draft.showHelp;
+          }),
+        legends: () =>
+          set((draft) => {
+            draft.showLegends = !draft.showLegends;
           }),
         // FIXME I should remove this
         selectThemeName: (payload) =>

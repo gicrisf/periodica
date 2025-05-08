@@ -60,6 +60,7 @@
   justify-content: center;
   transition: all 0.25s;
   margin: 2px;
+  padding: 0.6em 1.2em;
 }
 
 .element-button:hover {

@@ -6,27 +6,39 @@ import PeriodicTableGrid from './PeriodicTableGrid';
 import Plot from './Plot';
 import Table from './Table';
 import Nav from './Nav';
+import About from './About';
 
 const App: React.FC = () => {
   const { showPlot } = useAppStore();
+  const { showAbout } = useAppStore();
 
   return (
     <div className="container">
       <Nav />
-      <div className="content">
-        {showPlot ? (
-          <div className="plot">
-            <Plot />
+      {!showAbout ? (
+        <>
+          <div className="content">
+            {showPlot ? (
+              <div className="plot">
+                <Plot />
+              </div>
+            ) : (
+              <div className="plot">
+                <Table />
+              </div>
+            )}
           </div>
-        ) : (
+        <div className="table">
+          <PeriodicTableGrid />
+        </div>
+        </>
+      ) : (
+        <div className="content">
           <div className="plot">
-            <Table />
+            <About />
           </div>
-        )}
-      </div>
-      <div className="table">
-        <PeriodicTableGrid />
-      </div>
+        </div>
+      )}
     </div>
   )
 }

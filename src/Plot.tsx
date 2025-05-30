@@ -47,7 +47,7 @@ const Plot: React.FC = () => {
     // 2. Sort spin groups by descending abundance (for outer ring)
     spinGroups.sort((a, b) => b[1].total - a[1].total);
 
-    console.log(spinGroups);
+    // console.log(spinGroups);
 
     // 3. Create flattened isotope array IN SPIN GROUP ORDER
     const orderedIsotopes = spinGroups.flatMap(

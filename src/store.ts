@@ -8,12 +8,19 @@ type State = {
   selected: Element;
   elements: Element[];
   themeName: string;
+  showPlot: boolean;
+  showHelp: boolean;
+  showLegends: boolean;
+  showAbout: boolean;
 }
 
 type Actions = {
   selectElement: (payload: string) => void;
   selectThemeName: (payload: string) => void;
   changeContent: () => void;
+  help: () => void;
+  legends: () => void;
+  about: () => void;
 }
 
 const useAppStore = create<State & Actions>()(
@@ -24,6 +31,9 @@ const useAppStore = create<State & Actions>()(
         elements: [],
         themeName: "light",
         showPlot: true,
+        showHelp: false,
+        showLegends: false,
+        showAbout: false,
         selectElement: (payload) =>
           set((draft) => {
             const element = draft.elements.find(e => e.symbol == payload);
@@ -39,6 +49,18 @@ const useAppStore = create<State & Actions>()(
         changeContent: () =>
           set((draft) => {
             draft.showPlot = !draft.showPlot;
+          }),
+        help: () =>
+          set((draft) => {
+            draft.showHelp = !draft.showHelp;
+          }),
+        about: () =>
+          set((draft) => {
+            draft.showAbout = !draft.showAbout;
+          }),
+        legends: () =>
+          set((draft) => {
+            draft.showLegends = !draft.showLegends;
           }),
         // FIXME I should remove this
         selectThemeName: (payload) =>
